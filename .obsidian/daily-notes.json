@@ -1,0 +1,6 @@
+{
+  "autorun": true,
+  "folder": "TODOLIST",
+  "template": "z_templates/{{date}}",
+  "format": "YYYY-MM-DD (ddd)"
+}
