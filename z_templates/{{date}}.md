@@ -1,16 +1,23 @@
 ---  
-## TODO LIST 
-- [ ]  해야할 일
-- [ ]  해야할 일
-- [ ]  해야할 일
-  
-  
-<br>
 
->### 메모장
->중요한 일을 기록하세요.
+## <mark style="background: #FFB8EBA6;"> TODO LIST (개발)</mark>
+- [ ]  할 일
+- [ ]  할 일
+- [ ]  할 일
+
 
 <br>
 
- [[{{yesterday}}| 이전 날]] | [[{{tomorrow}}|다음 날]]  
-  
+### <mark style="background: #FFF3A3A6;">메모장</mark>
+
+>메모해 보세요
+
+
+---
+
+## <mark style="background: #ABF7F7A6;">TODO LIST (일상)</mark>
+
+- [ ]  할 일
+- [ ]  할 일
+- [ ]  할 일
+ 
