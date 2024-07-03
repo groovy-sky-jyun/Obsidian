@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Baku Eats Nightmares/blueprint/Collision/아이템 플레이어에게 이동.md",
+                "file": "TODOLIST/2024-07-03 (Wed).md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Baku Eats Nightmares/blueprint/Collision/아이템 플레이어에게 이동.md",
+                "file": "TODOLIST/2024-07-03 (Wed).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Baku Eats Nightmares/blueprint/Collision/아이템 플레이어에게 이동.md",
+                "file": "TODOLIST/2024-07-03 (Wed).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Baku Eats Nightmares/blueprint/Collision/아이템 플레이어에게 이동.md"
+                "file": "TODOLIST/2024-07-03 (Wed).md"
               }
             }
           },
@@ -195,8 +195,8 @@
   },
   "active": "8c92d3be682bfe72",
   "lastOpenFiles": [
-    "TODOLIST/2024-07-03 (Wed).md",
     "Baku Eats Nightmares/blueprint/Collision/아이템 플레이어에게 이동.md",
+    "TODOLIST/2024-07-03 (Wed).md",
     "Baku Eats Nightmares/blueprint/Actor 애니메이션.md",
     "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰.md",
     "Baku Eats Nightmares/blueprint/Collision",
