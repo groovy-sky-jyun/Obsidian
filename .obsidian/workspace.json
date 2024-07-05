@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Baku Eats Nightmares/기능 정리/한 챕터(요약본).md",
+                "file": "TODOLIST/2024-07-05 (Fri).md",
                 "mode": "source",
                 "source": true
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Baku Eats Nightmares/기능 정리/한 챕터(요약본).md",
+                "file": "TODOLIST/2024-07-05 (Fri).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Baku Eats Nightmares/기능 정리/한 챕터(요약본).md",
+                "file": "TODOLIST/2024-07-05 (Fri).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Baku Eats Nightmares/기능 정리/한 챕터(요약본).md"
+                "file": "TODOLIST/2024-07-05 (Fri).md"
               }
             }
           },
@@ -182,8 +182,10 @@
       "obsidian-day-planner:Timeline": false
     }
   },
-  "active": "4ffa074201598325",
+  "active": "a8c82618ebc57db5",
   "lastOpenFiles": [
+    "Baku Eats Nightmares/기능 정리/한 챕터(요약본).md",
+    "TODOLIST/2024-07-05 (Fri).md",
     "Baku Eats Nightmares/사이드바 메뉴/Skeletal Mesh 애니메이션.md",
     "Baku Eats Nightmares/사이드바 메뉴/Actor Static Mesh, Skeletal Mesh, Collision.md",
     "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰.md",
@@ -203,7 +205,6 @@
     "TODOLIST/2024-07-04 (Thu).md",
     "z_image/언리얼",
     "z_image",
-    "Baku Eats Nightmares/기능 정리/한 챕터(요약본).md",
     "Baku Eats Nightmares/사이드바 메뉴",
     "Baku Eats Nightmares/기능 정리",
     "z_templates/{{date}}.md",
