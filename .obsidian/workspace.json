@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODOLIST/2024-07-10 (Wed).md",
+                "file": "TODOLIST/2024-07-14 (Sun).md",
                 "mode": "source",
                 "source": true
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TODOLIST/2024-07-10 (Wed).md",
+                "file": "TODOLIST/2024-07-14 (Sun).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TODOLIST/2024-07-10 (Wed).md",
+                "file": "TODOLIST/2024-07-14 (Sun).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TODOLIST/2024-07-10 (Wed).md"
+                "file": "TODOLIST/2024-07-14 (Sun).md"
               }
             }
           },
@@ -184,8 +184,9 @@
   },
   "active": "440713854a466894",
   "lastOpenFiles": [
-    "TODOLIST/2024-07-09 (Tue).md",
     "TODOLIST/2024-07-10 (Wed).md",
+    "TODOLIST/2024-07-14 (Sun).md",
+    "TODOLIST/2024-07-09 (Tue).md",
     "TODOLIST/2024-07-05 (Fri).md",
     "TODOLIST/2024-07-06 (Sat).md",
     "TODOLIST/2024-07-03 (Wed).md",
@@ -227,7 +228,6 @@
     "2024-W26.md",
     "z_templates/{{yesterday}}.md",
     "TODOLIST/2024-06-30 (Sunday).md",
-    "TODOLIST/Untitled.md",
     "z_templates",
     "TODOLIST",
     "Untitled 1.canvas",
