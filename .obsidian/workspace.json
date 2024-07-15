@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "53fa1440fb8bedb1",
+        "id": "e696f8cad0569a26",
         "type": "tabs",
         "children": [
           {
-            "id": "440713854a466894",
+            "id": "e45c1cbf15f4c0e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,16 +22,16 @@
         ]
       },
       {
-        "id": "276b856e07962032",
+        "id": "532f37bc33b5cf9e",
         "type": "tabs",
         "children": [
           {
-            "id": "a4918daee001fe7c",
+            "id": "eeabcc6aa19d1421",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODOLIST/2024-07-10 (Wed).md",
+                "file": "TODOLIST/2024-07-14 (Sun).md",
                 "mode": "preview",
                 "source": true
               }
@@ -182,7 +182,7 @@
       "obsidian-day-planner:Timeline": false
     }
   },
-  "active": "440713854a466894",
+  "active": "eeabcc6aa19d1421",
   "lastOpenFiles": [
     "TODOLIST/2024-07-10 (Wed).md",
     "TODOLIST/2024-07-14 (Sun).md",
