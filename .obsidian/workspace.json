@@ -4,34 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7612d27aedd5cf9b",
+        "id": "3dc25c3941560708",
         "type": "tabs",
         "children": [
           {
-            "id": "0b9dff8ca2637723",
+            "id": "7996af01c3204312",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Baku Eats Nightmares/C++/Untitled.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "ce6c21f5de2a79d0",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "0a6555c6885ee285",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Baku Eats Nightmares/C++/Untitled.md",
+                "file": "Baku Eats Nightmares/C++/Count Down.md",
                 "mode": "preview",
                 "source": true
               }
@@ -103,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Baku Eats Nightmares/C++/Untitled.md",
+                "file": "Baku Eats Nightmares/C++/Count Down.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Baku Eats Nightmares/C++/Untitled.md",
+                "file": "Baku Eats Nightmares/C++/Count Down.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Baku Eats Nightmares/C++/Untitled.md"
+                "file": "Baku Eats Nightmares/C++/Count Down.md"
               }
             }
           },
@@ -182,14 +164,14 @@
       "obsidian-day-planner:Timeline": false
     }
   },
-  "active": "0b9dff8ca2637723",
+  "active": "7996af01c3204312",
   "lastOpenFiles": [
-    "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (3).md",
-    "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (2).md",
-    "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (1).md",
-    "Baku Eats Nightmares/C++/Untitled.md",
-    "Baku Eats Nightmares/blueprint/Collision/아이템 플레이어에게 이동 (1).md",
     "Baku Eats Nightmares/blueprint/Collision/아이템 플레이어에게 이동 (2).md",
+    "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (1).md",
+    "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (2).md",
+    "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (3).md",
+    "Baku Eats Nightmares/C++/Count Down.md",
+    "Baku Eats Nightmares/blueprint/Collision/아이템 플레이어에게 이동 (1).md",
     "TODOLIST/July/2024-07-16 (Tue).md",
     "TODOLIST/July/2024-07-15 (Mon).md",
     "Baku Eats Nightmares/C++/Untitled 2.md",
