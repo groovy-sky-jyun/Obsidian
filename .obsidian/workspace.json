@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Baku Eats Nightmares/blueprint/Collision/아이템 플레이어에게 이동 (1).md",
+                "file": "TODOLIST/2024-07-15 (Mon).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Baku Eats Nightmares/blueprint/Collision/아이템 플레이어에게 이동 (1).md",
+                "file": "TODOLIST/2024-07-15 (Mon).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Baku Eats Nightmares/blueprint/Collision/아이템 플레이어에게 이동 (1).md",
+                "file": "TODOLIST/2024-07-15 (Mon).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Baku Eats Nightmares/blueprint/Collision/아이템 플레이어에게 이동 (1).md"
+                "file": "TODOLIST/2024-07-15 (Mon).md"
               }
             }
           },
@@ -166,10 +166,12 @@
   },
   "active": "fed0feabc75ff6cb",
   "lastOpenFiles": [
+    "TODOLIST/2024-07-14 (Sun).md",
+    "TODOLIST/2024-07-15 (Mon).md",
+    "TODOLIST/2024-07-16 (Tue).md",
+    "Baku Eats Nightmares/blueprint/Collision/아이템 플레이어에게 이동 (1).md",
     "Baku Eats Nightmares/blueprint/Collision/아이템 플레이어에게 이동 (2).md",
     "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰.md",
-    "TODOLIST/2024-07-15 (Mon).md",
-    "TODOLIST/2024-07-14 (Sun).md",
     "TODOLIST/2024-07-10 (Wed).md",
     "TODOLIST/2024-07-09 (Tue).md",
     "TODOLIST/2024-07-05 (Fri).md",
@@ -177,7 +179,6 @@
     "TODOLIST/2024-07-03 (Wed).md",
     "TODOLIST/2024-07-04 (Thu).md",
     "TODOLIST/2024-06-30 (Sun).md",
-    "Baku Eats Nightmares/blueprint/Collision/아이템 플레이어에게 이동 (1).md",
     "Baku Eats Nightmares/사이드바 메뉴/Mesh와 Collision.md",
     "Baku Eats Nightmares/사이드바 메뉴/Skeletal Mesh 애니메이션.md",
     "Baku Eats Nightmares/기능 정리/한 챕터(요약본).md",
@@ -209,7 +210,6 @@
     "Untitled.md",
     "TODOLIST/2024-06-24 (Mon).md",
     "2024-W26.md",
-    "z_templates/{{yesterday}}.md",
     "z_templates",
     "TODOLIST",
     "Untitled 1.canvas",
