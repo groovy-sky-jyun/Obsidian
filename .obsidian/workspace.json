@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODOLIST/2024-07-17 (Wed).md",
-                "mode": "source",
+                "file": "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (2).md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TODOLIST/2024-07-17 (Wed).md",
+                "file": "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TODOLIST/2024-07-17 (Wed).md",
+                "file": "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (2).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TODOLIST/2024-07-17 (Wed).md"
+                "file": "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (2).md"
               }
             }
           },
@@ -166,8 +166,8 @@
   },
   "active": "7996af01c3204312",
   "lastOpenFiles": [
-    "TODOLIST/July/2024-07-16 (Tue).md",
     "TODOLIST/2024-07-17 (Wed).md",
+    "TODOLIST/July/2024-07-16 (Tue).md",
     "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (3).md",
     "Baku Eats Nightmares/C++/Count Down.md",
     "Baku Eats Nightmares/blueprint/Collision/아이템 플레이어에게 이동 (2).md",
