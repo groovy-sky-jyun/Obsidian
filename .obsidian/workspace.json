@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Baku Eats Nightmares/C++/Count Down.md",
-                "mode": "preview",
+                "file": "TODOLIST/2024-07-17 (Wed).md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Baku Eats Nightmares/C++/Count Down.md",
+                "file": "TODOLIST/2024-07-17 (Wed).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Baku Eats Nightmares/C++/Count Down.md",
+                "file": "TODOLIST/2024-07-17 (Wed).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Baku Eats Nightmares/C++/Count Down.md"
+                "file": "TODOLIST/2024-07-17 (Wed).md"
               }
             }
           },
@@ -166,13 +166,14 @@
   },
   "active": "7996af01c3204312",
   "lastOpenFiles": [
+    "TODOLIST/July/2024-07-16 (Tue).md",
+    "TODOLIST/2024-07-17 (Wed).md",
+    "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (3).md",
+    "Baku Eats Nightmares/C++/Count Down.md",
     "Baku Eats Nightmares/blueprint/Collision/아이템 플레이어에게 이동 (2).md",
     "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (1).md",
     "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (2).md",
-    "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (3).md",
-    "Baku Eats Nightmares/C++/Count Down.md",
     "Baku Eats Nightmares/blueprint/Collision/아이템 플레이어에게 이동 (1).md",
-    "TODOLIST/July/2024-07-16 (Tue).md",
     "TODOLIST/July/2024-07-15 (Mon).md",
     "Baku Eats Nightmares/C++/Untitled 2.md",
     "Baku Eats Nightmares/C++/Untitled 1.md",
@@ -209,7 +210,6 @@
     "{{yesterday}}.md",
     "z_templates/{{tomorrow}}.md",
     "운동 기록/24.07.04 (Thu).md",
-    "z_templates/운동 기록.md",
     "운동 기록",
     "Baku Eats Nightmares/blueprint/Collision",
     "Untitled 1.canvas",
