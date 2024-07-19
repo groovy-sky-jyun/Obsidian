@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODOLIST/2024-07-18 (Thu).md",
+                "file": "TODOLIST/July/2024-07-18 (Thu).md",
                 "mode": "source",
                 "source": true
               }
@@ -27,12 +27,30 @@
               "state": {
                 "file": "TODOLIST/2024-07-19 (Fri).md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "b1a9a8bb9bfe5b10",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "00c2375b2af763be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (3).md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -45,6 +63,14 @@
         "id": "acf577063812a799",
         "type": "tabs",
         "children": [
+          {
+            "id": "7eac8ae1573370f9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
           {
             "id": "4ffa074201598325",
             "type": "leaf",
@@ -69,16 +95,9 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "7eac8ae1573370f9",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -179,29 +198,32 @@
   },
   "active": "76db5bbefe2027d5",
   "lastOpenFiles": [
+    "TODOLIST/July/2024-07-18 (Thu).md",
     "TODOLIST/2024-07-19 (Fri).md",
-    "TODOLIST/July/2024-07-17 (Wed).md",
     "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (3).md",
-    "TODOLIST/2024-07-18 (Thu).md",
+    "Pasted image 20240719155754.png",
+    "Pasted image 20240719155722.png",
     "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (2).md",
-    "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (1).md",
-    "Pasted image 20240717224742.png",
+    "플레이어 리스폰(2).md",
     "Baku Eats Nightmares/blueprint/Collision/아이템 플레이어에게 이동 (1).md",
+    "z_templates/개발 공부.md",
+    "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (1).md",
+    "z_templates/운동 기록.md",
+    "z_image/Pasted image 20240704035436.png",
+    "TODOLIST/July/2024-07-17 (Wed).md",
+    "z_image/Pasted image 20240717224742.png",
     "Baku Eats Nightmares/blueprint/Collision/아이템 플레이어에게 이동 (2).md",
-    "Pasted image 20240717224343.png",
-    "Pasted image 20240717224115.png",
-    "Pasted image 20240717223609.png",
-    "Pasted image 20240717223249.png",
-    "Pasted image 20240717223120.png",
-    "Pasted image 20240717222143.png",
+    "z_image/Pasted image 20240717224343.png",
+    "z_image/Pasted image 20240717224115.png",
+    "z_image/Pasted image 20240717223609.png",
+    "z_image/Pasted image 20240717223249.png",
+    "z_image/Pasted image 20240717223120.png",
+    "z_image/Pasted image 20240717222143.png",
     "TODOLIST/July/2024-07-16 (Tue).md",
     "TODOLIST/July/2024-07-15 (Mon).md",
     "Baku Eats Nightmares/C++/Count Down.md",
     "Baku Eats Nightmares/C++/Untitled 2.md",
     "Baku Eats Nightmares/C++/Untitled 1.md",
-    "Pasted image 20240716172445.png",
-    "Pasted image 20240716172427.png",
-    "Pasted image 20240716172343.png",
     "Baku Eats Nightmares/C++",
     "TODOLIST/July/2024-07-03 (Wed).md",
     "TODOLIST/Jun/2024-06-30 (Sun).md",
@@ -214,5 +236,14 @@
     "TODOLIST/July/2024-07-06 (Sat).md",
     "TODOLIST/July/2024-07-04 (Thu).md",
     "Baku Eats Nightmares/사이드바 메뉴/Mesh와 Collision.md",
-    "Baku Eats Nightmares/사이드바 메뉴/Skeletal Mesh 애니메이션.md",
-    "Baku Eats Nightmares/기능 정리/한 챕터(요약본).md",
+    "Baku Eats Nightmares/지형 꾸미기",
+    "z_image/언리얼",
+    "z_image",
+    "Baku Eats Nightmares/사이드바 메뉴",
+    "Baku Eats Nightmares/기능 정리",
+    "운동 기록",
+    "Baku Eats Nightmares/blueprint/Collision",
+    "Untitled 1.canvas",
+    "Untitled.canvas"
+  ]
+}
