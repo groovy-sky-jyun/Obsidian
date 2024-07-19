@@ -13,31 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (3).md",
+                "file": "TODOLIST/2024-07-18 (Thu).md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "76db5bbefe2027d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TODOLIST/2024-07-19 (Fri).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
-      },
-      {
-        "id": "258d95f6aca9376b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a9ef65f7f7ad3d02",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (3).md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -103,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (3).md",
+                "file": "TODOLIST/2024-07-19 (Fri).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (3).md",
+                "file": "TODOLIST/2024-07-19 (Fri).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (3).md"
+                "file": "TODOLIST/2024-07-19 (Fri).md"
               }
             }
           },
@@ -182,8 +177,12 @@
       "obsidian-day-planner:Timeline": false
     }
   },
-  "active": "8af477d49531de97",
+  "active": "76db5bbefe2027d5",
   "lastOpenFiles": [
+    "TODOLIST/2024-07-19 (Fri).md",
+    "TODOLIST/July/2024-07-17 (Wed).md",
+    "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (3).md",
+    "TODOLIST/2024-07-18 (Thu).md",
     "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (2).md",
     "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (1).md",
     "Pasted image 20240717224742.png",
@@ -194,8 +193,6 @@
     "Pasted image 20240717223609.png",
     "Pasted image 20240717223249.png",
     "Pasted image 20240717223120.png",
-    "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (3).md",
-    "TODOLIST/2024-07-17 (Wed).md",
     "Pasted image 20240717222143.png",
     "TODOLIST/July/2024-07-16 (Tue).md",
     "TODOLIST/July/2024-07-15 (Mon).md",
@@ -219,17 +216,3 @@
     "Baku Eats Nightmares/사이드바 메뉴/Mesh와 Collision.md",
     "Baku Eats Nightmares/사이드바 메뉴/Skeletal Mesh 애니메이션.md",
     "Baku Eats Nightmares/기능 정리/한 챕터(요약본).md",
-    "Baku Eats Nightmares/지형 꾸미기",
-    "z_image/언리얼",
-    "z_image",
-    "Baku Eats Nightmares/사이드바 메뉴",
-    "Baku Eats Nightmares/기능 정리",
-    "z_templates/{{date}}.md",
-    "{{yesterday}}.md",
-    "z_templates/{{tomorrow}}.md",
-    "운동 기록",
-    "Baku Eats Nightmares/blueprint/Collision",
-    "Untitled 1.canvas",
-    "Untitled.canvas"
-  ]
-}
