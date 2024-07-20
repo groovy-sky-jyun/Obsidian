@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODOLIST/2024-07-20 (Sat).md",
+                "file": "Baku Eats Nightmares/blueprint/Collision & Overlap/세이브 포인터(2)_닿으면 소리나며 터짐.md",
                 "mode": "source",
                 "source": true
               }
@@ -35,17 +35,17 @@
         "currentTab": 1
       },
       {
-        "id": "ec081feb1dbaa3b4",
+        "id": "0c554c66eeb54a1a",
         "type": "tabs",
         "children": [
           {
-            "id": "54fc51ac4e0292d3",
+            "id": "9a4a00e0a0404abd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Baku Eats Nightmares/blueprint/Collision & Overlap/세이브 포인터(1)_닿으면 소리나며 터짐.md",
-                "mode": "preview",
+                "file": "Baku Eats Nightmares/blueprint/Level/Untitled.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -101,7 +101,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398
+    "width": 200
   },
   "right": {
     "id": "123a764fafcc0d3f",
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TODOLIST/2024-07-20 (Sat).md",
+                "file": "Baku Eats Nightmares/blueprint/Level/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TODOLIST/2024-07-20 (Sat).md",
+                "file": "Baku Eats Nightmares/blueprint/Level/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TODOLIST/2024-07-20 (Sat).md"
+                "file": "Baku Eats Nightmares/blueprint/Level/Untitled.md"
               }
             }
           },
@@ -196,32 +196,34 @@
       "obsidian-day-planner:Timeline": false
     }
   },
-  "active": "76db5bbefe2027d5",
+  "active": "9a4a00e0a0404abd",
   "lastOpenFiles": [
-    "Baku Eats Nightmares/blueprint/Collision & Overlap/세이브 포인터(1)_닿으면 소리나며 터짐.md",
-    "TODOLIST/2024-07-20 (Sat).md",
-    "Pasted image 20240719192029.png",
-    "Pasted image 20240719191847.png",
-    "Pasted image 20240719191452.png",
-    "Baku Eats Nightmares/blueprint/Collision & Overlap/플레이어 리스폰 (1).md",
-    "Baku Eats Nightmares/blueprint/Collision & Overlap/아이템 이동 to.플레이어 (1).md",
     "Baku Eats Nightmares/blueprint/Collision & Overlap/세이브 포인터(2)_닿으면 소리나며 터짐.md",
+    "Baku Eats Nightmares/blueprint/Level/Untitled.md",
+    "Baku Eats Nightmares/blueprint/Level",
+    "Baku Eats Nightmares/blueprint/Collision & Overlap/세이브 포인터(1)_빙글빙글.md",
+    "Pasted image 20240720180054.png",
+    "Pasted image 20240720180034.png",
+    "Pasted image 20240720175751.png",
+    "Pasted image 20240720175724.png",
     "Baku Eats Nightmares/blueprint/Collision & Overlap/아이템 이동 to.플레이어 (2).md",
-    "TODOLIST/2024-07-19 (Fri).md",
+    "Baku Eats Nightmares/blueprint/Collision & Overlap/아이템 이동 to.플레이어 (1).md",
+    "Pasted image 20240720174238.png",
+    "Pasted image 20240720172221.png",
+    "Pasted image 20240720172124.png",
+    "Pasted image 20240720171844.png",
+    "Pasted image 20240720171527.png",
+    "Pasted image 20240720171207.png",
+    "TODOLIST/July/2024-07-20 (Sat).md",
+    "TODOLIST/July/2024-07-19 (Fri).md",
+    "Baku Eats Nightmares/blueprint/Collision & Overlap/플레이어 리스폰 (1).md",
     "TODOLIST/July/2024-07-18 (Thu).md",
     "Baku Eats Nightmares/blueprint/Collision & Overlap/플레이어 리스폰 (3).md",
-    "Pasted image 20240719155754.png",
-    "Pasted image 20240719155722.png",
     "Baku Eats Nightmares/blueprint/Collision & Overlap/플레이어 리스폰 (2).md",
     "플레이어 리스폰(2).md",
     "z_templates/개발 공부.md",
     "z_templates/운동 기록.md",
-    "z_image/Pasted image 20240704035436.png",
     "TODOLIST/July/2024-07-17 (Wed).md",
-    "z_image/Pasted image 20240717224742.png",
-    "z_image/Pasted image 20240717224343.png",
-    "z_image/Pasted image 20240717224115.png",
-    "z_image/Pasted image 20240717223609.png",
     "TODOLIST/July/2024-07-16 (Tue).md",
     "TODOLIST/July/2024-07-15 (Mon).md",
     "Baku Eats Nightmares/C++/Count Down.md",
@@ -236,14 +238,12 @@
     "TODOLIST/July/2024-07-10 (Wed).md",
     "TODOLIST/July/2024-07-09 (Tue).md",
     "TODOLIST/July/2024-07-05 (Fri).md",
-    "TODOLIST/July/2024-07-06 (Sat).md",
     "Baku Eats Nightmares/지형 꾸미기",
     "z_image/언리얼",
     "z_image",
     "Baku Eats Nightmares/사이드바 메뉴",
     "Baku Eats Nightmares/기능 정리",
     "운동 기록",
-    "Baku Eats Nightmares/blueprint/Collision & Overlap",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
