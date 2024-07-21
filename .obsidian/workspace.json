@@ -4,49 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "28b97a05873adef5",
+        "id": "216e0e9c0737500e",
         "type": "tabs",
         "children": [
           {
-            "id": "8af477d49531de97",
+            "id": "0729dc80aa0975d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODOLIST/July/2024-07-18 (Thu).md",
+                "file": "Baku Eats Nightmares/C++/Count Down.md",
                 "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "76db5bbefe2027d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Baku Eats Nightmares/blueprint/Collision & Overlap/세이브 포인터(2)_닿으면 소리나며 터짐.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "0c554c66eeb54a1a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "9a4a00e0a0404abd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Baku Eats Nightmares/blueprint/Level/Untitled.md",
-                "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -101,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 302
   },
   "right": {
     "id": "123a764fafcc0d3f",
@@ -117,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Baku Eats Nightmares/blueprint/Level/Untitled.md",
+                "file": "Baku Eats Nightmares/C++/Count Down.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Baku Eats Nightmares/blueprint/Level/Untitled.md",
+                "file": "Baku Eats Nightmares/C++/Count Down.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Baku Eats Nightmares/blueprint/Level/Untitled.md"
+                "file": "Baku Eats Nightmares/C++/Count Down.md"
               }
             }
           },
@@ -196,10 +165,15 @@
       "obsidian-day-planner:Timeline": false
     }
   },
-  "active": "9a4a00e0a0404abd",
+  "active": "0729dc80aa0975d4",
   "lastOpenFiles": [
+    "Baku Eats Nightmares/blueprint/Object/Random Object.md",
+    "Baku Eats Nightmares/blueprint/Level/Key Input _ Actor 생성 및 파괴.md",
+    "TODOLIST/2024-07-20 (Sat).md",
+    "TODOLIST/July/2024-07-20 (Sat).md",
+    "Baku Eats Nightmares/blueprint/Object",
+    "TODOLIST/July/2024-07-19 (Fri).md",
     "Baku Eats Nightmares/blueprint/Collision & Overlap/세이브 포인터(2)_닿으면 소리나며 터짐.md",
-    "Baku Eats Nightmares/blueprint/Level/Untitled.md",
     "Baku Eats Nightmares/blueprint/Level",
     "Baku Eats Nightmares/blueprint/Collision & Overlap/세이브 포인터(1)_빙글빙글.md",
     "Pasted image 20240720180054.png",
@@ -214,8 +188,6 @@
     "Pasted image 20240720171844.png",
     "Pasted image 20240720171527.png",
     "Pasted image 20240720171207.png",
-    "TODOLIST/July/2024-07-20 (Sat).md",
-    "TODOLIST/July/2024-07-19 (Fri).md",
     "Baku Eats Nightmares/blueprint/Collision & Overlap/플레이어 리스폰 (1).md",
     "TODOLIST/July/2024-07-18 (Thu).md",
     "Baku Eats Nightmares/blueprint/Collision & Overlap/플레이어 리스폰 (3).md",
@@ -236,14 +208,11 @@
     "TODOLIST/Jun",
     "TODOLIST/July/2024-07-14 (Sun).md",
     "TODOLIST/July/2024-07-10 (Wed).md",
-    "TODOLIST/July/2024-07-09 (Tue).md",
-    "TODOLIST/July/2024-07-05 (Fri).md",
     "Baku Eats Nightmares/지형 꾸미기",
     "z_image/언리얼",
     "z_image",
     "Baku Eats Nightmares/사이드바 메뉴",
     "Baku Eats Nightmares/기능 정리",
-    "운동 기록",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
