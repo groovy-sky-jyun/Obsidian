@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODOLIST/2024-07-21 (Sun).md",
+                "file": "Baku Eats Nightmares/blueprint/Object/Random Object.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -84,7 +84,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TODOLIST/2024-07-21 (Sun).md",
+                "file": "Baku Eats Nightmares/blueprint/Object/Random Object.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TODOLIST/2024-07-21 (Sun).md",
+                "file": "Baku Eats Nightmares/blueprint/Object/Random Object.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TODOLIST/2024-07-21 (Sun).md"
+                "file": "Baku Eats Nightmares/blueprint/Object/Random Object.md"
               }
             }
           },
@@ -185,9 +185,10 @@
   },
   "active": "0729dc80aa0975d4",
   "lastOpenFiles": [
+    "Pasted image 20240721180848.png",
+    "TODOLIST/2024-07-21 (Sun).md",
     "TODOLIST/July/2024-07-19 (Fri).md",
     "TODOLIST/July/2024-07-20 (Sat).md",
-    "TODOLIST/2024-07-21 (Sun).md",
     "Baku Eats Nightmares/C++/Count Down.md",
     "Baku Eats Nightmares/C++/Untitled 1.md",
     "Baku Eats Nightmares/C++/Untitled 2.md",
