@@ -25,9 +25,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODOLIST/2024-07-22 (Mon).md",
+                "file": "Baku Eats Nightmares/C++/Collision.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "123a764fafcc0d3f",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TODOLIST/2024-07-22 (Mon).md",
+                "file": "Baku Eats Nightmares/C++/Collision.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TODOLIST/2024-07-22 (Mon).md",
+                "file": "Baku Eats Nightmares/C++/Collision.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TODOLIST/2024-07-22 (Mon).md"
+                "file": "Baku Eats Nightmares/C++/Collision.md"
               }
             }
           },
@@ -179,6 +180,8 @@
   },
   "active": "b58a2dc8bae14e85",
   "lastOpenFiles": [
+    "Baku Eats Nightmares/C++/Untitled 1.md",
+    "Baku Eats Nightmares/C++/Collision.md",
     "TODOLIST/2024-07-22 (Mon).md",
     "Baku Eats Nightmares/blueprint/Collision/아이템 플레이어에게 이동 (2).md",
     "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (1).md",
@@ -189,7 +192,6 @@
     "TODOLIST/July/2024-07-16 (Tue).md",
     "TODOLIST/July/2024-07-15 (Mon).md",
     "Baku Eats Nightmares/C++/Untitled 2.md",
-    "Baku Eats Nightmares/C++/Untitled 1.md",
     "Pasted image 20240716172445.png",
     "Pasted image 20240716172427.png",
     "Pasted image 20240716172343.png",
@@ -222,7 +224,6 @@
     "z_templates/{{date}}.md",
     "{{yesterday}}.md",
     "z_templates/{{tomorrow}}.md",
-    "운동 기록/24.07.04 (Thu).md",
     "운동 기록",
     "Baku Eats Nightmares/blueprint/Collision",
     "Untitled 1.canvas",
