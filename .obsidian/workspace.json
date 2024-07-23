@@ -6,6 +6,7 @@
       {
         "id": "3dc25c3941560708",
         "type": "tabs",
+        "dimension": 45.845272206303726,
         "children": [
           {
             "id": "7996af01c3204312",
@@ -33,6 +34,25 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "034a54de67ccdd2f",
+        "type": "tabs",
+        "dimension": 54.15472779369628,
+        "children": [
+          {
+            "id": "ee9dcb78013929ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Baku Eats Nightmares/C++/Collision.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,8 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "123a764fafcc0d3f",
@@ -178,17 +197,17 @@
       "obsidian-day-planner:Timeline": false
     }
   },
-  "active": "b58a2dc8bae14e85",
+  "active": "ee9dcb78013929ef",
   "lastOpenFiles": [
-    "Baku Eats Nightmares/C++/Untitled 1.md",
+    "Baku Eats Nightmares/blueprint/Collision/아이템 플레이어에게 이동 (1).md",
     "Baku Eats Nightmares/C++/Collision.md",
+    "Baku Eats Nightmares/C++/Untitled 1.md",
     "TODOLIST/2024-07-22 (Mon).md",
     "Baku Eats Nightmares/blueprint/Collision/아이템 플레이어에게 이동 (2).md",
     "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (1).md",
     "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (2).md",
     "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (3).md",
     "Baku Eats Nightmares/C++/Count Down.md",
-    "Baku Eats Nightmares/blueprint/Collision/아이템 플레이어에게 이동 (1).md",
     "TODOLIST/July/2024-07-16 (Tue).md",
     "TODOLIST/July/2024-07-15 (Mon).md",
     "Baku Eats Nightmares/C++/Untitled 2.md",
