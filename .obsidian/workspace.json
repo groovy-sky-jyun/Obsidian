@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Baku Eats Nightmares/C++/Collision.md",
+                "file": "Baku Eats Nightmares/C++/Untitled.md",
                 "mode": "source",
                 "source": true
               }
@@ -35,16 +35,16 @@
         "currentTab": 1
       },
       {
-        "id": "b13a208f5645bcab",
+        "id": "eeee9348aebe46a8",
         "type": "tabs",
         "children": [
           {
-            "id": "a1fc0fc7f5960e89",
+            "id": "fcf0c83e2d27db2a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Baku Eats Nightmares/C++/Collision.md",
+                "file": "z_templates/C++ 공부.md",
                 "mode": "preview",
                 "source": true
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Baku Eats Nightmares/C++/Collision.md",
+                "file": "Baku Eats Nightmares/C++/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Baku Eats Nightmares/C++/Collision.md",
+                "file": "Baku Eats Nightmares/C++/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Baku Eats Nightmares/C++/Collision.md"
+                "file": "Baku Eats Nightmares/C++/Untitled.md"
               }
             }
           },
@@ -197,19 +197,23 @@
   },
   "active": "b58a2dc8bae14e85",
   "lastOpenFiles": [
-    "TODOLIST/2024-07-23 (Tue).md",
     "Baku Eats Nightmares/C++/Collision.md",
-    "Baku Eats Nightmares/blueprint/Collision/아이템 플레이어에게 이동 (1).md",
+    "Baku Eats Nightmares/C++/Untitled.md",
+    "Baku Eats Nightmares/C++/Untitled 2.md",
+    "Baku Eats Nightmares/C++/Count Down.md",
     "Baku Eats Nightmares/C++/Untitled 1.md",
+    "z_templates/C++ 공부.md",
+    "TODOLIST/2024-07-17 (Wed).md",
     "TODOLIST/2024-07-22 (Mon).md",
+    "TODOLIST/2024-07-23 (Tue).md",
+    "TODOLIST/2024-07-26 (Fri).md",
+    "Baku Eats Nightmares/blueprint/Collision/아이템 플레이어에게 이동 (1).md",
     "Baku Eats Nightmares/blueprint/Collision/아이템 플레이어에게 이동 (2).md",
     "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (1).md",
     "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (2).md",
     "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (3).md",
-    "Baku Eats Nightmares/C++/Count Down.md",
     "TODOLIST/July/2024-07-16 (Tue).md",
     "TODOLIST/July/2024-07-15 (Mon).md",
-    "Baku Eats Nightmares/C++/Untitled 2.md",
     "Pasted image 20240716172445.png",
     "Pasted image 20240716172427.png",
     "Pasted image 20240716172343.png",
@@ -226,8 +230,6 @@
     "TODOLIST/July/2024-07-06 (Sat).md",
     "TODOLIST/July/2024-07-04 (Thu).md",
     "Baku Eats Nightmares/사이드바 메뉴/Mesh와 Collision.md",
-    "Baku Eats Nightmares/사이드바 메뉴/Skeletal Mesh 애니메이션.md",
-    "Baku Eats Nightmares/기능 정리/한 챕터(요약본).md",
     "z_image/Pasted image 20240704150403.png",
     "z_image/Pasted image 20240704150257.png",
     "z_image/Pasted image 20240704150136.png",
@@ -239,8 +241,6 @@
     "z_image",
     "Baku Eats Nightmares/사이드바 메뉴",
     "Baku Eats Nightmares/기능 정리",
-    "z_templates/{{date}}.md",
-    "{{yesterday}}.md",
     "운동 기록",
     "Baku Eats Nightmares/blueprint/Collision",
     "Untitled 1.canvas",
