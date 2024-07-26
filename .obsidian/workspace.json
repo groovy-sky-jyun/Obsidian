@@ -100,8 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "123a764fafcc0d3f",
@@ -196,7 +195,7 @@
       "obsidian-day-planner:Timeline": false
     }
   },
-  "active": "a1fc0fc7f5960e89",
+  "active": "b58a2dc8bae14e85",
   "lastOpenFiles": [
     "TODOLIST/2024-07-23 (Tue).md",
     "Baku Eats Nightmares/C++/Collision.md",
