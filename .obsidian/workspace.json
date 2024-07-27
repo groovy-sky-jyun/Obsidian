@@ -4,67 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "5e8e98b513490f70",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "2d89deee28e114fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TODOLIST/2024-07-21 (Sun).md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "a5cba66c39c7475e",
         "type": "tabs",
         "children": [
-          {
-            "id": "7820ea06eef3f2f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TODOLIST/2024-07-21 (Sun).md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
           {
             "id": "b58a2dc8bae14e85",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "운동 기록/24.07.04 (Thu).md",
+                "file": "TODOLIST/July/2024-07-27 (Sat).md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "eeee9348aebe46a8",
+        "id": "cb1e6bc9e1e46a0a",
         "type": "tabs",
         "children": [
           {
-            "id": "fcf0c83e2d27db2a",
+            "id": "fea8c0ac292064fb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z_templates/C++ 공부.md",
+                "file": "Baku Eats Nightmares/C++/Collision.md",
                 "mode": "preview",
-                "source": true
+                "source": false
               }
             }
           }
@@ -135,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TODOLIST/2024-07-21 (Sun).md",
+                "file": "TODOLIST/July/2024-07-27 (Sat).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TODOLIST/2024-07-21 (Sun).md",
+                "file": "TODOLIST/July/2024-07-27 (Sat).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TODOLIST/2024-07-21 (Sun).md"
+                "file": "TODOLIST/July/2024-07-27 (Sat).md"
               }
             }
           },
@@ -216,14 +185,22 @@
   },
   "active": "b58a2dc8bae14e85",
   "lastOpenFiles": [
-    "TODOLIST/July/2024-07-16 (Tue).md",
-    "Baku Eats Nightmares/C++/Collision.md",
-    "TODOLIST/2024-07-27 (Sat).md",
-    "Baku Eats Nightmares/C++/Untitled.md",
-    "Baku Eats Nightmares/C++/Untitled 2.md",
-    "Baku Eats Nightmares/C++/Count Down.md",
-    "Baku Eats Nightmares/C++/Untitled 1.md",
     "z_templates/C++ 공부.md",
+    "z_templates/운동 기록.md",
+    "운동 기록/24.07.21 (Sun).md",
+    "Baku Eats Nightmares/사이드바 메뉴/Mesh와 Collision.md",
+    "Baku Eats Nightmares/사이드바 메뉴/Skeletal Mesh 애니메이션.md",
+    "Baku Eats Nightmares/blueprint/Object/Random Object.md",
+    "Baku Eats Nightmares/blueprint/Level/Key Input (2)_ Life Span.md",
+    "Baku Eats Nightmares/blueprint/Level/Key Input (1)_ Actor 생성 및 파괴.md",
+    "Baku Eats Nightmares/C++/Untitled 2.md",
+    "Baku Eats Nightmares/C++/Untitled 1.md",
+    "Baku Eats Nightmares/C++/Count Down.md",
+    "Baku Eats Nightmares/C++/Untitled.md",
+    "TODOLIST/July/2024-07-27 (Sat).md",
+    "TODOLIST/July/2024-07-21 (Sun).md",
+    "Baku Eats Nightmares/C++/Collision.md",
+    "TODOLIST/July/2024-07-16 (Tue).md",
     "TODOLIST/2024-07-17 (Wed).md",
     "TODOLIST/2024-07-22 (Mon).md",
     "TODOLIST/2024-07-23 (Tue).md",
@@ -241,12 +218,6 @@
     "Baku Eats Nightmares/C++",
     "TODOLIST/July",
     "TODOLIST/Jun",
-    "TODOLIST/July/2024-07-14 (Sun).md",
-    "TODOLIST/July/2024-07-10 (Wed).md",
-    "TODOLIST/July/2024-07-09 (Tue).md",
-    "TODOLIST/July/2024-07-05 (Fri).md",
-    "TODOLIST/July/2024-07-06 (Sat).md",
-    "TODOLIST/July/2024-07-04 (Thu).md",
     "z_image/Pasted image 20240704150403.png",
     "z_image/Pasted image 20240704150257.png",
     "z_image/Pasted image 20240704150136.png",
