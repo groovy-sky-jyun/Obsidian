@@ -13,8 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "운동 기록/24.07.21 (Sun).md",
-                "mode": "preview",
+                "file": "TODOLIST/2024-07-21 (Sun).md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "a5cba66c39c7475e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7820ea06eef3f2f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TODOLIST/2024-07-21 (Sun).md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -86,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운동 기록/24.07.21 (Sun).md",
+                "file": "TODOLIST/2024-07-21 (Sun).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운동 기록/24.07.21 (Sun).md",
+                "file": "TODOLIST/2024-07-21 (Sun).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "운동 기록/24.07.21 (Sun).md"
+                "file": "TODOLIST/2024-07-21 (Sun).md"
               }
             }
           },
@@ -165,10 +183,10 @@
       "obsidian-day-planner:Timeline": false
     }
   },
-  "active": "2d89deee28e114fc",
+  "active": "7820ea06eef3f2f8",
   "lastOpenFiles": [
-    "TODOLIST/2024-07-21 (Sun).md",
     "운동 기록/24.07.21 (Sun).md",
+    "TODOLIST/2024-07-21 (Sun).md",
     "운동 기록/24.07.04 (Thu).md",
     "Our Story Book/기능 설정.md",
     "Baku Eats Nightmares/기능 정리/한 챕터(요약본).md",
