@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Baku Eats Nightmares/C++/Untitled.md",
+                "file": "운동 기록/24.07.04 (Thu).md",
                 "mode": "source",
                 "source": true
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Baku Eats Nightmares/C++/Untitled.md",
+                "file": "운동 기록/24.07.04 (Thu).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Baku Eats Nightmares/C++/Untitled.md",
+                "file": "운동 기록/24.07.04 (Thu).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Baku Eats Nightmares/C++/Untitled.md"
+                "file": "운동 기록/24.07.04 (Thu).md"
               }
             }
           },
@@ -197,7 +197,9 @@
   },
   "active": "b58a2dc8bae14e85",
   "lastOpenFiles": [
+    "TODOLIST/July/2024-07-16 (Tue).md",
     "Baku Eats Nightmares/C++/Collision.md",
+    "TODOLIST/2024-07-27 (Sat).md",
     "Baku Eats Nightmares/C++/Untitled.md",
     "Baku Eats Nightmares/C++/Untitled 2.md",
     "Baku Eats Nightmares/C++/Count Down.md",
@@ -212,7 +214,6 @@
     "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (1).md",
     "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (2).md",
     "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (3).md",
-    "TODOLIST/July/2024-07-16 (Tue).md",
     "TODOLIST/July/2024-07-15 (Mon).md",
     "Pasted image 20240716172445.png",
     "Pasted image 20240716172427.png",
@@ -229,7 +230,6 @@
     "TODOLIST/July/2024-07-05 (Fri).md",
     "TODOLIST/July/2024-07-06 (Sat).md",
     "TODOLIST/July/2024-07-04 (Thu).md",
-    "Baku Eats Nightmares/사이드바 메뉴/Mesh와 Collision.md",
     "z_image/Pasted image 20240704150403.png",
     "z_image/Pasted image 20240704150257.png",
     "z_image/Pasted image 20240704150136.png",
