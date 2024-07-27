@@ -4,17 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "3dc25c3941560708",
+        "id": "5e8e98b513490f70",
         "type": "tabs",
         "children": [
           {
-            "id": "7996af01c3204312",
+            "id": "2d89deee28e114fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Baku Eats Nightmares/C++/Count Down.md",
-                "mode": "preview",
+                "file": "TODOLIST/2024-07-21 (Sun).md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "a5cba66c39c7475e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7820ea06eef3f2f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TODOLIST/2024-07-21 (Sun).md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -64,6 +82,14 @@
         "type": "tabs",
         "children": [
           {
+            "id": "7eac8ae1573370f9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
             "id": "4ffa074201598325",
             "type": "leaf",
             "state": {
@@ -87,16 +113,9 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "7eac8ae1573370f9",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -116,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운동 기록/24.07.04 (Thu).md",
+                "file": "TODOLIST/2024-07-21 (Sun).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운동 기록/24.07.04 (Thu).md",
+                "file": "TODOLIST/2024-07-21 (Sun).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "운동 기록/24.07.04 (Thu).md"
+                "file": "TODOLIST/2024-07-21 (Sun).md"
               }
             }
           },
@@ -220,8 +239,6 @@
     "Pasted image 20240716172343.png",
     "Pasted image 20240716172316.png",
     "Baku Eats Nightmares/C++",
-    "TODOLIST/July/2024-07-03 (Wed).md",
-    "TODOLIST/Jun/2024-06-30 (Sun).md",
     "TODOLIST/July",
     "TODOLIST/Jun",
     "TODOLIST/July/2024-07-14 (Sun).md",
