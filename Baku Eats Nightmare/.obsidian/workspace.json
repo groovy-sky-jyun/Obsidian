@@ -1,0 +1,160 @@
+{
+  "main": {
+    "id": "600af1825a1590ca",
+    "type": "split",
+    "children": [
+      {
+        "id": "fe09113745c24cd7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7aadc155a52a96d7",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "48103d5186da147c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3e875520c2f81375",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "48abdaea4a20bb44",
+    "type": "split",
+    "children": [
+      {
+        "id": "d7a47adbb76f3fba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5cd064f500f2754b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "81cd880c485709b2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fe7db90a63007848",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "778f35c5a9971fe5",
+    "type": "split",
+    "children": [
+      {
+        "id": "912da8fdc72003eb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6451146bdc2b8694",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b5a90612a76b7f44",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "93599b94c9eec1bf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "815a578e793bbf65",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "7aadc155a52a96d7",
+  "lastOpenFiles": [
+    "Baku Eats Nightmares/blueprint/Collision/아이템 플레이어에게 이동 (1).md",
+    "Welcome.md"
+  ]
+}
