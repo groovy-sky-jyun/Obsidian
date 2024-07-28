@@ -1,42 +1,20 @@
 {
   "main": {
-    "id": "e54b2263ec505849",
+    "id": "9ea56b7ba2cd26cf",
     "type": "split",
     "children": [
       {
-        "id": "a5cba66c39c7475e",
+        "id": "b752a1caa0e22a3e",
         "type": "tabs",
         "children": [
           {
-            "id": "b58a2dc8bae14e85",
+            "id": "0d2489ea794b9df7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD:Daily Record/.obsidian/workspace.json
-                "file": "Baku Eats Nightmares/C++/Collision.md",
-=======
-                "file": "TODOLIST/July/2024-07-27 (Sat).md",
->>>>>>> main:.obsidian/workspace.json
+                "file": "TODOLIST/2024-07-28 (Sun).md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "cb1e6bc9e1e46a0a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "fea8c0ac292064fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Baku Eats Nightmares/C++/Collision.md",
-                "mode": "preview",
                 "source": false
               }
             }
@@ -47,23 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "b0db0210fbda5466",
+    "id": "d09583f67dea1e6d",
     "type": "split",
     "children": [
       {
-        "id": "acf577063812a799",
+        "id": "07087b2cd834aab2",
         "type": "tabs",
         "children": [
           {
-            "id": "7eac8ae1573370f9",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
-          },
-          {
-            "id": "4ffa074201598325",
+            "id": "7e3e395d2ed04e98",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -73,7 +43,7 @@
             }
           },
           {
-            "id": "39dd96b9eb5c42ff",
+            "id": "93c77a65b411f0a0",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -86,33 +56,36 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "55c4bf524ab177c3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "123a764fafcc0d3f",
+    "id": "8296f0b72a4cc786",
     "type": "split",
     "children": [
       {
-        "id": "c1119064a1927b14",
+        "id": "f75fc3ad20dc499a",
         "type": "tabs",
         "children": [
           {
-            "id": "772645458c6f078c",
+            "id": "b734fb23f076e001",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD:Daily Record/.obsidian/workspace.json
-                "file": "Baku Eats Nightmares/C++/Collision.md",
-=======
-                "file": "TODOLIST/July/2024-07-27 (Sat).md",
->>>>>>> main:.obsidian/workspace.json
+                "file": "TODOLIST/2024-07-28 (Sun).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,23 +97,19 @@
             }
           },
           {
-            "id": "fa53cadf9bd70d74",
+            "id": "8bf71b35438d5d45",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD:Daily Record/.obsidian/workspace.json
-                "file": "Baku Eats Nightmares/C++/Collision.md",
-=======
-                "file": "TODOLIST/July/2024-07-27 (Sat).md",
->>>>>>> main:.obsidian/workspace.json
+                "file": "TODOLIST/2024-07-28 (Sun).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "43d42d77ea0840d9",
+            "id": "fb2350e731a7ca51",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -151,37 +120,32 @@
             }
           },
           {
-            "id": "4ad819efa5d1c42b",
+            "id": "d69e1e3fc13cfab0",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< HEAD:Daily Record/.obsidian/workspace.json
-                "file": "Baku Eats Nightmares/C++/Collision.md"
-=======
-                "file": "TODOLIST/July/2024-07-27 (Sat).md"
->>>>>>> main:.obsidian/workspace.json
+                "file": "TODOLIST/2024-07-28 (Sun).md"
               }
             }
           },
           {
-            "id": "28e7384be2d1e923",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "6b41788df490e4f6",
+            "id": "fb1429ef5e367496",
             "type": "leaf",
             "state": {
               "type": "timeline",
               "state": {}
             }
+          },
+          {
+            "id": "136261fe93e7313b",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -193,80 +157,12 @@
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "daily-notes:Open today's daily note": false,
       "obsidian-day-planner:Timeline": false
     }
   },
-  "active": "b58a2dc8bae14e85",
-  "lastOpenFiles": [
-<<<<<<< HEAD:Daily Record/.obsidian/workspace.json
-    "TODOLIST/2024-07-28 (Sun).md",
-    "운동 기록/24.07.04 (Thu).md",
-    "TODOLIST/July/2024-07-16 (Tue).md",
-    "Baku Eats Nightmares/C++/Collision.md",
-    "TODOLIST/2024-07-27 (Sat).md",
-    "Baku Eats Nightmares/C++/Untitled.md",
-    "Baku Eats Nightmares/C++/Untitled 2.md",
-    "Baku Eats Nightmares/C++/Count Down.md",
-    "Baku Eats Nightmares/C++/Untitled 1.md",
-=======
->>>>>>> main:.obsidian/workspace.json
-    "z_templates/C++ 공부.md",
-    "z_templates/운동 기록.md",
-    "운동 기록/24.07.21 (Sun).md",
-    "Baku Eats Nightmares/사이드바 메뉴/Mesh와 Collision.md",
-    "Baku Eats Nightmares/사이드바 메뉴/Skeletal Mesh 애니메이션.md",
-    "Baku Eats Nightmares/blueprint/Object/Random Object.md",
-    "Baku Eats Nightmares/blueprint/Level/Key Input (2)_ Life Span.md",
-    "Baku Eats Nightmares/blueprint/Level/Key Input (1)_ Actor 생성 및 파괴.md",
-    "Baku Eats Nightmares/C++/Untitled 2.md",
-    "Baku Eats Nightmares/C++/Untitled 1.md",
-    "Baku Eats Nightmares/C++/Count Down.md",
-    "Baku Eats Nightmares/C++/Untitled.md",
-    "TODOLIST/July/2024-07-27 (Sat).md",
-    "TODOLIST/July/2024-07-21 (Sun).md",
-    "Baku Eats Nightmares/C++/Collision.md",
-    "TODOLIST/July/2024-07-16 (Tue).md",
-    "TODOLIST/2024-07-17 (Wed).md",
-    "TODOLIST/2024-07-22 (Mon).md",
-    "TODOLIST/2024-07-23 (Tue).md",
-    "TODOLIST/2024-07-26 (Fri).md",
-    "Baku Eats Nightmares/blueprint/Collision/아이템 플레이어에게 이동 (1).md",
-    "Baku Eats Nightmares/blueprint/Collision/아이템 플레이어에게 이동 (2).md",
-    "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (1).md",
-    "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (2).md",
-    "Baku Eats Nightmares/blueprint/Collision/플레이어 리스폰 (3).md",
-    "TODOLIST/July/2024-07-15 (Mon).md",
-    "Pasted image 20240716172445.png",
-    "Pasted image 20240716172427.png",
-    "Pasted image 20240716172343.png",
-    "Pasted image 20240716172316.png",
-    "Baku Eats Nightmares/C++",
-    "TODOLIST/July",
-    "TODOLIST/Jun",
-<<<<<<< HEAD:Daily Record/.obsidian/workspace.json
-    "TODOLIST/July/2024-07-14 (Sun).md",
-    "TODOLIST/July/2024-07-10 (Wed).md",
-    "TODOLIST/July/2024-07-09 (Tue).md",
-    "TODOLIST/July/2024-07-05 (Fri).md",
-=======
->>>>>>> main:.obsidian/workspace.json
-    "z_image/Pasted image 20240704150403.png",
-    "z_image/Pasted image 20240704150257.png",
-    "z_image/Pasted image 20240704150136.png",
-    "z_image/Pasted image 20240704150029.png",
-    "z_image/Pasted image 20240704145954.png",
-    "z_image/Pasted image 20240704145912.png",
-    "Baku Eats Nightmares/지형 꾸미기",
-    "z_image/언리얼",
-    "z_image",
-    "Baku Eats Nightmares/사이드바 메뉴",
-    "Baku Eats Nightmares/기능 정리",
-    "운동 기록",
-    "Baku Eats Nightmares/blueprint/Collision",
-    "Untitled 1.canvas",
-    "Untitled.canvas"
-  ]
+  "active": "0d2489ea794b9df7",
+  "lastOpenFiles": []
 }
