@@ -11,11 +11,9 @@
             "id": "77dec39878b176c1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "XAMPP/XAMPP와 MySQL Workbench 연동.md",
-                "mode": "source",
-                "source": true
+                "file": "XAMPP/z_images/Pasted image 20240728162444.png"
               }
             }
           }
@@ -31,7 +29,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XAMPP/XAMPP와 MySQL Workbench 연동.md",
+                "file": "XAMPP/사전작업/XAMPP와 MySQL Workbench 연동.md",
                 "mode": "preview",
                 "source": false
               }
@@ -103,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "XAMPP/XAMPP와 MySQL Workbench 연동.md",
+                "file": "XAMPP/z_images/Pasted image 20240728162444.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "XAMPP/XAMPP와 MySQL Workbench 연동.md",
+                "file": "XAMPP/z_images/Pasted image 20240728162444.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "XAMPP/XAMPP와 MySQL Workbench 연동.md"
+                "file": "XAMPP/z_images/Pasted image 20240728162444.png"
               }
             }
           }
@@ -166,22 +164,24 @@
   },
   "active": "77dec39878b176c1",
   "lastOpenFiles": [
-    "XAMPP/MySQL PROT 번호 변경.md",
+    "XAMPP/z_images/Pasted image 20240728162351.png",
+    "XAMPP/z_images/Pasted image 20240728162319.png",
+    "XAMPP/사전작업/MySQL PROT 번호 변경.md",
+    "XAMPP/사전작업/XAMPP와 MySQL Workbench 연동.md",
+    "XAMPP/ERROR/XAMPP MYSQL START ERROR.md",
+    "MYSQL/ERROR/Can not connect to MySQL server on localhost 3306.md",
+    "MYSQL/z_image/Pasted image 20240728155000.png",
+    "XAMPP/사전작업",
     "XAMPP/z_images/Pasted image 20240728165446.png",
     "XAMPP/z_images/Pasted image 20240728172450.png",
     "XAMPP/z_images/Pasted image 20240728172354.png",
     "XAMPP/z_images/Pasted image 20240728172210.png",
     "Pasted image 20240728170345.png",
     "XAMPP/z_images/Pasted image 20240728165347.png",
-    "XAMPP/XAMPP와 MySQL Workbench 연동.md",
-    "XAMPP/ERROR/XAMPP MYSQL START ERROR.md",
-    "MYSQL/ERROR/Can not connect to MySQL server on localhost 3306.md",
     "XAMPP/ERROR",
     "XAMPP/z_images",
     "XAMPP/z_images/Pasted image 20240728162834.png",
     "XAMPP/z_images/Pasted image 20240728162555.png",
-    "XAMPP/z_images/Pasted image 20240728162444.png",
-    "XAMPP/z_images/Pasted image 20240728162351.png",
     "XAMPP",
     "Welcome.md",
     "MYSQL/z_image",

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODOLIST/2024-07-28 (Sun).md",
+                "file": "운동 기록/24.07.28 (Sun).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TODOLIST/2024-07-28 (Sun).md",
+                "file": "운동 기록/24.07.28 (Sun).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TODOLIST/2024-07-28 (Sun).md",
+                "file": "운동 기록/24.07.28 (Sun).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TODOLIST/2024-07-28 (Sun).md"
+                "file": "운동 기록/24.07.28 (Sun).md"
               }
             }
           },
@@ -164,5 +164,13 @@
     }
   },
   "active": "0d2489ea794b9df7",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "TODOLIST/2024-07-28 (Sun).md",
+    "운동 기록/24.07.28 (Sun).md",
+    "TODOLIST/July/2024-07-28 (Sun).md",
+    "z_templates/개발 공부.md",
+    "TODOLIST/July/2024-07-27 (Sat).md",
+    "TODOLIST/July/2024-07-20 (Sat).md",
+    "TODOLIST/July/2024-07-21 (Sun).md"
+  ]
 }

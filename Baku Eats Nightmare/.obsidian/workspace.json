@@ -11,22 +11,12 @@
             "id": "7aadc155a52a96d7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
-        "id": "48103d5186da147c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3e875520c2f81375",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "C++/Collision.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -95,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "C++/Collision.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "C++/Collision.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "C++/Collision.md"
+              }
             }
           }
         ]
@@ -154,6 +148,24 @@
   },
   "active": "7aadc155a52a96d7",
   "lastOpenFiles": [
+    "blueprint/Object/Random Object.md",
+    "blueprint/Level/Key Input (2)_ Life Span.md",
+    "blueprint/Level/Key Input (1)_ Actor 생성 및 파괴.md",
+    "blueprint/Collision & Overlap/플레이어 리스폰 (3).md",
+    "blueprint/Collision & Overlap/플레이어 리스폰 (2).md",
+    "blueprint/Collision & Overlap/플레이어 리스폰 (1).md",
+    "blueprint/Collision & Overlap/세이브 포인터(1)_빙글빙글.md",
+    "blueprint/Collision & Overlap/세이브 포인터(2)_닿으면 소리나며 터짐.md",
+    "blueprint/Collision & Overlap/아이템 이동 to.플레이어 (1).md",
+    "blueprint/Collision & Overlap/아이템 이동 to.플레이어 (2).md",
+    "C++/Collision.md",
+    "C++/Untitled 2.md",
+    "z_templates/C++ 공부.md",
+    "C++/Count Down.md",
+    "C++/Untitled.md",
+    "C++/Untitled 1.md",
+    "blueprint/Collision/플레이어 리스폰 (1).md",
+    "blueprint/Collision/아이템 플레이어에게 이동 (1).md",
     "Baku Eats Nightmares/blueprint/Collision/아이템 플레이어에게 이동 (1).md",
     "Welcome.md"
   ]
