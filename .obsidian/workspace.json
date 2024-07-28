@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "운동 기록/24.07.04 (Thu).md",
+                "file": "TODOLIST/2024-07-28 (Sun).md",
                 "mode": "source",
                 "source": true
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운동 기록/24.07.04 (Thu).md",
+                "file": "TODOLIST/2024-07-28 (Sun).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운동 기록/24.07.04 (Thu).md",
+                "file": "TODOLIST/2024-07-28 (Sun).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "운동 기록/24.07.04 (Thu).md"
+                "file": "TODOLIST/2024-07-28 (Sun).md"
               }
             }
           },
@@ -169,7 +169,7 @@
             }
           },
           {
-            "id": "233792d15688d1f0",
+            "id": "6b41788df490e4f6",
             "type": "leaf",
             "state": {
               "type": "timeline",
@@ -195,8 +195,10 @@
       "obsidian-day-planner:Timeline": false
     }
   },
-  "active": "b58a2dc8bae14e85",
+  "active": "4ffa074201598325",
   "lastOpenFiles": [
+    "운동 기록/24.07.04 (Thu).md",
+    "TODOLIST/2024-07-28 (Sun).md",
     "TODOLIST/July/2024-07-16 (Tue).md",
     "Baku Eats Nightmares/C++/Collision.md",
     "TODOLIST/2024-07-27 (Sat).md",
@@ -228,8 +230,6 @@
     "TODOLIST/July/2024-07-10 (Wed).md",
     "TODOLIST/July/2024-07-09 (Tue).md",
     "TODOLIST/July/2024-07-05 (Fri).md",
-    "TODOLIST/July/2024-07-06 (Sat).md",
-    "TODOLIST/July/2024-07-04 (Thu).md",
     "z_image/Pasted image 20240704150403.png",
     "z_image/Pasted image 20240704150257.png",
     "z_image/Pasted image 20240704150136.png",
