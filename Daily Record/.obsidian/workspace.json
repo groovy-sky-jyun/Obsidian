@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "운동 기록/24.07.28 (Sun).md",
+                "file": "TODOLIST/2024-07-31 (Wed).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "운동 기록/24.07.28 (Sun).md",
+                "file": "TODOLIST/2024-07-31 (Wed).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "운동 기록/24.07.28 (Sun).md",
+                "file": "TODOLIST/2024-07-31 (Wed).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,16 +125,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "운동 기록/24.07.28 (Sun).md"
+                "file": "TODOLIST/2024-07-31 (Wed).md"
               }
-            }
-          },
-          {
-            "id": "fb1429ef5e367496",
-            "type": "leaf",
-            "state": {
-              "type": "timeline",
-              "state": {}
             }
           },
           {
@@ -142,6 +134,14 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "ad47fef5090de9f2",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
               "state": {}
             }
           }
@@ -163,10 +163,11 @@
       "obsidian-day-planner:Timeline": false
     }
   },
-  "active": "0d2489ea794b9df7",
+  "active": "7e3e395d2ed04e98",
   "lastOpenFiles": [
-    "TODOLIST/2024-07-28 (Sun).md",
     "운동 기록/24.07.28 (Sun).md",
+    "TODOLIST/2024-07-31 (Wed).md",
+    "TODOLIST/2024-07-28 (Sun).md",
     "TODOLIST/July/2024-07-28 (Sun).md",
     "z_templates/개발 공부.md",
     "TODOLIST/July/2024-07-27 (Sat).md",
