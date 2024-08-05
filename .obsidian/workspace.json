@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Baku Eats Nightmare/사운드/사운드 무료 다운로드 사이트.md",
+                "file": "Baku Eats Nightmare/C++/Character.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Baku Eats Nightmare/사운드/사운드 무료 다운로드 사이트.md",
+                "file": "Baku Eats Nightmare/C++/Character.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Baku Eats Nightmare/사운드/사운드 무료 다운로드 사이트.md",
+                "file": "Baku Eats Nightmare/C++/Character.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Baku Eats Nightmare/사운드/사운드 무료 다운로드 사이트.md"
+                "file": "Baku Eats Nightmare/C++/Character.md"
               }
             }
           }
@@ -168,8 +168,11 @@
   },
   "active": "18f1220b377bf7a7",
   "lastOpenFiles": [
-    "Baku Eats Nightmare/blueprint/Object/Random Object.md",
+    "Baku Eats Nightmare/C++/Collision.md",
+    "Baku Eats Nightmare/C++/Character.md",
+    "Baku Eats Nightmare/기능 정리/한 챕터(요약본).md",
     "Baku Eats Nightmare/사운드/사운드 무료 다운로드 사이트.md",
+    "Baku Eats Nightmare/blueprint/Object/Random Object.md",
     "Baku Eats Nightmare/사운드",
     "Baku Eats Nightmare/blueprint/Level/Key Input (1)_ Actor 생성 및 파괴.md",
     "Baku Eats Nightmare/blueprint/Collision & Overlap/아이템 이동 to.플레이어 (2).md",
@@ -187,7 +190,6 @@
     "Baku Eats Nightmare/z_image/Pasted image 20240802224248.png",
     "Pasted image 20240802223852.png",
     "Baku Eats Nightmare/z_image/Pasted image 20240802224115.png",
-    "Baku Eats Nightmare/C++/Collision.md",
     "Baku Eats Nightmare/애니메이션",
     "Baku Eats Nightmare/blueprint/Collision & Overlap/세이브 포인터(2)_닿으면 소리나며 터짐.md",
     "Baku Eats Nightmare/blueprint/Collision & Overlap/아이템 이동 to.플레이어 (1).md",
