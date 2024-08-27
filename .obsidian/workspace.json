@@ -8,39 +8,36 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4ea5da56a35658c4",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Baku Eats Nightmare/z_image/Pasted image 20240802215542.png"
-              }
-            }
-          },
-          {
-            "id": "126933ea065b89d2",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Baku Eats Nightmare/z_image/Pasted image 20240802215808.png"
-              }
-            }
-          },
-          {
             "id": "18f1220b377bf7a7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Baku Eats Nightmare/C++/Character.md",
+                "file": "Baku Eats Nightmare/C++/일인칭 FPS Character C++.md",
                 "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "ae769616324d82ce",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a87d40c0d856af0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Baku Eats Nightmare/C++/일인칭 FPS Character C++.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "e32da096c22191b2",
@@ -106,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Baku Eats Nightmare/C++/Character.md",
+                "file": "Baku Eats Nightmare/C++/일인칭 FPS Character C++.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Baku Eats Nightmare/C++/Character.md",
+                "file": "Baku Eats Nightmare/C++/일인칭 FPS Character C++.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Baku Eats Nightmare/C++/Character.md"
+                "file": "Baku Eats Nightmare/C++/일인칭 FPS Character C++.md"
               }
             }
           }
@@ -154,7 +151,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -169,7 +167,7 @@
   "active": "18f1220b377bf7a7",
   "lastOpenFiles": [
     "Baku Eats Nightmare/C++/Collision.md",
-    "Baku Eats Nightmare/C++/Character.md",
+    "Baku Eats Nightmare/C++/일인칭 FPS Character C++.md",
     "Baku Eats Nightmare/기능 정리/한 챕터(요약본).md",
     "Baku Eats Nightmare/사운드/사운드 무료 다운로드 사이트.md",
     "Baku Eats Nightmare/blueprint/Object/Random Object.md",
