@@ -1,12 +1,10 @@
-캐릭터의 다양한 움직임을 사용하기 위해 무료 에셋을 제공해주는 Mixamo 홈페이지를 사용할 것이다.
+캐릭터의 다양한 움직임을 사용하기 위해 무료 에셋을 제공해주는 #Mixamo 홈페이지를 사용할 것이다. Mixamo의 애니메이션을 언리얼에 적용시키기 위해서는 #MixamoConverter 를 사용해 주어야 한다. 블렌더를 사용해줘도 되지만 Mixamo Converter를 사용해 주는게 훨씬 간편하기 때문에 이 방법을 선택했다. 
 
-Mixamo의 애니메이션을 언리얼에 적용시키기 위해서는 Mixamo Converter를 사용해주어야한다. 블렌더를 사용해줘도 되지만 Mixamo Converter를 사용해주는게 훨씬 간편하기 때문에 이 방법을 선택했다. 
+#### *Mixamo Converter를 사용하는 이유*
 
-### Mixamo Converter를 사용하는 이유
-
->과연 Mixamo에서 그냥 다운로드한 에셋을 바로 언리얼에 import하게 되면 어떻게 될까?
+>*과연 Mixamo에서 그냥 다운로드한 에셋을 바로 언리얼에 import하게 되면 어떻게 될까?*
 >
->`mesh contains root bone as root but animation doesn't contain the root track. import failed` 라는 오류가 발생하게 된다.
+>- <span style="color:rgb(255, 92, 92)">mesh contains root bone as root but animation doesn't contain the root track. import failed </span>라는 오류가 발생하게 된다.
 >
 이는 import한 애니메이션의 구조와 스켈레톤의 구조가 일치하지 않아서 발생하는 오류이다. 스켈레톤에는 root bone이 있지만 애니메이션에는 루트가 없는 상태로 import가 되는것이다. 
 >
@@ -33,7 +31,7 @@ Mixamo Converter를 설치하기 위해서는 [Mixamo Converter](https://terribi
 
 <br>
 
-### Mixamo Animation Download
+## Mixamo Animation Download
 이제 Mixamo 홈페이지에서 원하는 애니메이션을 다운받아 줄 것이다. 우선은 [Mixamo Animation](https://www.mixamo.com/#/?page=1&type=Motion%2CMotionPack)에 들어가서 Mixamo Converter에서 다운받은 bone 캐릭터를 적용시켜줄 것이다. 
  1. UPLOAD CHARACTER 버튼을 눌러준다.
 ![[Pasted image 20240802220630.png|500]]
@@ -56,7 +54,7 @@ Mixamo Converter를 설치하기 위해서는 [Mixamo Converter](https://terribi
 
 <br>
 
-### Mixamo Converter 사용하여 변환
+## Mixamo Converter 사용하여 변환
 다운로드 받은 애니메이션이 Package일 경우 폴더 압축을 해제해주어야 한다. 압축해제할 때 폴더 위치를 <span style="color:rgb(193, 173, 240)">TerribilisLauncher > mixamo_converter > IncomingFbx</span> 로 지정해서 압축을 풀어준다. Package가 아니라면 압축해제없이 파일을 바로 폴더에 이동시키면 된다.
 ![[Pasted image 20240802223018.png|500]]
 
@@ -76,7 +74,7 @@ Mixamo Converter를 설치하기 위해서는 [Mixamo Converter](https://terribi
 
 <br>
 
-### 언리얼에 Animation Import
+## 언리얼에 Animation Import
 애니메이션을 import 하고자 하는 위치에 들어간 뒤 Import 버튼을 눌러 원하는 애니메이션을 선택해준다. __이때 Import는 <span style="color:rgb(193, 173, 240)">TerribilisLauncher > mixamo_converter > OutgoingFbx</span>에 있는 파일을 사용해야 한다.__
 ![[Pasted image 20240802224903.png|600]]
 
