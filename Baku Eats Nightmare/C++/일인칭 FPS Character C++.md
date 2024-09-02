@@ -1,9 +1,22 @@
+<br>
 
-부모 클래스를 Character로 지정한 후 c++ 파일 생성
+## 기능 설명
 
-### 기본 INPUT 동작  및 카메라 세팅 전체 코드
+###### 캐릭터의 '기본 동작 INPUT' 및 '카메라 세팅'
 
-``` c title:FPSCharacter.h  hl:28-42,45-46,49-50
+기본으로 제공되는 Character 클래스를 상속받을 것이기 때문에 _<span style="color:rgb(193, 173, 240)">부모 클래스를 Character로 지정</span>_ 한 후 c++ 파일을 생성해준다.
+<br>
+
+### <mark style="background: #FFB86CA6;">[FPSProjectile.h] </mark>
+##### <mark style="background: #FFB86CA6;">28-42</mark> : 캐릭터 Input 함수 정의
+Actor에 Collision와 Mesh를 추가해 주어야한다.(이는 blueprint에서 Add 해주는 것과 동일한 작업이다.) 이 액터에는 #SphereCollision 와 #StaticMesh 를 추가해 주었다.
+
+##### <mark style="background: #FFB86CA6;">45-46</mark> : UObject 
+UCameraComponent 클래스의 포인터 변수를 선언한다.
+>#### 왜 포인터로 선언하는가?
+>
+
+``` c++ title:FPSCharacter.h  hl:28-42,45-46
 #pragma once   
 
 #include "CoreMinimal.h"
@@ -50,12 +63,6 @@ public:
    // FPS 카메라
    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
    UCameraComponent* FPSCameraComponent;
-
-   // 일인칭 메시(팔), self player에게만 보임
-   UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
-   USkeletalMeshComponent* FPSMesh;
-};
-
  
 ```
 

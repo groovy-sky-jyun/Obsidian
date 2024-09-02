@@ -1,9 +1,9 @@
 ---  
 
 ## <mark style="background: #FFB8EBA6;"> TODO LIST (개발)</mark>
-- [ ]  할 일
-- [ ]  할 일
-- [ ]  할 일
+- [x] 할 일
+- [x] 할 일
+- [x] 할 일
 
 
 <br>
@@ -17,7 +17,7 @@
 
 ## <mark style="background: #ABF7F7A6;">TODO LIST (일상)</mark>
 
-- [ ]  할 일
-- [ ]  할 일
-- [ ]  할 일
+- [x] 할 일
+- [x] 할 일
+- [x] 할 일
  

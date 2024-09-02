@@ -2,5 +2,8 @@
   "colored-text",
   "code-styler",
   "highlightr-plugin",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "obsidian-plugin-todo",
+  "time-ruler",
+  "dataview"
 ]
