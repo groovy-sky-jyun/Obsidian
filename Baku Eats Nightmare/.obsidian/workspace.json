@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/일인칭 FPS Character C++.md",
+                "file": "C++/캐릭터 움직임 INPUT 설정.md",
                 "mode": "source",
                 "source": true
               }
@@ -31,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/일인칭 FPS Character C++.md",
+                "file": "C++/캐릭터 움직임 INPUT 설정.md",
                 "mode": "preview",
                 "source": true
               }
@@ -87,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "778f35c5a9971fe5",
@@ -103,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/일인칭 FPS Character C++.md",
+                "file": "C++/캐릭터 움직임 INPUT 설정.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/일인칭 FPS Character C++.md",
+                "file": "C++/캐릭터 움직임 INPUT 설정.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,8 +144,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/일인칭 FPS Character C++.md"
+                "file": "C++/캐릭터 움직임 INPUT 설정.md"
               }
+            }
+          },
+          {
+            "id": "aa8767a2eacf54f8",
+            "type": "leaf",
+            "state": {
+              "type": "online.larslockefeer.obsidian-plugin-todo",
+              "state": {}
             }
           }
         ]
@@ -162,7 +171,8 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "card-board:CardBoard": false
+      "card-board:CardBoard": false,
+      "time-ruler:Open Time Ruler": false
     }
   },
   "active": "7aadc155a52a96d7",
@@ -174,7 +184,7 @@
     "blueprint/Level/Key Input (2)_ Life Span.md",
     "blueprint/Level/Key Input (1)_ Actor 생성 및 파괴.md",
     "blueprint/Object/Random Object.md",
-    "C++/일인칭 FPS Character C++.md",
+    "C++/캐릭터 움직임 INPUT 설정.md",
     "애니메이션/Mixamo Animations.md",
     "사이드바 메뉴/Mesh와 Collision.md",
     "사이드바 메뉴/Skeletal Mesh 애니메이션.md",

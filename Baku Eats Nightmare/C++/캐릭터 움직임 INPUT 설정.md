@@ -2,21 +2,17 @@
 
 ## 기능 설명
 
-###### 캐릭터의 '기본 동작 INPUT' 및 '카메라 세팅'
+###### 캐릭터의 기본 동작 INPUT  설정
 
 기본으로 제공되는 Character 클래스를 상속받을 것이기 때문에 _<span style="color:rgb(193, 173, 240)">부모 클래스를 Character로 지정</span>_ 한 후 c++ 파일을 생성해준다.
 <br>
 
-### <mark style="background: #FFB86CA6;">[FPSProjectile.h] </mark>
-##### <mark style="background: #FFB86CA6;">28-42</mark> : 캐릭터 Input 함수 정의
-Actor에 Collision와 Mesh를 추가해 주어야한다.(이는 blueprint에서 Add 해주는 것과 동일한 작업이다.) 이 액터에는 #SphereCollision 와 #StaticMesh 를 추가해 주었다.
+### <span style="color:rgb(135, 75, 195)">[FPSProjectile.h]</span>
+##### <span style="color:rgb(217, 152, 99)">19-34</span> : <mark style="background: #FFB86CA6;">캐릭터 Input 함수 정의</mark>
 
-##### <mark style="background: #FFB86CA6;">45-46</mark> : UObject 
-UCameraComponent 클래스의 포인터 변수를 선언한다.
->#### 왜 포인터로 선언하는가?
->
+<br>
 
-``` c++ title:FPSCharacter.h  hl:28-42,45-46
+``` c++ title:FPSCharacter.h  hl:19-34
 #pragma once   
 
 #include "CoreMinimal.h"
@@ -29,15 +25,7 @@ UCameraComponent 클래스의 포인터 변수를 선언한다.
 UCLASS()
 class BAKUEATSNIGHTMARES_API AFPSCharacter : public ACharacter
 {
-   GENERATED_BODY()
-
-public:
-   // Sets default values for this character's properties
-   AFPSCharacter();
-
-protected:
-   // Called when the game starts or when spawned
-   virtual void BeginPlay() override;
+   ...
 
 public:   
    // Called every frame
@@ -58,12 +46,9 @@ public:
    void StartJump();
 
    UFUNCTION()
-   void StopJump();
-
-   // FPS 카메라
-   UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
-   UCameraComponent* FPSCameraComponent;
- 
+   void StopJump(); 
+   
+   ...
 ```
 
 ### 캐릭터 INPUT 동작 
@@ -126,7 +111,15 @@ _SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)_ 함수�
 >  -  IE_Pressed : 눌렀을 떄 동작 
 >  -  IE_Released : 땠을 때 동작
 
-
+##### <span style="color:rgb(217, 152, 99)">45-46</span> : <mark style="background: #FFB86CA6;">UObject </mark>
+UCameraComponent 클래스의 포인터 변수를 선언한다.
+>#### 왜 포인터로 선언하는가?
+>#UObject 기반의 클래스의 경우 언리얼의 #GarbageCollectionSystem 과 관련이 있어 보통 포인터로 선언된다. 
+>
+>#GarbageCollectionSystem 은 포인터를 추적하여 더이상 참조되지 않는 객체를 자동으로 해제한다. 그러므로써 개발자가 직접 메모리를 할당하고 해제해야하는 부담을 줄여준다.  
+>
+>#UPROPERTY 매크로를 통해 #GarbageCollectionSystem 이 해당 객체를 추적할 수 있도록 해준다. 만약 #UObject 를 #UPROPERTY 로 선언하지 않으면  #GarbageCollectionSystem 이 해당 객체를 추적하지 않게 되어 메모리 누수 등의 문제가 발생할 수 있다.
+>
 ```
 // Fill out your copyright notice in the Description page of Project Settings.
 

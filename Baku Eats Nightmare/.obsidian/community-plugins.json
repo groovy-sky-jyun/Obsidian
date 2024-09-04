@@ -4,5 +4,8 @@
   "auto-card-link",
   "card-board",
   "highlightr-plugin",
-  "colored-text"
+  "colored-text",
+  "dataview",
+  "obsidian-plugin-todo",
+  "time-ruler"
 ]
