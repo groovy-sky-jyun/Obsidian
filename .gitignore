@@ -25,3 +25,4 @@ null*
 .trash/
 .DS_Store
 
+.obsidian/plugins/colored-text/data.json
