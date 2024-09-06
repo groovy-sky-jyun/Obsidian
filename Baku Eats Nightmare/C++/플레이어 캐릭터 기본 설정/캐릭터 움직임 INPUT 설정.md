@@ -7,7 +7,7 @@
 기본으로 제공되는 Character 클래스를 상속받을 것이기 때문에 _<span style="color:rgb(193, 173, 240)">부모 클래스를 Character로 지정</span>_ 한 후 c++ 파일을 생성해준다.
 <br>
 
-### <span style="color:rgb(135, 75, 195)">[FPSProjectile.h]</span>
+### <span style="color:rgb(135, 75, 195)">[FPSCharacter.h]</span>
 ##### <span style="color:rgb(217, 152, 99)">19-34</span> : <mark style="background: #FFB86CA6;">캐릭터 Input 함수 정의</mark>
 
 ``` c title:FPSCharacter.h  hl:19-34
@@ -88,7 +88,7 @@ public:
 
 ---
 
-### <span style="color:rgb(135, 75, 195)">[FPSProjectile.cpp]</span>
+### <span style="color:rgb(135, 75, 195)">[FPSCharacter.cpp]</span>
 #### Input 함수 정의
 
 ``` c title:FPSCharacter.cpp
