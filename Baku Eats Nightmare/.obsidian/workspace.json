@@ -22,11 +22,11 @@
         ]
       },
       {
-        "id": "abcf72cd443b0d95",
+        "id": "50fc6270b1281abb",
         "type": "tabs",
         "children": [
           {
-            "id": "f665bab6054644b8",
+            "id": "7da288c6b08c4119",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -174,7 +174,7 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "03e7375d32af3764",
+  "active": "7da288c6b08c4119",
   "lastOpenFiles": [
     "C++/플레이어 캐릭터 기본 설정/2. 캐릭터 움직임 INPUT 설정.md",
     "C++/플레이어 캐릭터 기본 설정/3. 캐릭터 카메라 설정.md",
