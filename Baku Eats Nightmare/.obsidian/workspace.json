@@ -87,7 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 207.5
+    "width": 200
   },
   "right": {
     "id": "778f35c5a9971fe5",
@@ -177,8 +177,9 @@
   "active": "03e7375d32af3764",
   "lastOpenFiles": [
     "C++/플레이어 캐릭터 기본 설정/2. 캐릭터 움직임 INPUT 설정.md",
-    "C++/플레이어 캐릭터 기본 설정/1. 플레이 Default Pawn 설정.md",
     "C++/플레이어 캐릭터 기본 설정/3. 캐릭터 카메라 설정.md",
+    "C++/플레이어 캐릭터 기본 설정/1. 플레이 Default Pawn 설정.md",
+    "C++/플레이어 캐릭터 기본 설정/3. 캐릭터 메시 추가.md",
     "C++/Collision.md",
     "blueprint/Collision & Overlap/아이템 이동 to.플레이어 (2).md",
     "blueprint/Collision & Overlap/플레이어 리스폰 (2).md",
