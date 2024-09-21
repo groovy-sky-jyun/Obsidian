@@ -13,25 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/플레이어 캐릭터 기본 설정/3. 캐릭터 카메라 설정.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "50fc6270b1281abb",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "7da288c6b08c4119",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C++/플레이어 캐릭터 기본 설정/3. 캐릭터 카메라 설정.md",
+                "file": "애니메이션/Mixamo Animations.md",
                 "mode": "preview",
                 "source": true
               }
@@ -87,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "778f35c5a9971fe5",
@@ -104,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/플레이어 캐릭터 기본 설정/3. 캐릭터 카메라 설정.md",
+                "file": "애니메이션/Mixamo Animations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/플레이어 캐릭터 기본 설정/3. 캐릭터 카메라 설정.md",
+                "file": "애니메이션/Mixamo Animations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/플레이어 캐릭터 기본 설정/3. 캐릭터 카메라 설정.md"
+                "file": "애니메이션/Mixamo Animations.md"
               }
             }
           },
@@ -177,9 +158,11 @@
   },
   "active": "03e7375d32af3764",
   "lastOpenFiles": [
+    "C++/발사체 생성하기.md",
+    "C++/플레이어 캐릭터 기본 설정/4. 캐릭터 손 일인칭 메시 추가하기.md",
+    "C++/플레이어 캐릭터 기본 설정/3. 캐릭터 카메라 설정.md",
     "Pasted image 20240910015459.png",
     "C++/플레이어 캐릭터 기본 설정/2. 캐릭터 움직임 INPUT 설정.md",
-    "C++/플레이어 캐릭터 기본 설정/3. 캐릭터 카메라 설정.md",
     "C++/플레이어 캐릭터 기본 설정/1. 플레이 Default Pawn 설정.md",
     "C++/플레이어 캐릭터 기본 설정/3. 캐릭터 메시 추가.md",
     "C++/Collision.md",
@@ -204,7 +187,6 @@
     "z_templates/C++ 공부.md",
     "C++/Count Down.md",
     "C++/Untitled.md",
-    "C++/Untitled 1.md",
-    "blueprint/Collision/플레이어 리스폰 (1).md"
+    "C++/Untitled 1.md"
   ]
 }
