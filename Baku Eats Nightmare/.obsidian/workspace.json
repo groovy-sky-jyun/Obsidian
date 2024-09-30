@@ -4,17 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "cd9e6a084b0f4e05",
+        "id": "9b63b17c24670adf",
         "type": "tabs",
         "children": [
           {
-            "id": "03e7375d32af3764",
+            "id": "341563ae7fa3a7b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "애니메이션/Mixamo Animations.md",
+                "file": "애니메이션/Animation Blueprint/캐릭터 등 구부리기(마우스 상하)_LookAroundInput.md",
                 "mode": "preview",
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "69124a66f6d32d74",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ee881859f6555e0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "애니메이션/Animation Blueprint/캐릭터 등 구부리기(마우스 상하)_LookAroundInput.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -48,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#MoveForward",
+                "query": "pitch",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "애니메이션/Mixamo Animations.md",
+                "file": "애니메이션/Animation Blueprint/캐릭터 등 구부리기(마우스 상하)_LookAroundInput.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "애니메이션/Mixamo Animations.md",
+                "file": "애니메이션/Animation Blueprint/캐릭터 등 구부리기(마우스 상하)_LookAroundInput.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "애니메이션/Mixamo Animations.md"
+                "file": "애니메이션/Animation Blueprint/캐릭터 등 구부리기(마우스 상하)_LookAroundInput.md"
               }
             }
           },
@@ -156,37 +174,45 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "03e7375d32af3764",
+  "active": "341563ae7fa3a7b7",
   "lastOpenFiles": [
-    "C++/발사체 생성하기.md",
-    "C++/플레이어 캐릭터 기본 설정/4. 캐릭터 손 일인칭 메시 추가하기.md",
-    "C++/플레이어 캐릭터 기본 설정/3. 캐릭터 카메라 설정.md",
-    "Pasted image 20240910015459.png",
-    "C++/플레이어 캐릭터 기본 설정/2. 캐릭터 움직임 INPUT 설정.md",
-    "C++/플레이어 캐릭터 기본 설정/1. 플레이 Default Pawn 설정.md",
-    "C++/플레이어 캐릭터 기본 설정/3. 캐릭터 메시 추가.md",
-    "C++/Collision.md",
-    "blueprint/Collision & Overlap/아이템 이동 to.플레이어 (2).md",
-    "blueprint/Collision & Overlap/플레이어 리스폰 (2).md",
-    "blueprint/Collision & Overlap/플레이어 리스폰 (3).md",
-    "z_image/Pasted image 20240907234314.png",
-    "z_image/Pasted image 20240907233933.png",
-    "z_image/Pasted image 20240907233838.png",
-    "blueprint/Collision & Overlap/세이브 포인터(1)_빙글빙글.md",
-    "blueprint/Collision & Overlap/세이브 포인터(2)_닿으면 소리나며 터짐.md",
-    "blueprint/Level/Key Input (2)_ Life Span.md",
-    "blueprint/Level/Key Input (1)_ Actor 생성 및 파괴.md",
-    "blueprint/Object/Random Object.md",
-    "C++/캐릭터 움직임 INPUT 설정.md",
+    "blueprint/Enhanced Input/1. LookAround.md",
+    "애니메이션/Animation Blueprint/캐릭터 등 구부리기(마우스 상하)_LookAroundInput.md",
+    "z_image/Pasted image 20240930211451.png",
+    "z_image/Pasted image 20240930211155.png",
+    "z_image/Pasted image 20240930210041.png",
+    "z_image/Pasted image 20240930205903.png",
+    "z_image/Pasted image 20240930205806.png",
+    "z_image/Pasted image 20240930205709.png",
+    "z_image/Pasted image 20240930204724.png",
+    "z_image/Pasted image 20240930204613.png",
+    "z_image/Pasted image 20240930204532.png",
+    "z_image/Pasted image 20240930204402.png",
     "애니메이션/Mixamo Animations.md",
+    "애니메이션/Animation Blueprint",
+    "blueprint/Enhanced Input/2. Movement.md",
+    "blueprint/Enhanced Input/6. Jump.md",
+    "blueprint/Enhanced Input/7. Jump.md",
+    "blueprint/Enhanced Input/5. Leaning.md",
+    "blueprint/Enhanced Input/4. Zoom.md",
+    "blueprint/Enhanced Input/3. Camera.md",
+    "C++/플레이어 캐릭터 기본 설정/1. 플레이 Default Pawn 설정.md",
+    "C++/플레이어 캐릭터 기본 설정/2. 캐릭터 움직임 INPUT 설정.md",
+    "C++/플레이어 캐릭터 기본 설정/3. 캐릭터 카메라 설정.md",
+    "C++/플레이어 캐릭터 기본 설정/4. 캐릭터 손 일인칭 메시 추가하기.md",
+    "C++/Collision.md",
+    "C++/발사체 생성하기.md",
+    "blueprint/Object/Random Object.md",
     "사이드바 메뉴/Mesh와 Collision.md",
     "사이드바 메뉴/Skeletal Mesh 애니메이션.md",
-    "blueprint/Collision & Overlap/플레이어 리스폰 (1).md",
-    "blueprint/Collision & Overlap/아이템 이동 to.플레이어 (1).md",
-    "C++/Untitled 2.md",
-    "z_templates/C++ 공부.md",
-    "C++/Count Down.md",
-    "C++/Untitled.md",
-    "C++/Untitled 1.md"
+    "blueprint/Collision & Overlap/세이브 포인터(2)_닿으면 소리나며 터짐.md",
+    "blueprint/Collision & Overlap/세이브 포인터(1)_빙글빙글.md",
+    "blueprint/Level/Key Input (2)_ Life Span.md",
+    "blueprint/Level/Key Input (1)_ Actor 생성 및 파괴.md",
+    "blueprint/Weapon",
+    "blueprint/Untitled.md",
+    "기능 정리/스토리.md",
+    "blueprint/Enhanced Input",
+    "C++/플레이어 캐릭터 기본 설정/3. 캐릭터 메시 추가.md"
   ]
 }
