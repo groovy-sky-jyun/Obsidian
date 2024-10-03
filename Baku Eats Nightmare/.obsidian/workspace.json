@@ -8,14 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ee881859f6555e0a",
+            "id": "b1b257fd4a1c84c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "애니메이션/Mixamo Animations.md",
+                "file": "애니메이션/Animation Blueprint/점프하기.md",
                 "mode": "preview",
-                "source": true
+                "source": false
               }
             }
           }
@@ -31,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "애니메이션/Animation Blueprint/고개 기울이기(빼꼼샷).md",
+                "file": "애니메이션/Animation Blueprint/점프하기.md",
                 "mode": "source",
                 "source": true
               }
@@ -87,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 250.5,
+    "collapsed": true
   },
   "right": {
     "id": "778f35c5a9971fe5",
@@ -103,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "애니메이션/Mixamo Animations.md",
+                "file": "애니메이션/Animation Blueprint/점프하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "애니메이션/Mixamo Animations.md",
+                "file": "애니메이션/Animation Blueprint/점프하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "애니메이션/Mixamo Animations.md"
+                "file": "애니메이션/Animation Blueprint/점프하기.md"
               }
             }
           },
@@ -174,28 +175,30 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "ee881859f6555e0a",
+  "active": "dcdc578fe1c02fcc",
   "lastOpenFiles": [
-    "애니메이션/Animation Blueprint/포즈 블렌딩 하기.md",
+    "Pasted image 20241003154137.png",
+    "Pasted image 20241003154045.png",
+    "Pasted image 20241003154030.png",
+    "Pasted image 20241003153417.png",
     "애니메이션/Animation Blueprint/고개 기울이기(빼꼼샷).md",
+    "애니메이션/Animation Blueprint/점프하기.md",
     "애니메이션/Animation Blueprint/뼈 움직이기(등 구부리기).md",
-    "z_image/Pasted image 20241003005834.png",
-    "z_image/Pasted image 20241003005828.png",
-    "z_image/Pasted image 20241003005812.png",
-    "z_image/Pasted image 20241003005800.png",
-    "z_image/Pasted image 20241003005726.png",
-    "z_image/Pasted image 20241003005647.png",
-    "z_image/Pasted image 20241003005623.png",
-    "z_image/Pasted image 20241003005610.png",
-    "z_image/Pasted image 20241003005551.png",
-    "z_image/Pasted image 20241003005516.png",
+    "blueprint/Enhanced Input/6. Jump.md",
+    "z_image/Pasted image 20241003145917.png",
     "blueprint/Enhanced Input/5. Leaning.md",
+    "z_image/Pasted image 20241003145109.png",
+    "z_image/Pasted image 20241003144939.png",
+    "z_image/Pasted image 20241003144842.png",
     "blueprint/Enhanced Input/1. LookAround.md",
-    "z_image/캐릭터 등 구부리기(마우스 상하)_LookAroundInput.md",
+    "z_image/Pasted image 20241003131028.png",
+    "z_image/Pasted image 20241003130946.png",
+    "z_image/Pasted image 20241003130941.png",
     "애니메이션/Mixamo Animations.md",
+    "애니메이션/Animation Blueprint/포즈 블렌딩 하기.md",
+    "z_image/캐릭터 등 구부리기(마우스 상하)_LookAroundInput.md",
     "애니메이션/Animation Blueprint",
     "blueprint/Enhanced Input/2. Movement.md",
-    "blueprint/Enhanced Input/6. Jump.md",
     "blueprint/Enhanced Input/7. Jump.md",
     "blueprint/Enhanced Input/4. Zoom.md",
     "blueprint/Enhanced Input/3. Camera.md",
@@ -211,7 +214,6 @@
     "blueprint/Collision & Overlap/세이브 포인터(2)_닿으면 소리나며 터짐.md",
     "blueprint/Collision & Overlap/세이브 포인터(1)_빙글빙글.md",
     "blueprint/Level/Key Input (2)_ Life Span.md",
-    "blueprint/Level/Key Input (1)_ Actor 생성 및 파괴.md",
     "blueprint/Weapon",
     "blueprint/Enhanced Input"
   ]
