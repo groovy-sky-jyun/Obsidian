@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blueprint/Weapon/3. 줍기.md",
+                "file": "blueprint/Weapon/3. 줍기 (Interface).md",
                 "mode": "preview",
                 "source": false
               }
@@ -31,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blueprint/Weapon/3. 줍기.md",
+                "file": "blueprint/Weapon/3. 줍기 (Interface).md",
                 "mode": "source",
                 "source": true
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blueprint/Weapon/3. 줍기.md",
+                "file": "blueprint/Weapon/3. 줍기 (Interface).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blueprint/Weapon/3. 줍기.md",
+                "file": "blueprint/Weapon/3. 줍기 (Interface).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blueprint/Weapon/3. 줍기.md"
+                "file": "blueprint/Weapon/3. 줍기 (Interface).md"
               }
             }
           },
@@ -174,25 +174,24 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "5cd064f500f2754b",
+  "active": "80f1f04299cc0e42",
   "lastOpenFiles": [
+    "blueprint/Weapon/4. 손에 부착하기.md",
+    "blueprint/Weapon/3. 줍기 (Interface).md",
+    "blueprint/Weapon/2. Equip Weapon (Data Table).md",
+    "blueprint/Weapon/1. PickUp Weapon (DataTable).md",
     "z_image/Pasted image 20241006025823.png",
     "z_image/Pasted image 20241006025726.png",
     "z_image/Pasted image 20241006025602.png",
     "z_image/Pasted image 20241006022027.png",
-    "blueprint/Weapon/1. PickUp Weapon.md",
-    "blueprint/Weapon/3. 줍기.md",
     "z_image/Pasted image 20241006021410.png",
     "blueprint/Enhanced Input/3. Camera.md",
     "z_image/Pasted image 20241006020743.png",
-    "blueprint/Weapon/2. Equip Weapon.md",
     "z_image/Pasted image 20241006020112.png",
     "blueprint/Data Table.md",
-    "blueprint/Weapon/4. 손에 부착하기.md",
     "z_image/Pasted image 20241005185853.png",
     "z_image/Pasted image 20241005185746.png",
     "z_image/Pasted image 20241005185729.png",
-    "z_image/Pasted image 20241005185633.png",
     "blueprint/Enhanced Input/1. LookAround.md",
     "Mesh/Collision 생성.md",
     "blueprint/Object/Random Object.md",
