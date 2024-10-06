@@ -6,6 +6,7 @@
       {
         "id": "b22dbc2fdf722bac",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "b1b257fd4a1c84c3",
@@ -13,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blueprint/Weapon/3. 줍기 (Interface).md",
+                "file": "blueprint/Weapon/4. 손에 부착하기.md",
                 "mode": "preview",
                 "source": false
               }
@@ -24,6 +25,7 @@
       {
         "id": "e04f4a38cf4ede96",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "80f1f04299cc0e42",
@@ -31,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blueprint/Weapon/3. 줍기 (Interface).md",
+                "file": "blueprint/Weapon/4. 손에 부착하기.md",
                 "mode": "source",
                 "source": true
               }
@@ -103,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blueprint/Weapon/3. 줍기 (Interface).md",
+                "file": "blueprint/Weapon/4. 손에 부착하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blueprint/Weapon/3. 줍기 (Interface).md",
+                "file": "blueprint/Weapon/4. 손에 부착하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blueprint/Weapon/3. 줍기 (Interface).md"
+                "file": "blueprint/Weapon/4. 손에 부착하기.md"
               }
             }
           },
@@ -174,24 +176,25 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "80f1f04299cc0e42",
+  "active": "5cd064f500f2754b",
   "lastOpenFiles": [
-    "blueprint/Weapon/4. 손에 부착하기.md",
+    "z_image/Pasted image 20241006175044.png",
+    "z_image/Pasted image 20241006174958.png",
+    "z_image/Pasted image 20241006174937.png",
+    "z_image/Pasted image 20241006173143.png",
+    "z_image/Pasted image 20241006172912.png",
+    "z_image/Pasted image 20241006172541.png",
+    "z_image/Pasted image 20241006172053.png",
+    "z_image/Pasted image 20241006171827.png",
+    "z_image/Pasted image 20241006171511.png",
+    "z_image/Pasted image 20241006164839.png",
+    "z_image/Pasted image 20241006164749.png",
     "blueprint/Weapon/3. 줍기 (Interface).md",
+    "blueprint/Weapon/4. 손에 부착하기.md",
     "blueprint/Weapon/2. Equip Weapon (Data Table).md",
     "blueprint/Weapon/1. PickUp Weapon (DataTable).md",
-    "z_image/Pasted image 20241006025823.png",
-    "z_image/Pasted image 20241006025726.png",
-    "z_image/Pasted image 20241006025602.png",
-    "z_image/Pasted image 20241006022027.png",
-    "z_image/Pasted image 20241006021410.png",
     "blueprint/Enhanced Input/3. Camera.md",
-    "z_image/Pasted image 20241006020743.png",
-    "z_image/Pasted image 20241006020112.png",
     "blueprint/Data Table.md",
-    "z_image/Pasted image 20241005185853.png",
-    "z_image/Pasted image 20241005185746.png",
-    "z_image/Pasted image 20241005185729.png",
     "blueprint/Enhanced Input/1. LookAround.md",
     "Mesh/Collision 생성.md",
     "blueprint/Object/Random Object.md",
