@@ -6,7 +6,6 @@
       {
         "id": "b22dbc2fdf722bac",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
             "id": "b1b257fd4a1c84c3",
@@ -14,27 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blueprint/Weapon/4. 손에 부착하기.md",
+                "file": "blueprint/Enhanced Input/3. Camera.md",
                 "mode": "preview",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "e04f4a38cf4ede96",
-        "type": "tabs",
-        "dimension": 50,
-        "children": [
-          {
-            "id": "80f1f04299cc0e42",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "blueprint/Weapon/4. 손에 부착하기.md",
-                "mode": "source",
                 "source": true
               }
             }
@@ -68,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#DataTable",
+                "query": "pitch",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blueprint/Weapon/4. 손에 부착하기.md",
+                "file": "blueprint/Enhanced Input/3. Camera.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blueprint/Weapon/4. 손에 부착하기.md",
+                "file": "blueprint/Enhanced Input/3. Camera.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blueprint/Weapon/4. 손에 부착하기.md"
+                "file": "blueprint/Enhanced Input/3. Camera.md"
               }
             }
           },
@@ -176,8 +156,23 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "5cd064f500f2754b",
+  "active": "b1b257fd4a1c84c3",
   "lastOpenFiles": [
+    "blueprint/Enhanced Input/1. LookAround.md",
+    "blueprint/Enhanced Input/6. Jump.md",
+    "C++/플레이어 캐릭터 기본 설정/3. 캐릭터 카메라 설정.md",
+    "C++/플레이어 캐릭터 기본 설정/4. 캐릭터 손 일인칭 메시 추가하기.md",
+    "C++/발사체 생성하기.md",
+    "C++/Collision.md",
+    "C++/플레이어 캐릭터 기본 설정/2. 캐릭터 움직임 INPUT 설정.md",
+    "C++/플레이어 캐릭터 기본 설정/1. 플레이 Default Pawn 설정.md",
+    "blueprint/Enhanced Input/2. Movement.md",
+    "blueprint/Weapon/1. 무기 줍기, 교체 기본 알고리즘.md",
+    "blueprint/Weapon/5. PickUp Weapon (DataTable).md",
+    "z_image/Pasted image 20241008180651.png",
+    "blueprint/Weapon/3. 줍기 (Interface).md",
+    "blueprint/Weapon/4. 손에 부착하기.md",
+    "blueprint/Weapon/2. Equip Weapon (Data Table).md",
     "z_image/Pasted image 20241006175044.png",
     "z_image/Pasted image 20241006174958.png",
     "z_image/Pasted image 20241006174937.png",
@@ -187,15 +182,8 @@
     "z_image/Pasted image 20241006172053.png",
     "z_image/Pasted image 20241006171827.png",
     "z_image/Pasted image 20241006171511.png",
-    "z_image/Pasted image 20241006164839.png",
-    "z_image/Pasted image 20241006164749.png",
-    "blueprint/Weapon/3. 줍기 (Interface).md",
-    "blueprint/Weapon/4. 손에 부착하기.md",
-    "blueprint/Weapon/2. Equip Weapon (Data Table).md",
-    "blueprint/Weapon/1. PickUp Weapon (DataTable).md",
     "blueprint/Enhanced Input/3. Camera.md",
     "blueprint/Data Table.md",
-    "blueprint/Enhanced Input/1. LookAround.md",
     "Mesh/Collision 생성.md",
     "blueprint/Object/Random Object.md",
     "Mesh/Skeletal Mesh를 Static Mesh로 변환.md",
@@ -204,18 +192,10 @@
     "애니메이션/Animation Blueprint/포즈 블렌딩 하기.md",
     "애니메이션/Animation Blueprint/뼈 움직이기(등 구부리기).md",
     "애니메이션/Animation Blueprint/고개 기울이기(빼꼼샷).md",
-    "blueprint/Enhanced Input/6. Jump.md",
     "blueprint/Enhanced Input/5. Leaning.md",
     "애니메이션/Mixamo Animations.md",
     "z_image/캐릭터 등 구부리기(마우스 상하)_LookAroundInput.md",
     "애니메이션/Animation Blueprint",
-    "blueprint/Enhanced Input/2. Movement.md",
-    "blueprint/Enhanced Input/7. Jump.md",
-    "blueprint/Enhanced Input/4. Zoom.md",
-    "C++/플레이어 캐릭터 기본 설정/1. 플레이 Default Pawn 설정.md",
-    "C++/플레이어 캐릭터 기본 설정/2. 캐릭터 움직임 INPUT 설정.md",
-    "C++/플레이어 캐릭터 기본 설정/3. 캐릭터 카메라 설정.md",
-    "C++/플레이어 캐릭터 기본 설정/4. 캐릭터 손 일인칭 메시 추가하기.md",
     "blueprint/Weapon",
     "blueprint/Enhanced Input"
   ]
