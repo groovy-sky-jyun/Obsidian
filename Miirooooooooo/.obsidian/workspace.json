@@ -1,0 +1,178 @@
+{
+  "main": {
+    "id": "7ac3f271873942ca",
+    "type": "split",
+    "children": [
+      {
+        "id": "70bfb097f931c6c6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9542dd5934ae3aaf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MazeGenerator/ver.1_DFS 미로 분석.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "9a5621a9d2ef420a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c809a55036cfe3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MazeGenerator/ver.1_DFS 미로 분석.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2074f062145bb5e2",
+    "type": "split",
+    "children": [
+      {
+        "id": "501af5f898f1d6df",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "67d8da738e4c572a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "06d313592da279ce",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c7c489fdd62299e7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "35c8da47b664eeae",
+    "type": "split",
+    "children": [
+      {
+        "id": "bae2bea9f1ec148a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3470e7bd8dbe9c9c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "MazeGenerator/ver.1_DFS 미로 분석.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5d5f942442f1c0f8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "MazeGenerator/ver.1_DFS 미로 분석.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c48fa88b21fa0d02",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "73e439ed4ee9bccb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "MazeGenerator/ver.1_DFS 미로 분석.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "1c809a55036cfe3e",
+  "lastOpenFiles": [
+    "분석.png",
+    "스크린샷 2024-10-21 192925.png",
+    "MazeGenerator/ver.1 DFS 미로 생성.md",
+    "MazeGenerator/ver.1_DFS 미로 분석.md",
+    "z_image",
+    "z_image/스크린샷 2024-10-21 192759.png",
+    "z_image/스크린샷 2024-10-21 192925.png",
+    "MazeGenerator"
+  ]
+}

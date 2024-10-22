@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Baku Eats Nightmare/기능 정리/구현해야 할 기능.md",
+                "file": "TASKS/TO DO.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "e32da096c22191b2",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Baku Eats Nightmare/기능 정리/구현해야 할 기능.md",
+                "file": "TASKS/TO DO.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Baku Eats Nightmare/기능 정리/구현해야 할 기능.md",
+                "file": "TASKS/TO DO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Baku Eats Nightmare/기능 정리/구현해야 할 기능.md"
+                "file": "TASKS/TO DO.md"
               }
             }
           },
@@ -165,10 +164,15 @@
       "time-ruler:Open Time Ruler": false
     }
   },
-  "active": "cbf46e737d4252ec",
+  "active": "ff182fd63a26d11f",
   "lastOpenFiles": [
-    "Baku Eats Nightmare/C++/발사체 생성하기.md",
+    "Miirooooooooo",
+    "포트폴리오 참고.pdf",
+    "Pasted image 20240906190356.png",
+    "Pasted image 20240906185351.png",
+    "Pasted image 20240906185444.png",
     "Baku Eats Nightmare/기능 정리/구현해야 할 기능.md",
+    "Baku Eats Nightmare/C++/발사체 생성하기.md",
     "Baku Eats Nightmare/C++/플레이어 캐릭터 기본 설정/4. 캐릭터 손 일인칭 메시 추가하기.md",
     "Baku Eats Nightmare/C++/플레이어 캐릭터 기본 설정/3. 캐릭터 카메라 설정.md",
     "Baku Eats Nightmare/C++/플레이어 캐릭터 기본 설정/2. 캐릭터 움직임 INPUT 설정.md",
@@ -177,9 +181,6 @@
     "Baku Eats Nightmare/z_templates/C++ 공부 기록.md",
     "Baku Eats Nightmare/C++/Collision.md",
     "Daily Record/지출 관리/9월.md",
-    "Pasted image 20240906190356.png",
-    "Pasted image 20240906185444.png",
-    "Pasted image 20240906185351.png",
     "TASKS/TO DO.md",
     "Daily Record/지출 관리",
     "Baku Eats Nightmare/C++/플레이어 캐릭터 기본 설정/캐릭터 움직임 INPUT 설정.md",
@@ -201,7 +202,6 @@
     "Daily Record/Book",
     "Baku Eats Nightmare/기능 정리/한 챕터(요약본).md",
     "Baku Eats Nightmare/사운드/사운드 무료 다운로드 사이트.md",
-    "Baku Eats Nightmare/blueprint/Object/Random Object.md",
     "Baku Eats Nightmare/사운드",
     "Baku Eats Nightmare/z_image/Pasted image 20240802215542.png",
     "Baku Eats Nightmare/z_image/Pasted image 20240802215920.png",
