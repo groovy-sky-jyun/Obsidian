@@ -1,3 +1,5 @@
 [
-  "code-styler"
+  "code-styler",
+  "highlightr-plugin",
+  "colored-text"
 ]
