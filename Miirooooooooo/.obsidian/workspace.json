@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UI/Panel/Panel.md",
-                "mode": "source",
+                "file": "UI/Untitled.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Panel"
+              "title": "Untitled"
             }
           }
         ]
@@ -164,8 +164,14 @@
   },
   "active": "45359a1c98ee935a",
   "lastOpenFiles": [
-    "MazeGenerator/ver.2 DFS 미로 분석.md",
+    "Pasted image 20241101201938.png",
+    "Pasted image 20241101200519.png",
+    "Pasted image 20241101161614.png",
+    "Pasted image 20241101131015.png",
+    "Pasted image 20241101130939.png",
     "UI/Panel/Panel.md",
+    "UI/Untitled.md",
+    "MazeGenerator/ver.2 DFS 미로 분석.md",
     "UI/Panel",
     "UI",
     "MazeGenerator/ver.3 DFS 미로.md",
