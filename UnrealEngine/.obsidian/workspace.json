@@ -1,56 +1,41 @@
 {
   "main": {
-    "id": "7ac3f271873942ca",
+    "id": "043fadfa10cc58df",
     "type": "split",
     "children": [
       {
-        "id": "1252de552285adcf",
+        "id": "590473080594f612",
         "type": "tabs",
         "children": [
           {
-            "id": "45359a1c98ee935a",
+            "id": "05958e8711089d2b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MazeGenerator/ver.1 DFS 미로.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "ver.1 DFS 미로"
-            }
-          },
-          {
-            "id": "697f9131a97279d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MazeGenerator/ver.3 DFS 미로.md",
+                "file": "Untitled.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "ver.3 DFS 미로"
+              "title": "Untitled"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "2074f062145bb5e2",
+    "id": "bee39ef669e38aae",
     "type": "split",
     "children": [
       {
-        "id": "501af5f898f1d6df",
+        "id": "ce1c798e36a25a08",
         "type": "tabs",
         "children": [
           {
-            "id": "67d8da738e4c572a",
+            "id": "2ac0a75e09ac358f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -62,7 +47,7 @@
             }
           },
           {
-            "id": "06d313592da279ce",
+            "id": "614275317d38dccb",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -79,7 +64,7 @@
             }
           },
           {
-            "id": "c7c489fdd62299e7",
+            "id": "fa409b3d48585674",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -92,23 +77,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "35c8da47b664eeae",
+    "id": "f8c87d3d7884052e",
     "type": "split",
     "children": [
       {
-        "id": "bae2bea9f1ec148a",
+        "id": "20b6bcb933af77b1",
         "type": "tabs",
         "children": [
           {
-            "id": "3470e7bd8dbe9c9c",
+            "id": "167fdca7557193c4",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MazeGenerator/ver.2 DFS 미로.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,25 +103,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ver.2 DFS 미로"
+              "title": "Backlinks for Untitled"
             }
           },
           {
-            "id": "5d5f942442f1c0f8",
+            "id": "6df4dde07126a7b7",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MazeGenerator/ver.2 DFS 미로.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from ver.2 DFS 미로"
+              "title": "Outgoing links from Untitled"
             }
           },
           {
-            "id": "c48fa88b21fa0d02",
+            "id": "93957c1d6fceaac7",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -149,15 +134,15 @@
             }
           },
           {
-            "id": "73e439ed4ee9bccb",
+            "id": "e593393fec86d42c",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "MazeGenerator/ver.2 DFS 미로.md"
+                "file": "Untitled.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of ver.2 DFS 미로"
+              "title": "Outline of Untitled"
             }
           }
         ]
@@ -177,22 +162,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "697f9131a97279d8",
+  "active": "05958e8711089d2b",
   "lastOpenFiles": [
-    "MazeGenerator/ver.1 DFS 미로.md",
+    "Welcome.md",
     "Untitled.md",
-    "MazeGenerator/ver.2 DFS 미로 분석.md",
-    "MazeGenerator/ver.3 DFS 미로.md",
-    "MazeGenerator/ver.1 DFS 미로 분석.md",
-    "MazeGenerator/ver.2 DFS 미로.md",
-    "z_image/스크린샷 2024-10-21 192637.png",
-    "z_image/스크린샷 2024-10-21 192550.png",
-    "MazeGenerator/ver.2 DFS 미로 생성.md",
-    "z_image/분석.png",
-    "z_image/스크린샷 2024-10-21 192925 1.png",
-    "z_image",
-    "z_image/스크린샷 2024-10-21 192759.png",
-    "z_image/스크린샷 2024-10-21 192925.png",
-    "MazeGenerator"
+    "Class"
   ]
 }
