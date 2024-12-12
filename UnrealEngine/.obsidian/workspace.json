@@ -13,15 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "BP에서의 인스턴스 생성과 C++참조.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "BP에서의 인스턴스 생성과 C++참조"
+            }
+          },
+          {
+            "id": "710099e6d7d385e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BP에서의 인스턴스 생성과 C++참조.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BP에서의 인스턴스 생성과 C++참조"
+            }
+          },
+          {
+            "id": "1ae1ef27a4c9bb23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BP에서의 인스턴스 생성과 C++참조.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BP에서의 인스턴스 생성과 C++참조"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -162,10 +191,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "05958e8711089d2b",
+  "active": "1ae1ef27a4c9bb23",
   "lastOpenFiles": [
+    "Structure & Enum.md",
+    "UCLASS.md",
+    "BP에서의 인스턴스 생성과 C++참조.md",
     "Welcome.md",
-    "Untitled.md",
     "Class"
   ]
 }
