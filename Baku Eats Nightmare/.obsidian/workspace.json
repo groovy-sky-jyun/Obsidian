@@ -13,13 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blueprint/Enhanced Input/3. Camera.md",
+                "file": "애니메이션/Mixamo Animations.md",
                 "mode": "preview",
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Mixamo Animations"
             }
           }
         ]
+      },
+      {
+        "id": "89c7e8ef06a01330",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "938b132c7e3b2608",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "애니메이션/Mixamo Animations.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Mixamo Animations"
+            }
+          },
+          {
+            "id": "6bb16467b18ff8d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -38,8 +75,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -48,13 +88,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pitch",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +104,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -85,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blueprint/Enhanced Input/3. Camera.md",
+                "file": "애니메이션/Mixamo Animations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +137,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Mixamo Animations"
             }
           },
           {
@@ -102,10 +148,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blueprint/Enhanced Input/3. Camera.md",
+                "file": "애니메이션/Mixamo Animations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Mixamo Animations"
             }
           },
           {
@@ -116,7 +164,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,8 +175,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blueprint/Enhanced Input/3. Camera.md"
-              }
+                "file": "애니메이션/Mixamo Animations.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Mixamo Animations"
             }
           },
           {
@@ -134,7 +186,9 @@
             "type": "leaf",
             "state": {
               "type": "online.larslockefeer.obsidian-plugin-todo",
-              "state": {}
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo"
             }
           }
         ]
@@ -153,11 +207,27 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "time-ruler:Open Time Ruler": false,
-      "card-board:CardBoard": false
+      "digitalgarden:Digital Garden Publication Center": false,
+      "card-board:CardBoard": false,
+      "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "b1b257fd4a1c84c3",
+  "active": "6bb16467b18ff8d1",
   "lastOpenFiles": [
+    "index.md",
+    "애니메이션/Mixamo Animations.md",
+    "애니메이션/Animation Blueprint/포즈 블렌딩 하기.md",
+    "애니메이션/Animation Blueprint/점프하기.md",
+    "애니메이션/Animation Blueprint/뼈 움직이기(등 구부리기).md",
+    "애니메이션/Animation Blueprint/고개 기울이기(빼꼼샷).md",
+    "Untitled.md",
+    "plugin/tistory/main.js",
+    "plugin/tistory/manifest.json",
+    "plugin/tistory/styles.css",
+    "plugin/tistory",
+    "plugin",
+    "tistory",
+    "blueprint/Enhanced Input/3. Camera.md",
     "blueprint/Enhanced Input/1. LookAround.md",
     "blueprint/Enhanced Input/6. Jump.md",
     "C++/플레이어 캐릭터 기본 설정/3. 캐릭터 카메라 설정.md",
@@ -182,19 +252,11 @@
     "z_image/Pasted image 20241006172053.png",
     "z_image/Pasted image 20241006171827.png",
     "z_image/Pasted image 20241006171511.png",
-    "blueprint/Enhanced Input/3. Camera.md",
     "blueprint/Data Table.md",
     "Mesh/Collision 생성.md",
     "blueprint/Object/Random Object.md",
     "Mesh/Skeletal Mesh를 Static Mesh로 변환.md",
-    "애니메이션/Animation Blueprint/점프하기.md",
     "Mesh",
-    "애니메이션/Animation Blueprint/포즈 블렌딩 하기.md",
-    "애니메이션/Animation Blueprint/뼈 움직이기(등 구부리기).md",
-    "애니메이션/Animation Blueprint/고개 기울이기(빼꼼샷).md",
-    "blueprint/Enhanced Input/5. Leaning.md",
-    "애니메이션/Mixamo Animations.md",
-    "z_image/캐릭터 등 구부리기(마우스 상하)_LookAroundInput.md",
     "애니메이션/Animation Blueprint",
     "blueprint/Weapon",
     "blueprint/Enhanced Input"
