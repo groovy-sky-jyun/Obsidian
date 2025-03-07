@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BP에서의 인스턴스 생성과 C++참조.md",
+                "file": "Structure & Enum.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BP에서의 인스턴스 생성과 C++참조"
-            }
-          },
-          {
-            "id": "6a30ffbad61b9408",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "언리얼 코드 컴파일 방법.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "언리얼 코드 컴파일 방법"
+              "title": "Structure & Enum"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -55,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -177,14 +163,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6a30ffbad61b9408",
+  "active": "05958e8711089d2b",
   "lastOpenFiles": [
-    "Pasted image 20241223201041.png",
+    "Class/UCLASS.md",
     "BP에서의 인스턴스 생성과 C++참조.md",
+    "Structure & Enum.md",
+    "Pasted image 20241223201041.png",
     "언리얼 코드 컴파일 방법.md",
     "Untitled",
-    "Class/UCLASS.md",
-    "Structure & Enum.md",
     "Welcome.md",
     "Class"
   ]

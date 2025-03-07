@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "03fca3055e8530e2",
+    "type": "split",
+    "children": [
+      {
+        "id": "d9e4f333ec9bcda1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d62673228413a269",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f76af524579ba53a",
+    "type": "split",
+    "children": [
+      {
+        "id": "92b02ea4c99bb1dd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b8273bf270603755",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f4190f2648bc7711",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8552f7bfa36bbba0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 364.5
+  },
+  "right": {
+    "id": "003a2fcbf09344ac",
+    "type": "split",
+    "children": [
+      {
+        "id": "6d82cff8c7ab8ebc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8e3f641d4213df1c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Unreal Engine/C++/언리얼 코딩 표준.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 언리얼 코딩 표준"
+            }
+          },
+          {
+            "id": "14f6137147641025",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Unreal Engine/C++/언리얼 코딩 표준.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 언리얼 코딩 표준"
+            }
+          },
+          {
+            "id": "3805cc847dead411",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "fd3a216870826da1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Unreal Engine/C++/언리얼 코딩 표준.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 언리얼 코딩 표준"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "excel:Create Excel File": false
+    }
+  },
+  "active": "b8273bf270603755",
+  "lastOpenFiles": [
+    "Unreal Engine/실습예제/발사체 생성.md",
+    "Unreal Engine/실습예제/'Collision' 실습.md",
+    "Unreal Engine/Mesh/Skeletal Mesh를 Static Mesh로 변환.md",
+    "Unreal Engine/실습예제",
+    "Unreal Engine/Mesh/Static Mesh 'Collision' 생성.md",
+    "Unreal Engine/z_image/Pasted image 20250306230715.png",
+    "Unreal Engine/Mesh",
+    "Unreal Engine/Animation/점프.md",
+    "Unreal Engine/Animation/고개 기울이기 (빼꼼샷).md",
+    "Unreal Engine/Animation/뼈 움직이기 (등 구부리기).md",
+    "Unreal Engine/Animation/포즈 블렌딩.md",
+    "Unreal Engine/Animation/Mixamo Animations.md",
+    "Unreal Engine Project/Miiroooo/z_image/Pasted image 20240721195408.png",
+    "Unreal Engine Project/Miiroooo/z_image/Pasted image 20240721195142.png",
+    "Unreal Engine Project/Miiroooo/z_image/Pasted image 20240721195024.png",
+    "Unreal Engine Project/Miiroooo/z_image/Pasted image 20240721194647.png",
+    "Unreal Engine Project/Miiroooo/z_image/Pasted image 20240721193946.png",
+    "Unreal Engine Project/Miiroooo/z_image/Pasted image 20240721193905.png",
+    "Unreal Engine Project/Miiroooo/z_image/Pasted image 20240721193608.png",
+    "Unreal Engine Project/Miiroooo/z_image/Pasted image 20240721193415.png",
+    "Unreal Engine Project/Miiroooo/z_image/Pasted image 20240721193222.png",
+    "Unreal Engine Project/Miiroooo/z_image/캐릭터 등 구부리기(마우스 상하)_LookAroundInput.md",
+    "Unreal Engine Project/Miiroooo/기획/미로 게임 기획.md",
+    "Unreal Engine/Animation",
+    "Unreal Engine/C++/인터페이스 (Interface).md",
+    "Unreal Engine Project/Miiroooo/기획",
+    "Unreal Engine Project/Miiroooo/기획.md",
+    "Unreal Engine Project/Miiroooo/Item/아이템 구간 확률 (확률형 아이템).md",
+    "Unreal Engine Project/Miiroooo/error/NewObject, DefaultSubobject.md",
+    "Unreal Engine Project/Miiroooo/Item/아이템 구조 변경.md",
+    "Unreal Engine Project/Miiroooo/error",
+    "Unreal Engine/C++/TMap.md",
+    "Unreal Engine Project/Miiroooo/Item/스프레이 아이템 구현.md",
+    "Unreal Engine/C++/TArray.md",
+    "Unreal Engine Project/Miiroooo/z_image",
+    "Unreal Engine/C++/구조체.md",
+    "Unreal Engine Project/Miiroooo/Item",
+    "Unreal Engine Project/Miiroooo",
+    "Unreal Engine Project",
+    "Project.md",
+    "Unreal Engine/C++/컴포지션 (Composition).md",
+    "Unreal Engine/C++/ENUM.md",
+    "Unreal Engine/C++/델리게이트.md",
+    "Unreal Engine/z_image",
+    "Unreal Engine/C++/Const.md",
+    "Unreal Engine/C++/유효성 확인 (check, if).md",
+    "Untitled.canvas"
+  ]
+}

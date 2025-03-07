@@ -40,8 +40,21 @@
               "icon": "lucide-file",
               "title": "경로 수정"
             }
+          },
+          {
+            "id": "d42a504a9cd6284f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -60,7 +73,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -182,7 +196,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ea124fa00afe8936",
+  "active": "d42a504a9cd6284f",
   "lastOpenFiles": [
     "z_images/Pasted image 20241228010842.png",
     "XAMPP/사전작업/경로 변경/경로 수정.md",

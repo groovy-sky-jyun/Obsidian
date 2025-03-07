@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "ver.1 DFS 미로"
             }
-          },
-          {
-            "id": "697f9131a97279d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MazeGenerator/ver.3 DFS 미로.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "ver.3 DFS 미로"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -55,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -177,12 +163,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "697f9131a97279d8",
+  "active": "67d8da738e4c572a",
   "lastOpenFiles": [
     "MazeGenerator/ver.1 DFS 미로.md",
+    "MazeGenerator/ver.3 DFS 미로.md",
+    "Unreal Engine/Untitled.md",
+    "Unreal Engine",
     "Untitled.md",
     "MazeGenerator/ver.2 DFS 미로 분석.md",
-    "MazeGenerator/ver.3 DFS 미로.md",
     "MazeGenerator/ver.1 DFS 미로 분석.md",
     "MazeGenerator/ver.2 DFS 미로.md",
     "z_image/스크린샷 2024-10-21 192637.png",
