@@ -11,10 +11,34 @@
             "id": "d62673228413a269",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Unreal Engine/Animation/캐릭터 애니메이션.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "캐릭터 애니메이션"
+            }
+          }
+        ]
+      },
+      {
+        "id": "92de5b4e0a3b7f66",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "927135c72a7d1bdd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unreal Engine/Animation/캐릭터 애니메이션.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "캐릭터 애니메이션"
             }
           }
         ]
@@ -74,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 364.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "003a2fcbf09344ac",
@@ -165,8 +190,9 @@
       "excel:Create Excel File": false
     }
   },
-  "active": "b8273bf270603755",
+  "active": "927135c72a7d1bdd",
   "lastOpenFiles": [
+    "Unreal Engine/Animation/캐릭터 애니메이션.md",
     "Unreal Engine/실습예제/발사체 생성.md",
     "Unreal Engine/실습예제/'Collision' 실습.md",
     "Unreal Engine/Mesh/Skeletal Mesh를 Static Mesh로 변환.md",
@@ -212,7 +238,6 @@
     "Unreal Engine/C++/델리게이트.md",
     "Unreal Engine/z_image",
     "Unreal Engine/C++/Const.md",
-    "Unreal Engine/C++/유효성 확인 (check, if).md",
     "Untitled.canvas"
   ]
 }
