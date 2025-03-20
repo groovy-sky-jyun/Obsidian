@@ -251,8 +251,8 @@
         },
         "dark": {
           "codeblock": {
-            "backgroundColour": "#002b36",
-            "textColour": "#bababa"
+            "backgroundColour": "#022933",
+            "textColour": "#D7D7D7"
           },
           "gutter": {
             "backgroundColour": "#073642",
@@ -547,8 +547,8 @@
       },
       "dark": {
         "codeblock": {
-          "backgroundColour": "#002b36",
-          "textColour": "#bababa"
+          "backgroundColour": "#022933",
+          "textColour": "#D7D7D7"
         },
         "gutter": {
           "backgroundColour": "#073642",
