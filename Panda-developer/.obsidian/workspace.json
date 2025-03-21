@@ -13,32 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "코딩테스트/자료구조/STL/Graph.md",
-                "mode": "source",
+                "file": "코딩테스트/자료구조/문자열/입출력.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Graph"
-            }
-          }
-        ]
-      },
-      {
-        "id": "3ff805da2ef8f8ff",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "2c55584eb52dc8ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "코딩테스트/자료구조/STL/Graph.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Graph"
+              "title": "입출력"
             }
           }
         ]
@@ -98,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "003a2fcbf09344ac",
@@ -191,13 +172,13 @@
   },
   "active": "9505685f6eefd005",
   "lastOpenFiles": [
+    "코딩테스트/자료구조/STL/Stack.md",
+    "코딩테스트/자료구조/문자열/입출력.md",
+    "코딩테스트/자료구조/STL/Graph.md",
     "코딩테스트/자료구조/STL/Queue.md",
     "코딩테스트/자료구조/STL/HashMap.md",
-    "코딩테스트/자료구조/STL/Graph.md",
-    "코딩테스트/자료구조/STL/Stack.md",
     "코딩테스트/자료구조/STL/Vector.md",
     "코딩테스트/자료구조/문자열/캐스팅 (형 변환).md",
-    "코딩테스트/자료구조/문자열/입출력.md",
     "코딩테스트/z_image/Pasted image 20250321143352.png",
     "코딩테스트/알고리즘/시간 복잡도.md",
     "코딩테스트/알고리즘",
