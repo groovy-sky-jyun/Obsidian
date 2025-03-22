@@ -193,3 +193,30 @@ __4) <span style="color:rgb(188, 149, 218)">v.clear()</span>__
 - 벡터의 모든 요소를 지운다. `vector.size()` -> 0
 
 ---
+
+### 정렬
+원소들을 오름차순으로 정렬할 수 있다.
+```cpp
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+int main(){
+	vector<int> v = {1, 2, 3};
+	sort(v.begin(), v.end());
+}
+```
+
+rbegin()
+은 reverse_iterator 역방향 iterator를 반환한다.
+```cpp
+vector<int> v = { 1, 2, 3 };
+
+vector<int>::reverse_iterator itr = v.rbegin();
+for (; itr != v.rend(); itr++) {
+    cout << *itr << '\n'; // 출력: 3 2 1
+}
+```
+역방향의 시작 요소를 가리키고 있다. 하지만 ++를 해줘야 내림차순이 된다.
+--를 하면 오류 발생한다.
