@@ -89,7 +89,7 @@ pos 위치의 문자 리턴
 
 ### toupper()/tolower()
 대문자로 변환/소문자로 변환
-주의할 점은 문자열을 변환해 주는 것이 아니라 'char 문자' 타입만 변환해준다. 또한, 반환된 값은 ASCII 코드값으로 <span style="color:rgb(255, 192, 0)">int형으로 반환</span>한다. 
+주의할 점은 문자열을 변환해 주는 것이 아니라 '<mark style="background: #FFB8EBA6;">char 문자</mark>' 타입만 변환해준다. 또한, 반환된 값은 ASCII 코드값으로 <span style="color:rgb(255, 192, 0)">int형으로 반환</span>한다. 
 ```cpp
 #include<iostream>
 #include<string>
