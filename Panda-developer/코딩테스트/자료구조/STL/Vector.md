@@ -173,7 +173,7 @@ __2) <span style="color:rgb(188, 149, 218)">v.erase(iterator pos)</span>__
 
 __3) <span style="color:rgb(188, 149, 218)">v.erase(iterator first, iterator last)</span>__
 - 특정 범위인 <span style="color:rgb(255, 192, 0)">first</span> ~ (<span style="color:rgb(255, 192, 0)">last - 1</span>) 범위의 요소들을 제거한다.
-- <mark style="background: #FFB8EBA6;">끝 위치(list)를 가리키는 iterator를 반환</mark>한다.
+- <mark style="background: #FFB8EBA6;">끝 위치(last)를 가리키는 iterator를 반환</mark>한다.
 ``` cpp
 #include <iostream>
 #include <vector>
