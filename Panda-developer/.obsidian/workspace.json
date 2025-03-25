@@ -13,12 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine/C++/Actor.md",
+                "file": "Unreal Engine/C++/Actor Component.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Actor Component"
+            }
+          }
+        ]
+      },
+      {
+        "id": "aebf2fb1f8199cff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4011b1e0d65edae3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unreal Engine/C++/Actor Component.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Actor"
+              "title": "Actor Component"
             }
           }
         ]
@@ -78,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 211.5
+    "width": 211.5,
+    "collapsed": true
   },
   "right": {
     "id": "003a2fcbf09344ac",
@@ -171,8 +192,9 @@
   },
   "active": "75ef8c6329d0a67f",
   "lastOpenFiles": [
+    "Unreal Engine/C++/Actor 생성과 파괴.md",
+    "Unreal Engine/C++/Actor Component.md",
     "Unreal Engine Project/Miiroooo/기획/맵 디자인.md",
-    "Unreal Engine/C++/Actor.md",
     "Unreal Engine Project/Miiroooo/기획/길 변형 기믹.md",
     "Unreal Engine Project/Miiroooo/기획/함정.md",
     "Unreal Engine Project/Miiroooo/z_image/Pasted image 20250325175956.png",
@@ -205,7 +227,6 @@
     "코딩테스트/CS",
     "코딩테스트/자료구조/STL/Stack.md",
     "코딩테스트/자료구조/STL/Graph.md",
-    "코딩테스트/자료구조/문자열/캐스팅 (형 변환).md",
     "코딩테스트/z_image/Pasted image 20250321143352.png",
     "코딩테스트/알고리즘",
     "코딩테스트/자료구조/STL",
