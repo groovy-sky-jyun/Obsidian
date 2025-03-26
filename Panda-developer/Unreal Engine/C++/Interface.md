@@ -1,22 +1,3 @@
-### 블루프린트 네이티브 이벤트
-
-블루프린트 네이티브 이벤트란 C++에서 가상함수로 선언하여 여러 클래스에서 오버라이딩할 수있고, Blueprint에서도 오버라이딩 할 수 있는 이벤트이다.
-
-UFUNCTION() 안에 "BlueprintNativeEvent" 태그를 추가하여 사용할 수 있다.
-
-이때 두가지 함수를 선언해주어야 한다.
-
-1) Blueprint에서 오버라이딩 할 수 있는 함수
-
-2) C++에서 오버라이딩 할 수 있는 함수 _Implementation 접미사를 붙여주는것이 관행이다.)
-
-```cpp
-UFUNCTION(BlueprintNativeEvent)
-void MyEvent();
-virtual void MyEvent_Implementation();
-```
-
-### 인터페이스
 
 인터페이스는 함수만을 가지는 클래스이다.
 
