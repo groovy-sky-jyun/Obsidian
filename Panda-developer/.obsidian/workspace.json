@@ -4,41 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "04a9666cb22d1ddf",
+        "id": "197fcc80ef39db80",
         "type": "tabs",
         "children": [
           {
-            "id": "75ef8c6329d0a67f",
+            "id": "151443fed1857b0c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine/C++/Delegate.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Delegate"
-            }
-          }
-        ]
-      },
-      {
-        "id": "aebf2fb1f8199cff",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "4011b1e0d65edae3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Unreal Engine/C++/Interface.md",
+                "file": "Unreal Engine Project/Miiroooo/Item/수류탄 구현 (3).md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Interface"
+              "title": "수류탄 구현 (3)"
             }
           }
         ]
@@ -98,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5
+    "width": 241.5,
+    "collapsed": true
   },
   "right": {
     "id": "003a2fcbf09344ac",
@@ -189,8 +170,29 @@
       "excel:Create Excel File": false
     }
   },
-  "active": "75ef8c6329d0a67f",
+  "active": "151443fed1857b0c",
   "lastOpenFiles": [
+    "Unreal Engine Project/Miiroooo/Item/수류탄 구현 (2).md",
+    "Unreal Engine Project/Miiroooo/Item/수류탄 구현 (1).md",
+    "Unreal Engine Project/Miiroooo/Item/수류탄 구현 (3).md",
+    "영단어/Grenade.md",
+    "영단어",
+    "Unreal Engine/C++/Actor/Attach Component To Actor.md",
+    "Unreal Engine Project/Miiroooo/Item/수류탄 구현 전체 과정.md",
+    "Unreal Engine/C++/Key Binding.md",
+    "Unreal Engine/C++/Animation/Animation In C++.md",
+    "Unreal Engine/C++/Animation",
+    "Unreal Engine/Animation/작성해야함/Anim Sequence Clip.md",
+    "Unreal Engine/Animation/작성해야함/Metahuman Retargetting.md",
+    "Unreal Engine/Animation/작성해야함/Animation Montage.md",
+    "Unreal Engine/Animation/작성해야함",
+    "Unreal Engine/Animation/Mixamo Animations.md",
+    "Unreal Engine/Animation/캐릭터 애니메이션.md",
+    "Unreal Engine Project/Miiroooo/기획/아이템.md",
+    "Unreal Engine Project/Miiroooo/기획/맵 디자인.md",
+    "Unreal Engine Project/Miiroooo/기획/Level.md",
+    "Unreal Engine Project/Miiroooo/기획/Untitled.md",
+    "Unreal Engine/C++/Delegate.md",
     "Unreal Engine/C++/Const.md",
     "Unreal Engine/C++/문자 처리.md",
     "Unreal Engine/C++/언리얼 코딩 표준.md",
@@ -198,33 +200,15 @@
     "Unreal Engine/C++/Composition.md",
     "Unreal Engine/C++/Actor/Actor Component.md",
     "Unreal Engine/C++/Actor/Actor 생성과 파괴.md",
-    "Unreal Engine/C++/Delegate.md",
     "Unreal Engine/C++/Interface.md",
-    "Unreal Engine/C++/Timer.md",
-    "Unreal Engine/C++/Container Library/자료구조/TArray.md",
     "Unreal Engine/C++/Container Library/데이터 타입",
     "Unreal Engine/C++/Container Library/자료구조",
     "Unreal Engine/C++/Container Library",
-    "Unreal Engine/C++/Container Library/데이터 타입/FStruct.md",
-    "Unreal Engine/C++/Container Library/자료구조/TMap.md",
     "Unreal Engine/C++/Actor",
-    "Unreal Engine/C++/Blueprint Native Event.md",
-    "Unreal Engine Project/Miiroooo/기획/맵 디자인.md",
-    "Unreal Engine Project/Miiroooo/기획/길 변형 기믹.md",
-    "Unreal Engine Project/Miiroooo/기획/함정.md",
     "Unreal Engine Project/Miiroooo/z_image/Pasted image 20250325175956.png",
-    "Unreal Engine Project/Miiroooo/기획/탈출 키패드.md",
-    "Unreal Engine Project/Miiroooo/기획/Level.md",
     "Unreal Engine Project/Miiroooo/z_image/Pasted image 20250325175724.png",
-    "Unreal Engine Project/Miiroooo/기획/몬스터.md",
-    "Unreal Engine Project/Miiroooo/Item/아이템 구조 변경.md",
-    "Unreal Engine Project/Miiroooo/Item/아이템 구간 확률 (확률형 아이템).md",
-    "Unreal Engine Project/Miiroooo/Item/스프레이 아이템 구현.md",
-    "Unreal Engine Project/Miiroooo/기획/아이템.md",
-    "Unreal Engine Project/Miiroooo/기획/컨셉.md",
     "Unreal Engine Project/Miiroooo/z_image/Group 57 1.png",
     "Unreal Engine Project/Miiroooo/z_image/Group 57.png",
-    "코딩테스트/자료구조/STL/Vector.md",
     "Unreal Engine Project/Miiroooo/z_image/miromap.png",
     "Unreal Engine Project/Miiroooo/z_image/unnamed.jpg",
     "Unreal Engine Project/Miiroooo/z_image/image-removebg-preview.png",
@@ -233,9 +217,6 @@
     "코딩테스트/z_image/Pasted image 20250321143352.png",
     "코딩테스트/알고리즘",
     "코딩테스트/자료구조/STL",
-    "코딩테스트/자료구조/포인터, 참조",
-    "코딩테스트/자료구조/문자열",
-    "코딩테스트/c++",
     "코딩테스트/z_image/Pasted image 20250319213235.png",
     "Untitled.canvas"
   ]
