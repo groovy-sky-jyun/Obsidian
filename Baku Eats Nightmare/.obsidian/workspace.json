@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blueprint/Object/Random Object.md",
-                "mode": "source",
+                "file": "blueprint/Enhanced Input/1. LookAround.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Random Object"
+              "title": "1. LookAround"
             }
           }
         ]
@@ -179,6 +179,7 @@
   },
   "active": "938b132c7e3b2608",
   "lastOpenFiles": [
+    "blueprint/Object/Random Object.md",
     "C++/플레이어 캐릭터 기본 설정/4. 캐릭터 손 일인칭 메시 추가하기.md",
     "C++/발사체 생성하기.md",
     "C++/Collision.md",
@@ -220,7 +221,6 @@
     "blueprint/Weapon/3. 줍기 (Interface).md",
     "blueprint/Weapon/4. 손에 부착하기.md",
     "blueprint/Weapon/2. Equip Weapon (Data Table).md",
-    "blueprint/Data Table.md",
     "Mesh",
     "애니메이션/Animation Blueprint",
     "blueprint/Weapon",
