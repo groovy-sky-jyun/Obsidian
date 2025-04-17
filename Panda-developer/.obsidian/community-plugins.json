@@ -1,8 +1,9 @@
 [
   "code-styler",
   "highlightr-plugin",
-  "excel",
   "obsidian-minimal-settings",
   "image-captions",
-  "colored-text"
+  "colored-text",
+  "lovely-mindmap",
+  "obsidian-table-generator"
 ]
