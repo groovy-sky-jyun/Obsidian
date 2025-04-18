@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine/C++/Component/UPrimitiveComponent.md",
+                "file": "Unreal Engine Project/Miiroooo/MazeGenerator/ver.3 DFS 미로.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "UPrimitiveComponent"
+              "title": "ver.3 DFS 미로"
             }
           }
         ]
@@ -74,13 +74,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 241.5,
-    "collapsed": true
+    "width": 241.5
   },
   "right": {
     "id": "003a2fcbf09344ac",
@@ -96,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unreal Engine/C++/Component/UPrimitiveComponent.md",
+                "file": "Unreal Engine Project/Miiroooo/MazeGenerator/ver.3 DFS 미로.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for UPrimitiveComponent"
+              "title": "Backlinks for ver.3 DFS 미로"
             }
           },
           {
@@ -157,8 +155,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,45 +167,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2954e9fcc9dfbd23",
+  "active": "b8273bf270603755",
   "lastOpenFiles": [
-    "Pasted image 20250417192410.png",
-    "Excel 2025-04-17 14.43.48.sheet.md",
-    "Unreal Engine/C++/Component/UPrimitiveComponent.md",
-    "Unreal Engine Project/Miiroooo/Item/수류탄 구현/수류탄 구현 (3).md",
-    "Unreal Engine Project/Miiroooo/기획/아이템.md",
-    "Unreal Engine/C++/Component",
-    "Unreal Engine Project/Miiroooo/기획/몬스터.md",
-    "코딩테스트/CS/DeadLock.md",
-    "코딩테스트/CS/스케줄링.md",
-    "코딩테스트/CS/스레드.md",
-    "코딩테스트/C++/동적 메모리 할당 및 해제.md",
-    "Unreal Engine Project/Miiroooo/MazeGenerator/ver.3 DFS 미로.md",
-    "코딩테스트/C++",
-    "코딩테스트/Untitled.md",
     "Unreal Engine Project/Miiroooo/MazeGenerator/ver.2 DFS 미로 분석.md",
+    "Unreal Engine Project/Miiroooo/MazeGenerator/ver.2 DFS 미로.md",
+    "Unreal Engine Project/Miiroooo/MazeGenerator/ver.1 DFS 미로 분석.md",
     "Unreal Engine Project/Miiroooo/MazeGenerator/ver.1 DFS 미로.md",
-    "Unreal Engine/C++/UClass.md",
+    "Unreal Engine Project/Miiroooo/error/NewObject, DefaultSubobject.md",
+    "Unreal Engine/C++/Composition.md",
     "Unreal Engine/C++/BP 인스턴스 생성 및 참조.md",
-    "Unreal Engine/C++/Structure & Enum.md",
-    "Unreal Engine Project/Miiroooo/Item/수류탄 구현/수류탄 구현 (1).md",
-    "Unreal Engine Project/Miiroooo/Item/수류탄 구현/수류탄 구현 전체 과정.md",
-    "Unreal Engine Project/Miiroooo/LookAround.md",
-    "Unreal Engine Project/Miiroooo/Item/수류탄 구현/수류탄 구현 (4).md",
-    "Unreal Engine Project/Miiroooo/Item/아이템 구조 변경.md",
+    "Unreal Engine/C++/Const.md",
+    "Unreal Engine/C++/Timer.md",
+    "Unreal Engine/C++/UClass.md",
+    "Unreal Engine/C++/Container Library/데이터 타입/Structure & Enum.md",
+    "Unreal Engine/C++/Container Library/데이터 타입/ENUM.md",
+    "Unreal Engine/C++/Container Library/데이터 타입/FStruct.md",
+    "Unreal Engine/C++/Delegate.md",
+    "Unreal Engine/C++/Interface.md",
+    "Unreal Engine/C++/Key Binding.md",
+    "Unreal Engine/C++/Blueprint Native Event.md",
+    "Unreal Engine/C++/문자 처리.md",
+    "C++ 직무 테스트/C++/키워드/Friend.md",
+    "C++ 직무 테스트/C++/키워드/Final.md",
+    "C++ 직무 테스트/C++/키워드/Const.md",
+    "C++ 직무 테스트/C++/키워드",
+    "C++ 직무 테스트/C++/키워드/Static Const.md",
+    "C++ 직무 테스트/C++/키워드/Static.md",
+    "C++ 직무 테스트/C++/동적 메모리 할당 및 해제.md",
+    "Unreal Engine/C++/LookAround.md",
+    "Excel 2025-04-17 14.43.48.sheet.md",
+    "Unreal Engine Project/Miiroooo/z_image/Pasted image 20250417192410.png",
+    "Unreal Engine/C++/Component",
+    "C++ 직무 테스트/C++",
     "Unreal Engine Project/Miiroooo/z_image/Pasted image 20250402004232.png",
-    "Unreal Engine Project/Miiroooo/Item/스프레이 구현.md",
-    "Unreal Engine Project/Miiroooo/Item/구간 확률 (확률형 아이템).md",
     "Unreal Engine Project/Miiroooo/Item/수류탄 구현",
-    "Unreal Engine Project/Miiroooo/Item/수류탄 구현/수류탄 구현 (2).md",
-    "영단어/Grenade.md",
     "영단어",
     "Unreal Engine/C++/Animation",
     "Unreal Engine/Animation/작성해야함",
     "Unreal Engine/C++/Container Library/데이터 타입",
     "Unreal Engine/C++/Container Library/자료구조",
     "Unreal Engine/C++/Container Library",
-    "Unreal Engine/C++/Actor",
     "Unreal Engine Project/Miiroooo/z_image/Pasted image 20250325175956.png",
     "Unreal Engine Project/Miiroooo/z_image/Pasted image 20250325175724.png",
     "Unreal Engine Project/Miiroooo/z_image/Group 57 1.png",
@@ -217,7 +215,6 @@
     "Unreal Engine Project/Miiroooo/z_image/unnamed.jpg",
     "Unreal Engine Project/Miiroooo/z_image/image-removebg-preview.png",
     "Unreal Engine Project/Miiroooo/z_image/Pasted image 20250324172636.png",
-    "코딩테스트/z_image/Pasted image 20250321143352.png",
     "Untitled.canvas"
   ]
 }

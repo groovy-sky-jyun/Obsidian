@@ -112,7 +112,7 @@ APlayerCharacter::OverlapStart(...)
 
 하지만 UObject로 변경하고 나서는 NewObject로 인스턴스로 생성해주었기에 이전과 다른부분이 이부분밖에 없었는 것이다.
 
-확인해보니 NewOject는 생성자에서는 사용할수가 없었다...
+확인해보니 <span style="color:rgb(255, 192, 0)">NewOject는 생성자에서는 사용할수가 없었다...</span>
 
 하여 인스턴스 생성 부분을 BeginPlay() 함수로 옮겨주니 문제가 해결되었다.
 
