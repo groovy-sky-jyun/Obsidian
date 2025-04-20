@@ -7,10 +7,29 @@ main이 실행되기 전 한번만 초기화 되며, Stack이나 Heap영역이 �
 
 ### 클래스 내부 static
 <span style="color:rgb(188, 149, 218)">클래스 내부에서 선언</span>된 static 멤버 변수/함수는 반드시 <span style="color:rgb(188, 149, 218)">클래스 외부에서 정의</span>를 해주어야 한다. 클래스 내부에서 선언되었지만 객체에 속하지 않기 때문이다.
+```cpp
+class Car{
+public:
+	static int num;
+	static void print();
+};
+
+//클래스 외부에서 초기화
+int Car::num = 5;
+void Car::print(){
+	cout << num << endl; 
+}
+
+int main(void) { ... }
+```
 
 ##### static 멤버 변수
 static 멤버 변수가 public으로 선언되어 있는 경우 :
-객체를 
+객체를 생성하지 않고도 접근할 수 있다. static 멤버 변수를 같은 클래스의 여러 인스턴스가 공유한다고 생각하면 쉽다. 그래서 처음 변수 초기화는 한번 진행되지만 여러 인스턴스에서 값을 수정할때마다 
+
+클래스 이름이 Car이고, 멤버 변수 이름이 num 이라면 다음과 같이 접근할 수 있다.
+`Car::num`
+
 
 static 멤버변수가 public으로 선언되어 있다면 객체가 생성되지 않아도 접근이 가능하다. 
 객체에 귀속되지 않고 클래스 자체에 속한 것으로 모든 인스턴스가 공유하는 하나의 변수/함수이다.
