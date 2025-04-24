@@ -4,26 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "61b33ab50f028d51",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "2954e9fcc9dfbd23",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C++/키워드/Static.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Static"
-            }
-          }
-        ]
-      },
-      {
         "id": "7c67aeba7944eb2d",
         "type": "tabs",
         "children": [
@@ -33,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/키워드/Static.md",
-                "mode": "source",
+                "file": "Unreal Engine/C++/Timer.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Static"
+              "title": "Timer"
             }
           }
         ]
@@ -191,6 +171,8 @@
   },
   "active": "d047a812f449fc2a",
   "lastOpenFiles": [
+    "Pasted image 20250421190007.png",
+    "C++/키워드/Static.md",
     "Unreal Engine/C++/Component/UPrimitiveComponent.md",
     "Unreal Engine Project/Miiroooo/MazeGenerator/ver.3 DFS 미로.md",
     "Unreal Engine Project/Miiroooo/MazeGenerator/ver.2 DFS 미로 분석.md",
@@ -216,8 +198,6 @@
     "C++/키워드/Const.md",
     "C++/키워드",
     "C++/키워드/Static Const.md",
-    "C++/키워드/Static.md",
-    "C++/동적 메모리 할당 및 해제.md",
     "Unreal Engine Project/Miiroooo/z_image/Pasted image 20250417192410.png",
     "Unreal Engine/C++/Component",
     "C++",
