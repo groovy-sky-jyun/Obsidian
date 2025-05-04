@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine/C++/Timer.md",
-                "mode": "preview",
+                "file": "Unreal Engine Project/Miiroooo/Trap/무너지는 바닥.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Timer"
+              "title": "무너지는 바닥"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5,
-    "collapsed": true
+    "width": 241.5
   },
   "right": {
     "id": "003a2fcbf09344ac",
@@ -171,6 +170,9 @@
   },
   "active": "d047a812f449fc2a",
   "lastOpenFiles": [
+    "Unreal Engine/C++/Timer.md",
+    "Unreal Engine Project/Miiroooo/Trap/무너지는 바닥.md",
+    "Unreal Engine Project/Miiroooo/Trap",
     "Pasted image 20250421190007.png",
     "C++/키워드/Static.md",
     "Unreal Engine/C++/Component/UPrimitiveComponent.md",
@@ -183,7 +185,6 @@
     "Unreal Engine/C++/Composition.md",
     "Unreal Engine/C++/BP 인스턴스 생성 및 참조.md",
     "Unreal Engine/C++/Const.md",
-    "Unreal Engine/C++/Timer.md",
     "Unreal Engine/C++/UClass.md",
     "Unreal Engine/C++/Container Library/데이터 타입/Structure & Enum.md",
     "Unreal Engine/C++/Container Library/데이터 타입/ENUM.md",
@@ -208,7 +209,6 @@
     "Unreal Engine/Animation/작성해야함",
     "Unreal Engine/C++/Container Library/데이터 타입",
     "Unreal Engine/C++/Container Library/자료구조",
-    "Unreal Engine/C++/Container Library",
     "Unreal Engine Project/Miiroooo/z_image/Pasted image 20250325175956.png",
     "Unreal Engine Project/Miiroooo/z_image/Pasted image 20250325175724.png",
     "Unreal Engine Project/Miiroooo/z_image/Group 57 1.png",
@@ -216,7 +216,6 @@
     "Unreal Engine Project/Miiroooo/z_image/miromap.png",
     "Unreal Engine Project/Miiroooo/z_image/unnamed.jpg",
     "Unreal Engine Project/Miiroooo/z_image/image-removebg-preview.png",
-    "Unreal Engine Project/Miiroooo/z_image/Pasted image 20250324172636.png",
     "Untitled.canvas"
   ]
 }
