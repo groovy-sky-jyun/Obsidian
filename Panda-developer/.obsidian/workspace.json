@@ -4,21 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "7c67aeba7944eb2d",
+        "id": "c1b2b18b5146d98f",
         "type": "tabs",
         "children": [
           {
-            "id": "d047a812f449fc2a",
+            "id": "8ab9d30a1978981d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine Project/Miiroooo/Trap/무너지는 바닥.md",
+                "file": "Unreal Engine Project/Miiroooo/Trap/Collapsing Trap.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Collapsing Trap"
+            }
+          }
+        ]
+      },
+      {
+        "id": "dc0a35f7f0a44dfc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f5ecf08a1ec864c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unreal Engine Project/Miiroooo/Trap/Collapsing Trap.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "무너지는 바닥"
+              "title": "Collapsing Trap"
             }
           }
         ]
@@ -169,12 +189,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d047a812f449fc2a",
+  "active": "f5ecf08a1ec864c2",
   "lastOpenFiles": [
-    "Unreal Engine/C++/Timer.md",
-    "Unreal Engine Project/Miiroooo/Trap/무너지는 바닥.md",
-    "Unreal Engine Project/Miiroooo/Trap",
+    "Damage.gif",
+    "Wobbling.gif",
+    "제목 없는 동영상 - Clipchamp로 제작 1.gif",
+    "제목 없는 동영상 - Clipchamp로 제작.gif",
+    "제목 없는 동영상 - Clipchamp로 제작 (2).gif",
+    "변경 전.gif",
+    "Group 64.png",
+    "Unreal Engine Project/Miiroooo/z_image/Group 64 1.png",
+    "Pasted image 20250513000046.png",
     "Pasted image 20250421190007.png",
+    "Unreal Engine Project/Miiroooo/Trap/Collapsing Trap.md",
+    "Unreal Engine/C++/Timer.md",
+    "Unreal Engine Project/Miiroooo/Trap",
     "C++/키워드/Static.md",
     "Unreal Engine/C++/Component/UPrimitiveComponent.md",
     "Unreal Engine Project/Miiroooo/MazeGenerator/ver.3 DFS 미로.md",
@@ -197,26 +226,16 @@
     "Unreal Engine/C++/문자 처리.md",
     "C++/키워드/Friend.md",
     "C++/키워드/Final.md",
-    "C++/키워드/Const.md",
     "C++/키워드",
-    "C++/키워드/Static Const.md",
     "Unreal Engine Project/Miiroooo/z_image/Pasted image 20250417192410.png",
     "Unreal Engine/C++/Component",
     "C++",
-    "Unreal Engine Project/Miiroooo/z_image/Pasted image 20250402004232.png",
     "Unreal Engine Project/Miiroooo/Item/수류탄 구현",
     "영단어",
     "Unreal Engine/C++/Animation",
     "Unreal Engine/Animation/작성해야함",
     "Unreal Engine/C++/Container Library/데이터 타입",
     "Unreal Engine/C++/Container Library/자료구조",
-    "Unreal Engine Project/Miiroooo/z_image/Pasted image 20250325175956.png",
-    "Unreal Engine Project/Miiroooo/z_image/Pasted image 20250325175724.png",
-    "Unreal Engine Project/Miiroooo/z_image/Group 57 1.png",
-    "Unreal Engine Project/Miiroooo/z_image/Group 57.png",
-    "Unreal Engine Project/Miiroooo/z_image/miromap.png",
-    "Unreal Engine Project/Miiroooo/z_image/unnamed.jpg",
-    "Unreal Engine Project/Miiroooo/z_image/image-removebg-preview.png",
     "Untitled.canvas"
   ]
 }
