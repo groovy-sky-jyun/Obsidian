@@ -4,41 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "c1b2b18b5146d98f",
+        "id": "aa906b1330dba906",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
-            "id": "8ab9d30a1978981d",
+            "id": "96f8e2d1ce1388d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine Project/Miiroooo/Trap/Collapsing Trap.md",
+                "file": "Unreal Engine Project/Miiroooo/Trap/WallTrap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Collapsing Trap"
+              "title": "WallTrap"
             }
           }
         ]
       },
       {
-        "id": "dc0a35f7f0a44dfc",
+        "id": "93f8953b2f8c6e00",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
-            "id": "f5ecf08a1ec864c2",
+            "id": "0e1d1f8784851eba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine Project/Miiroooo/Trap/Collapsing Trap.md",
-                "mode": "source",
+                "file": "Unreal Engine Project/Miiroooo/기획/아이템.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Collapsing Trap"
+              "title": "아이템"
             }
           }
         ]
@@ -98,8 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5,
-    "collapsed": true
+    "width": 241.5
   },
   "right": {
     "id": "003a2fcbf09344ac",
@@ -189,19 +190,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f5ecf08a1ec864c2",
+  "active": "0e1d1f8784851eba",
   "lastOpenFiles": [
-    "Damage.gif",
-    "Wobbling.gif",
-    "제목 없는 동영상 - Clipchamp로 제작 1.gif",
+    "Unreal Engine Project/Miiroooo/Trap/WallTrap.md",
+    "Pasted image 20250515220043.png",
+    "Unreal Engine Project/Miiroooo/Trap/Collapsing Trap.md",
+    "Group 68.png",
+    "Unreal Engine Project/Miiroooo/z_image/Group 65.png",
     "제목 없는 동영상 - Clipchamp로 제작.gif",
     "제목 없는 동영상 - Clipchamp로 제작 (2).gif",
-    "변경 전.gif",
-    "Group 64.png",
-    "Unreal Engine Project/Miiroooo/z_image/Group 64 1.png",
-    "Pasted image 20250513000046.png",
+    "제목 없는 동영상 - Clipchamp로 제작 1.gif",
     "Pasted image 20250421190007.png",
-    "Unreal Engine Project/Miiroooo/Trap/Collapsing Trap.md",
+    "Pasted image 20250513000046.png",
+    "Unreal Engine Project/Miiroooo/Untitled.md",
+    "Unreal Engine/C++/Container Library/자료구조/TMap.md",
+    "Unreal Engine Project/Miiroooo/z_image/Damage.gif",
+    "Unreal Engine Project/Miiroooo/z_image/Wobbling.gif",
     "Unreal Engine/C++/Timer.md",
     "Unreal Engine Project/Miiroooo/Trap",
     "C++/키워드/Static.md",
@@ -224,10 +228,7 @@
     "Unreal Engine/C++/Key Binding.md",
     "Unreal Engine/C++/Blueprint Native Event.md",
     "Unreal Engine/C++/문자 처리.md",
-    "C++/키워드/Friend.md",
-    "C++/키워드/Final.md",
     "C++/키워드",
-    "Unreal Engine Project/Miiroooo/z_image/Pasted image 20250417192410.png",
     "Unreal Engine/C++/Component",
     "C++",
     "Unreal Engine Project/Miiroooo/Item/수류탄 구현",

@@ -23,7 +23,7 @@ Spike Trap을 둬서 플레이어가 닿으면 피가 닳도록 한다.
 ![[Group 64 1.png|600]]
 
 --- 
-### 구현 순서
+### 동작 순서
 1. 플레이어가 Overlap 되면 0.5초 뒤에 Wobbling 실행 (첫 번째 타이머 실행)
 2. Wobbling 동안 DeltaTime을 이용해서 지속적으로 4개의 타일 Rotation 값을 랜덤 값으로 변경
 	1. Wobbling이 실행되는 순간부터는 플레이어의 Overlap 유무와 상관 없이 1.5초간 실행 (두 번째 타이머 실행)
