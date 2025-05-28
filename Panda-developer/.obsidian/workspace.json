@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine/Enemy/Untitled.md",
+                "file": "Unreal Engine/Enemy/Navigation System.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Navigation System"
             }
           }
         ]
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine/Enemy/Untitled.md",
+                "file": "Unreal Engine/Enemy/Navigation System.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Navigation System"
             }
           }
         ]
@@ -98,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5
+    "width": 241.5,
+    "collapsed": true
   },
   "right": {
     "id": "003a2fcbf09344ac",
@@ -188,21 +189,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "23bc31764a1a9d7b",
+  "active": "b93819f262ed9d72",
   "lastOpenFiles": [
-    "직무 테스트/z_image/Pasted image 20250319210226.png",
-    "직무 테스트/z_image/Pasted image 20250321143352.png",
-    "직무 테스트/z_image/Pasted image 20250319213235.png",
-    "직무 테스트/z_image/Pasted image 20250319213055.png",
+    "Pasted image 20250528152646.png",
+    "Pasted image 20250528152617.png",
+    "Pasted image 20250528152438.png",
+    "Pasted image 20250528152217.png",
+    "Pasted image 20250528152117.png",
+    "Pasted image 20250528152038.png",
+    "Pasted image 20250528151728.png",
+    "Pasted image 20250528145705.png",
+    "Pasted image 20250528145444.png",
+    "Pasted image 20250528135145.png",
+    "Pasted image 20250528134837.png",
+    "Unreal Engine/Enemy/AI Controller.md",
+    "Unreal Engine/Enemy/Navigation System.md",
     "직무 테스트/CS/DeadLock.md",
     "직무 테스트/CS/스케줄링.md",
     "직무 테스트/CS/스레드.md",
-    "Unreal Engine/Enemy/Untitled.md",
-    "직무 테스트 1/z_image/Pasted image 20250319213235.png",
-    "직무 테스트 1/z_image/Pasted image 20250319213055.png",
-    "직무 테스트 1/z_image/Pasted image 20250321143352.png",
     "직무 테스트 1/CS/스케줄링.md",
-    "직무 테스트 1/z_image/Pasted image 20250319210226.png",
     "직무 테스트 1/CS/스레드.md",
     "직무 테스트 1/CS/DeadLock.md",
     "직무 테스트 1/z_image",
@@ -217,14 +222,11 @@
     "Unreal Engine/실습예제/'Collision' 실습.md",
     "C++/동적 메모리 할당 및 해제.md",
     "Unreal Engine Project/Miiroooo기획",
-    "Miiiroooo UE5 Project/z_image/Pasted image 20250515220043.png",
-    "Miiiroooo UE5 Project/z_image/Group 68.png",
     "Miiiroooo UE5 Project/구현/Trap/WallTrap.md",
     "Miiiroooo UE5 Project/구현/Trap/Collapsing Trap.md",
     "Unreal Engine/C++/Timer.md",
     "Unreal Engine/C++/UClass.md",
     "Miiiroooo UE5 Project/기획/아이템.md",
-    "Miiiroooo UE5 Project/z_image/Group 65.png",
     "Unreal Engine/C++/Player/Player Speed.md",
     "Unreal Engine/C++/UMG",
     "Unreal Engine/C++/Player",
@@ -233,7 +235,6 @@
     "Miiiroooo UE5 Project/구현/Trap",
     "C++/키워드/Static.md",
     "Unreal Engine/C++/Component/UPrimitiveComponent.md",
-    "Miiiroooo UE5 Project/구현/MazeGenerator/ver.3 DFS 미로.md",
     "C++/키워드",
     "Unreal Engine/C++/Component",
     "Untitled.canvas"
