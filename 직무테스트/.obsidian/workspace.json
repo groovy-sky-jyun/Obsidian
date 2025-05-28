@@ -1,0 +1,213 @@
+{
+  "main": {
+    "id": "919de052404e7d75",
+    "type": "split",
+    "children": [
+      {
+        "id": "58aa2f66c264194f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "25aa1f896e2c92a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "직무테스트/C++/키워드/Static Const.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Static Const"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "46f58ff72318be0b",
+    "type": "split",
+    "children": [
+      {
+        "id": "fbf0b4b459833fb9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f1a3d251dfeb168b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "862ba2635c05e445",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5b3cd9b8aee1dd35",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f3b8b41824ba0f74",
+    "type": "split",
+    "children": [
+      {
+        "id": "c275fa2852732d46",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef6815483f60a646",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "직무테스트/C++/키워드/Static Const.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Static Const"
+            }
+          },
+          {
+            "id": "e664f491a4e9c636",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "직무테스트/C++/키워드/Static Const.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Static Const"
+            }
+          },
+          {
+            "id": "fa1b8aaf363f4a97",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "80d65d156b360018",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "직무테스트/C++/키워드/Static Const.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Static Const"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "f1a3d251dfeb168b",
+  "lastOpenFiles": [
+    "직무테스트/C++/키워드/Static.md",
+    "직무테스트/C++/키워드/Friend.md",
+    "직무테스트/C++/키워드/Final.md",
+    "직무테스트/C++/키워드/Const.md",
+    "직무테스트/C++/자료구조/STL/Graph.md",
+    "직무테스트/C++/자료구조/STL/Queue.md",
+    "직무테스트/C++/자료구조/STL/HashMap.md",
+    "직무테스트/C++/자료구조/포인터, 참조/포인터.md",
+    "직무테스트/C++/자료구조/포인터, 참조/참조.md",
+    "직무테스트/C++/문자열/입출력.md",
+    "직무테스트/C++/문자열/캐스팅 (형 변환).md",
+    "직무테스트/C++/문자열/String.md",
+    "직무테스트/C++/알고리즘/DP.md",
+    "직무테스트/C++/알고리즘/시간 복잡도.md",
+    "C++/알고리즘/우선순위 큐.md",
+    "C++/알고리즘/그리디.md",
+    "직무테스트/CS/DeadLock.md",
+    "직무테스트/C++/자료구조/STL/Vector.md",
+    "직무테스트/C++/자료구조/STL/Stack.md",
+    "직무테스트/C++/자료구조/STL/Set.md",
+    "직무테스트/C++/키워드/Static Const.md",
+    "직무테스트/C++/자료구조/STL",
+    "직무테스트/C++/자료구조/포인터, 참조",
+    "직무테스트/C++/키워드",
+    "직무테스트/C++/자료구조",
+    "직무테스트/C++/알고리즘",
+    "직무테스트/C++/문자열",
+    "직무테스트/C++/동적 메모리 할당 및 해제.md",
+    "직무테스트/C++",
+    "직무테스트",
+    "직무테스트/CS/스케줄링.md",
+    "직무테스트/CS/스레드.md",
+    "직무테스트/z_image/Pasted image 20250321143352.png",
+    "직무테스트/z_image/Pasted image 20250319213235.png",
+    "직무테스트/z_image/Pasted image 20250319213055.png",
+    "직무테스트/z_image/Pasted image 20250319210226.png",
+    "Welcome.md",
+    "직무테스트/z_image",
+    "직무테스트/CS"
+  ]
+}

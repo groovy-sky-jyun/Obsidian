@@ -4,59 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "aa906b1330dba906",
+        "id": "0ac1d3f674b2427e",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
-            "id": "96f8e2d1ce1388d0",
+            "id": "23bc31764a1a9d7b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine Project/Miiroooo/Trap/WallTrap.md",
+                "file": "Unreal Engine/Enemy/Untitled.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "WallTrap"
-            }
-          },
-          {
-            "id": "9b25ad1b805bf195",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Unreal Engine/C++/UMG/View Port.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "View Port"
+              "title": "Untitled"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "93f8953b2f8c6e00",
+        "id": "8a0250566422eff6",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
-            "id": "0e1d1f8784851eba",
+            "id": "b93819f262ed9d72",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine Project/Miiroooo/기획/아이템.md",
-                "mode": "preview",
+                "file": "Unreal Engine/Enemy/Untitled.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "아이템"
-
+              "title": "Untitled"
             }
           }
         ]
@@ -206,58 +188,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0e1d1f8784851eba",
+  "active": "23bc31764a1a9d7b",
   "lastOpenFiles": [
-    "Unreal Engine Project/Miiroooo/Trap/WallTrap.md",
-    "Pasted image 20250515220043.png",
-    "Unreal Engine Project/Miiroooo/Trap/Collapsing Trap.md",
-    "Group 68.png",
-    "Unreal Engine Project/Miiroooo/z_image/Group 65.png",
+    "직무 테스트/z_image/Pasted image 20250319210226.png",
+    "직무 테스트/z_image/Pasted image 20250321143352.png",
+    "직무 테스트/z_image/Pasted image 20250319213235.png",
+    "직무 테스트/z_image/Pasted image 20250319213055.png",
+    "직무 테스트/CS/DeadLock.md",
+    "직무 테스트/CS/스케줄링.md",
+    "직무 테스트/CS/스레드.md",
+    "Unreal Engine/Enemy/Untitled.md",
+    "직무 테스트 1/z_image/Pasted image 20250319213235.png",
+    "직무 테스트 1/z_image/Pasted image 20250319213055.png",
+    "직무 테스트 1/z_image/Pasted image 20250321143352.png",
+    "직무 테스트 1/CS/스케줄링.md",
+    "직무 테스트 1/z_image/Pasted image 20250319210226.png",
+    "직무 테스트 1/CS/스레드.md",
+    "직무 테스트 1/CS/DeadLock.md",
+    "직무 테스트 1/z_image",
+    "직무 테스트 1/CS",
+    "직무 테스트 1",
+    "영단어/Grenade.md",
     "Unreal Engine/C++/UMG/View Port.md",
+    "Unreal Engine/Mesh/Skeletal Mesh를 Static Mesh로 변환.md",
+    "Unreal Engine/Enemy",
+    "Unreal Engine/Mesh/Static Mesh 'Collision' 생성.md",
+    "Unreal Engine/실습예제/발사체 생성.md",
+    "Unreal Engine/실습예제/'Collision' 실습.md",
+    "C++/동적 메모리 할당 및 해제.md",
+    "Unreal Engine Project/Miiroooo기획",
+    "Miiiroooo UE5 Project/z_image/Pasted image 20250515220043.png",
+    "Miiiroooo UE5 Project/z_image/Group 68.png",
+    "Miiiroooo UE5 Project/구현/Trap/WallTrap.md",
+    "Miiiroooo UE5 Project/구현/Trap/Collapsing Trap.md",
+    "Unreal Engine/C++/Timer.md",
+    "Unreal Engine/C++/UClass.md",
+    "Miiiroooo UE5 Project/기획/아이템.md",
+    "Miiiroooo UE5 Project/z_image/Group 65.png",
     "Unreal Engine/C++/Player/Player Speed.md",
     "Unreal Engine/C++/UMG",
-    "Unreal Engine/C++/Timer.md",
     "Unreal Engine/C++/Player",
-    "Damage.gif",
-    "Wobbling.gif",
-    "제목 없는 동영상 - Clipchamp로 제작 1.gif",
-    "제목 없는 동영상 - Clipchamp로 제작.gif",
-    "제목 없는 동영상 - Clipchamp로 제작 (2).gif",
-    "Pasted image 20250421190007.png",
-    "Pasted image 20250513000046.png",
     "Unreal Engine Project/Miiroooo/Untitled.md",
     "Unreal Engine/C++/Container Library/자료구조/TMap.md",
-    "Unreal Engine Project/Miiroooo/z_image/Damage.gif",
-    "Unreal Engine Project/Miiroooo/z_image/Wobbling.gif",
-    "Unreal Engine/C++/Timer.md",
-    "Unreal Engine Project/Miiroooo/Trap",
+    "Miiiroooo UE5 Project/구현/Trap",
     "C++/키워드/Static.md",
     "Unreal Engine/C++/Component/UPrimitiveComponent.md",
-    "Unreal Engine Project/Miiroooo/MazeGenerator/ver.3 DFS 미로.md",
-    "Unreal Engine Project/Miiroooo/MazeGenerator/ver.2 DFS 미로 분석.md",
-    "Unreal Engine Project/Miiroooo/MazeGenerator/ver.2 DFS 미로.md",
-    "Unreal Engine Project/Miiroooo/MazeGenerator/ver.1 DFS 미로 분석.md",
-    "Unreal Engine Project/Miiroooo/MazeGenerator/ver.1 DFS 미로.md",
-    "Unreal Engine Project/Miiroooo/error/NewObject, DefaultSubobject.md",
-    "Unreal Engine/C++/Composition.md",
-    "Unreal Engine/C++/BP 인스턴스 생성 및 참조.md",
-    "Unreal Engine/C++/Const.md",
-    "Unreal Engine/C++/UClass.md",
-    "Unreal Engine/C++/Container Library/데이터 타입/Structure & Enum.md",
-    "Unreal Engine/C++/Container Library/데이터 타입/ENUM.md",
-    "Unreal Engine/C++/Container Library/데이터 타입/FStruct.md",
-    "Unreal Engine/C++/Delegate.md",
-    "Unreal Engine/C++/Interface.md",
-    "Unreal Engine/C++/Key Binding.md",
-    "Unreal Engine/C++/Blueprint Native Event.md",
-    "Unreal Engine/C++/문자 처리.md",
+    "Miiiroooo UE5 Project/구현/MazeGenerator/ver.3 DFS 미로.md",
     "C++/키워드",
     "Unreal Engine/C++/Component",
-    "C++",
-    "Unreal Engine Project/Miiroooo/Item/수류탄 구현",
-    "영단어",
-    "Unreal Engine/C++/Animation",
-    "Unreal Engine/Animation/작성해야함",
     "Untitled.canvas"
   ]
 }
