@@ -4,41 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "0ac1d3f674b2427e",
+        "id": "07f0699c02f6254e",
         "type": "tabs",
         "children": [
           {
-            "id": "23bc31764a1a9d7b",
+            "id": "8d6146f8d370ea09",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine/Enemy/Navigation System.md",
+                "file": "Unreal Engine/Artificial Intelligence/Behavior Tree.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Navigation System"
+              "title": "Behavior Tree"
             }
           }
         ]
       },
       {
-        "id": "8a0250566422eff6",
+        "id": "149bb3cbd29a6f17",
         "type": "tabs",
         "children": [
           {
-            "id": "b93819f262ed9d72",
+            "id": "d424916f30775cde",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine/Enemy/Navigation System.md",
+                "file": "Unreal Engine/Artificial Intelligence/Behavior Tree.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Navigation System"
+              "title": "Behavior Tree"
             }
           }
         ]
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#SimpleParallel",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -189,52 +190,52 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b93819f262ed9d72",
+  "active": "d424916f30775cde",
   "lastOpenFiles": [
-    "Pasted image 20250528152646.png",
-    "Pasted image 20250528152617.png",
-    "Pasted image 20250528152438.png",
-    "Pasted image 20250528152217.png",
-    "Pasted image 20250528152117.png",
-    "Pasted image 20250528152038.png",
-    "Pasted image 20250528151728.png",
-    "Pasted image 20250528145705.png",
-    "Pasted image 20250528145444.png",
-    "Pasted image 20250528135145.png",
-    "Pasted image 20250528134837.png",
-    "Unreal Engine/Enemy/AI Controller.md",
-    "Unreal Engine/Enemy/Navigation System.md",
+    "Miiiroooo UE5 Project/기획/몬스터.md",
+    "Unreal Engine/Artificial Intelligence/Behavior Tree.md",
+    "Unreal Engine/Artificial Intelligence/Navigation System.md",
+    "Miiiroooo UE5 Project/기획/맵 디자인.md",
+    "Miiiroooo UE5 Project/기획/함정.md",
+    "Miiiroooo UE5 Project/구현/Trap/WallTrap.md",
+    "Miiiroooo UE5 Project/구현/Trap/Collapsing Trap.md",
+    "Unreal Engine/z_image/Pasted image 20250529145642.png",
+    "Unreal Engine/z_image/Pasted image 20250529145359.png",
+    "Unreal Engine/z_image/Pasted image 20250529145258.png",
+    "Unreal Engine/z_image/Pasted image 20250529145015.png",
+    "Unreal Engine/z_image/Pasted image 20250529144329.png",
+    "Unreal Engine/z_image/Pasted image 20250529131106.png",
+    "Unreal Engine/z_image/Pasted image 20250529130304.png",
+    "Unreal Engine/z_image/Pasted image 20250529130017.png",
+    "Unreal Engine/z_image/Pasted image 20250529125832.png",
+    "Unreal Engine/z_image/Pasted image 20250529125810.png",
+    "Unreal Engine/C++/문자 처리.md",
+    "Unreal Engine/C++/언리얼 코딩 표준.md",
+    "Unreal Engine/C++/유효성 확인 (check, if).md",
+    "Unreal Engine/C++/Blueprint Native Event.md",
+    "Unreal Engine/C++/BP 인스턴스 생성 및 참조.md",
+    "Unreal Engine/C++/Composition.md",
+    "Unreal Engine/C++/Const.md",
+    "Unreal Engine/C++/Delegate.md",
+    "Unreal Engine/C++/Interface.md",
+    "Unreal Engine/C++/Key Binding.md",
+    "Unreal Engine/C++/LookAround.md",
+    "Unreal Engine/C++/Timer.md",
+    "Unreal Engine/C++/UClass.md",
+    "Unreal Engine/Artificial Intelligence/AI Controller.md",
     "직무 테스트/CS/DeadLock.md",
     "직무 테스트/CS/스케줄링.md",
     "직무 테스트/CS/스레드.md",
     "직무 테스트 1/CS/스케줄링.md",
     "직무 테스트 1/CS/스레드.md",
-    "직무 테스트 1/CS/DeadLock.md",
     "직무 테스트 1/z_image",
     "직무 테스트 1/CS",
     "직무 테스트 1",
-    "영단어/Grenade.md",
-    "Unreal Engine/C++/UMG/View Port.md",
-    "Unreal Engine/Mesh/Skeletal Mesh를 Static Mesh로 변환.md",
-    "Unreal Engine/Enemy",
-    "Unreal Engine/Mesh/Static Mesh 'Collision' 생성.md",
-    "Unreal Engine/실습예제/발사체 생성.md",
-    "Unreal Engine/실습예제/'Collision' 실습.md",
-    "C++/동적 메모리 할당 및 해제.md",
+    "Unreal Engine/Artificial Intelligence",
     "Unreal Engine Project/Miiroooo기획",
-    "Miiiroooo UE5 Project/구현/Trap/WallTrap.md",
-    "Miiiroooo UE5 Project/구현/Trap/Collapsing Trap.md",
-    "Unreal Engine/C++/Timer.md",
-    "Unreal Engine/C++/UClass.md",
-    "Miiiroooo UE5 Project/기획/아이템.md",
-    "Unreal Engine/C++/Player/Player Speed.md",
     "Unreal Engine/C++/UMG",
     "Unreal Engine/C++/Player",
-    "Unreal Engine Project/Miiroooo/Untitled.md",
-    "Unreal Engine/C++/Container Library/자료구조/TMap.md",
     "Miiiroooo UE5 Project/구현/Trap",
-    "C++/키워드/Static.md",
-    "Unreal Engine/C++/Component/UPrimitiveComponent.md",
     "C++/키워드",
     "Unreal Engine/C++/Component",
     "Untitled.canvas"
