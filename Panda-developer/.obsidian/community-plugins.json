@@ -1,9 +1,9 @@
 [
-  "code-styler",
   "highlightr-plugin",
   "obsidian-minimal-settings",
   "image-captions",
   "colored-text",
   "lovely-mindmap",
-  "obsidian-table-generator"
+  "obsidian-table-generator",
+  "code-styler"
 ]

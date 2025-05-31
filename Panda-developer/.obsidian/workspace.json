@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine/Artificial Intelligence/Behavior Tree.md",
+                "file": "Unreal Engine/Artificial Intelligence/Behavior Tree 실습.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Behavior Tree"
+              "title": "Behavior Tree 실습"
             }
           }
         ]
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine/Artificial Intelligence/Behavior Tree.md",
+                "file": "Unreal Engine/Artificial Intelligence/Behavior Tree 실습.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Behavior Tree"
+              "title": "Behavior Tree 실습"
             }
           }
         ]
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#SimpleParallel",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,8 +94,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -192,8 +191,17 @@
   },
   "active": "d424916f30775cde",
   "lastOpenFiles": [
-    "Miiiroooo UE5 Project/기획/몬스터.md",
+    "AIController Components.png",
+    "AIController Event Graph body.png",
+    "AIController Event Graph 1.png",
+    "AIController Event Graph excute.png",
+    "AIController Event Graph.png",
+    "Unreal Engine/C++/언리얼 코딩 표준.md",
+    "Unreal Engine/Artificial Intelligence/Behavior Tree 실습.md",
+    "Unreal Engine/C++/문자 처리.md",
+    "BB_Enemy.png",
     "Unreal Engine/Artificial Intelligence/Behavior Tree.md",
+    "Miiiroooo UE5 Project/기획/몬스터.md",
     "Unreal Engine/Artificial Intelligence/Navigation System.md",
     "Miiiroooo UE5 Project/기획/맵 디자인.md",
     "Miiiroooo UE5 Project/기획/함정.md",
@@ -204,13 +212,6 @@
     "Unreal Engine/z_image/Pasted image 20250529145258.png",
     "Unreal Engine/z_image/Pasted image 20250529145015.png",
     "Unreal Engine/z_image/Pasted image 20250529144329.png",
-    "Unreal Engine/z_image/Pasted image 20250529131106.png",
-    "Unreal Engine/z_image/Pasted image 20250529130304.png",
-    "Unreal Engine/z_image/Pasted image 20250529130017.png",
-    "Unreal Engine/z_image/Pasted image 20250529125832.png",
-    "Unreal Engine/z_image/Pasted image 20250529125810.png",
-    "Unreal Engine/C++/문자 처리.md",
-    "Unreal Engine/C++/언리얼 코딩 표준.md",
     "Unreal Engine/C++/유효성 확인 (check, if).md",
     "Unreal Engine/C++/Blueprint Native Event.md",
     "Unreal Engine/C++/BP 인스턴스 생성 및 참조.md",
@@ -226,8 +227,6 @@
     "직무 테스트/CS/DeadLock.md",
     "직무 테스트/CS/스케줄링.md",
     "직무 테스트/CS/스레드.md",
-    "직무 테스트 1/CS/스케줄링.md",
-    "직무 테스트 1/CS/스레드.md",
     "직무 테스트 1/z_image",
     "직무 테스트 1/CS",
     "직무 테스트 1",
