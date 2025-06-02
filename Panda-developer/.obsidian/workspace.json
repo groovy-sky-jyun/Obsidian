@@ -4,26 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "07f0699c02f6254e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "8d6146f8d370ea09",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Unreal Engine/Artificial Intelligence/Behavior Tree 실습.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Behavior Tree 실습"
-            }
-          }
-        ]
-      },
-      {
         "id": "149bb3cbd29a6f17",
         "type": "tabs",
         "children": [
@@ -33,12 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine/Artificial Intelligence/Behavior Tree 실습.md",
+                "file": "Miiiroooo UE5 Project/기획/맵 디자인.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "맵 디자인"
+            }
+          }
+        ]
+      },
+      {
+        "id": "a2cc7de42c781e27",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d185b32773a1f5e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Miiiroooo UE5 Project/기획/맵 디자인.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Behavior Tree 실습"
+              "title": "맵 디자인"
             }
           }
         ]
@@ -98,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5,
-    "collapsed": true
+    "width": 241.5
   },
   "right": {
     "id": "003a2fcbf09344ac",
@@ -191,27 +190,27 @@
   },
   "active": "d424916f30775cde",
   "lastOpenFiles": [
+    "Unreal Engine/Artificial Intelligence/Behavior Tree 실습.md",
+    "Miiiroooo UE5 Project/기획/맵 디자인.md",
+    "Miiiroooo UE5 Project/기획/몬스터.md",
+    "Miiiroooo UE5 Project/구현/Trap/WallTrap.md",
+    "Miiiroooo UE5 Project/기획/탈출 키패드.md",
+    "Miiiroooo UE5 Project/구현/Trap/Collapsing Trap.md",
     "AIController Components.png",
     "AIController Event Graph body.png",
     "AIController Event Graph 1.png",
     "AIController Event Graph excute.png",
     "AIController Event Graph.png",
     "Unreal Engine/C++/언리얼 코딩 표준.md",
-    "Unreal Engine/Artificial Intelligence/Behavior Tree 실습.md",
     "Unreal Engine/C++/문자 처리.md",
     "BB_Enemy.png",
     "Unreal Engine/Artificial Intelligence/Behavior Tree.md",
-    "Miiiroooo UE5 Project/기획/몬스터.md",
     "Unreal Engine/Artificial Intelligence/Navigation System.md",
-    "Miiiroooo UE5 Project/기획/맵 디자인.md",
     "Miiiroooo UE5 Project/기획/함정.md",
-    "Miiiroooo UE5 Project/구현/Trap/WallTrap.md",
-    "Miiiroooo UE5 Project/구현/Trap/Collapsing Trap.md",
     "Unreal Engine/z_image/Pasted image 20250529145642.png",
     "Unreal Engine/z_image/Pasted image 20250529145359.png",
     "Unreal Engine/z_image/Pasted image 20250529145258.png",
     "Unreal Engine/z_image/Pasted image 20250529145015.png",
-    "Unreal Engine/z_image/Pasted image 20250529144329.png",
     "Unreal Engine/C++/유효성 확인 (check, if).md",
     "Unreal Engine/C++/Blueprint Native Event.md",
     "Unreal Engine/C++/BP 인스턴스 생성 및 참조.md",

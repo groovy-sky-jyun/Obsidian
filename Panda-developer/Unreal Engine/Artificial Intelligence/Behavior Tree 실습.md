@@ -44,19 +44,24 @@ Actor* SelfActor
 ##### Event Graph
 `On Target Perception Update`를 통해 감각기관이 Actor를 감지할 때마다 실행되는 함수를 생성한다.
 
-1. Actor를 감지에 성공 & Actor가 Player라면
+1. 감지 대상의 Tag가 `Player` 인지, 감지에 성공했는지를 확인
+2. 감지 대상의 Tag가 `Player` 이고 감지에 성공했다면
 	1. Timer Handle을 초기화
 	2. BlackBoard의 HasLineofSight 값을 true로 설정
 	3. Enemy Actor를 감지한 Actor로 설정
-2. 감지에 실패 | Actor가 Player가 아니라면 
+3. 감지 대상의 Tag가 `Player`가 아니거나 감지에 실패했다면
 	1. 4초 Timer Handle 생성
 	2. 4초 뒤에도 감지에 실패한 상태라면
 		1. BlackBoard의 HasLineofSight 값을 false로 설정
 		2. Enemy Actor를 nullptr로 설정
 	3. 4초가 되기 전, 감지에 성공하면 1.1로 돌아간다.
 
-Timer Handle의 역할을 부가적으로 설명하겠다.
-이 코드에서 Timer Handle을 사용하지 않아도 문제는 없다. 2.3을 좀 더 설명하자면 
+>__On Target Perception Updated__
+
+
+
+>__Timer Handle의 역할__
+> 이 코드에서 Timer Handle을 사용하지 않아도 문제는 없다. 2.3을 좀 더 설명하자면 
 ![[AIController Event Graph body.png]]
 
 
