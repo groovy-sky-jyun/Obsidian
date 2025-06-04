@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine/Artificial Intelligence/Behavior Tree 실습.md",
+                "file": "Miiiroooo UE5 Project/기획/몬스터.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Behavior Tree 실습"
+              "title": "몬스터"
             }
           }
         ]
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine/Artificial Intelligence/Behavior Tree 실습.md",
+                "file": "Miiiroooo UE5 Project/기획/몬스터.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Behavior Tree 실습"
+              "title": "몬스터"
             }
           }
         ]
@@ -98,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5,
-    "collapsed": true
+    "width": 241.5
   },
   "right": {
     "id": "003a2fcbf09344ac",
@@ -189,29 +188,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d424916f30775cde",
+  "active": "b8273bf270603755",
   "lastOpenFiles": [
-    "AIController Components.png",
-    "AIController Event Graph body.png",
-    "AIController Event Graph 1.png",
-    "AIController Event Graph excute.png",
-    "AIController Event Graph.png",
-    "Unreal Engine/C++/언리얼 코딩 표준.md",
-    "Unreal Engine/Artificial Intelligence/Behavior Tree 실습.md",
-    "Unreal Engine/C++/문자 처리.md",
-    "BB_Enemy.png",
-    "Unreal Engine/Artificial Intelligence/Behavior Tree.md",
-    "Miiiroooo UE5 Project/기획/몬스터.md",
-    "Unreal Engine/Artificial Intelligence/Navigation System.md",
     "Miiiroooo UE5 Project/기획/맵 디자인.md",
-    "Miiiroooo UE5 Project/기획/함정.md",
-    "Miiiroooo UE5 Project/구현/Trap/WallTrap.md",
+    "Miiiroooo UE5 Project/기획/몬스터.md",
+    "Miiiroooo UE5 Project/z_image/Group 57 2.png",
+    "Unreal Engine/Artificial Intelligence/Behavior Tree 실습/(2) AIController.md",
+    "Unreal Engine/z_image/Pasted image 20250604204754.png",
+    "Unreal Engine/Artificial Intelligence/Behavior Tree 실습/(4) Behavior Tree.md",
+    "Unreal Engine/z_image/Pasted image 20250604203730.png",
+    "Unreal Engine/z_image/Pasted image 20250604203153.png",
+    "Unreal Engine/z_image/Pasted image 20250604201304.png",
+    "Unreal Engine/z_image/Pasted image 20250604200653.png",
+    "Unreal Engine/Artificial Intelligence/Behavior Tree 실습/(3) Task.md",
+    "Unreal Engine/Artificial Intelligence/Behavior Tree 실습/(1) Black Board.md",
+    "Unreal Engine/Artificial Intelligence/Behavior Tree 실습",
+    "Unreal Engine/Artificial Intelligence/Behavior Tree.md",
+    "Unreal Engine/z_image/Pasted image 20250604190851.png",
+    "Unreal Engine/z_image/Pasted image 20250604190636.png",
+    "Unreal Engine/z_image/Pasted image 20250604185826.png",
+    "Unreal Engine/z_image/Pasted image 20250604184933.png",
     "Miiiroooo UE5 Project/구현/Trap/Collapsing Trap.md",
-    "Unreal Engine/z_image/Pasted image 20250529145642.png",
-    "Unreal Engine/z_image/Pasted image 20250529145359.png",
-    "Unreal Engine/z_image/Pasted image 20250529145258.png",
-    "Unreal Engine/z_image/Pasted image 20250529145015.png",
-    "Unreal Engine/z_image/Pasted image 20250529144329.png",
+    "Miiiroooo UE5 Project/구현/Trap/WallTrap.md",
+    "Unreal Engine/C++/언리얼 코딩 표준.md",
+    "Unreal Engine/C++/문자 처리.md",
+    "Unreal Engine/Artificial Intelligence/Navigation System.md",
+    "Miiiroooo UE5 Project/기획/함정.md",
     "Unreal Engine/C++/유효성 확인 (check, if).md",
     "Unreal Engine/C++/Blueprint Native Event.md",
     "Unreal Engine/C++/BP 인스턴스 생성 및 참조.md",
@@ -224,9 +226,6 @@
     "Unreal Engine/C++/Timer.md",
     "Unreal Engine/C++/UClass.md",
     "Unreal Engine/Artificial Intelligence/AI Controller.md",
-    "직무 테스트/CS/DeadLock.md",
-    "직무 테스트/CS/스케줄링.md",
-    "직무 테스트/CS/스레드.md",
     "직무 테스트 1/z_image",
     "직무 테스트 1/CS",
     "직무 테스트 1",
@@ -236,7 +235,6 @@
     "Unreal Engine/C++/Player",
     "Miiiroooo UE5 Project/구현/Trap",
     "C++/키워드",
-    "Unreal Engine/C++/Component",
     "Untitled.canvas"
   ]
 }
