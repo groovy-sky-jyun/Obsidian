@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Miiiroooo UE5 Project/기획/몬스터.md",
+                "file": "Miiiroooo UE5 Project/기획/맵 디자인.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "몬스터"
+              "title": "맵 디자인"
             }
           }
         ]
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Miiiroooo UE5 Project/기획/몬스터.md",
+                "file": "Miiiroooo UE5 Project/기획/맵 디자인.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "몬스터"
+              "title": "맵 디자인"
             }
           }
         ]
@@ -190,18 +190,20 @@
   },
   "active": "b8273bf270603755",
   "lastOpenFiles": [
-    "Miiiroooo UE5 Project/기획/맵 디자인.md",
+    "Miiiroooo UE5 Project/z_image/Group 57 3.png",
     "Miiiroooo UE5 Project/기획/몬스터.md",
-    "Miiiroooo UE5 Project/z_image/Group 57 2.png",
-    "Unreal Engine/Artificial Intelligence/Behavior Tree 실습/(2) AIController.md",
-    "Unreal Engine/z_image/Pasted image 20250604204754.png",
+    "Miiiroooo UE5 Project/기획/맵 디자인.md",
+    "Miiiroooo UE5 Project/기획/아이템.md",
     "Unreal Engine/Artificial Intelligence/Behavior Tree 실습/(4) Behavior Tree.md",
+    "Unreal Engine/Artificial Intelligence/Behavior Tree 실습/(3) Task.md",
+    "Unreal Engine/Artificial Intelligence/Behavior Tree 실습/(2) AIController.md",
+    "Unreal Engine/Artificial Intelligence/Behavior Tree 실습/(1) Black Board.md",
+    "Miiiroooo UE5 Project/z_image/Group 57 2.png",
+    "Unreal Engine/z_image/Pasted image 20250604204754.png",
     "Unreal Engine/z_image/Pasted image 20250604203730.png",
     "Unreal Engine/z_image/Pasted image 20250604203153.png",
     "Unreal Engine/z_image/Pasted image 20250604201304.png",
     "Unreal Engine/z_image/Pasted image 20250604200653.png",
-    "Unreal Engine/Artificial Intelligence/Behavior Tree 실습/(3) Task.md",
-    "Unreal Engine/Artificial Intelligence/Behavior Tree 실습/(1) Black Board.md",
     "Unreal Engine/Artificial Intelligence/Behavior Tree 실습",
     "Unreal Engine/Artificial Intelligence/Behavior Tree.md",
     "Unreal Engine/z_image/Pasted image 20250604190851.png",
@@ -225,7 +227,6 @@
     "Unreal Engine/C++/LookAround.md",
     "Unreal Engine/C++/Timer.md",
     "Unreal Engine/C++/UClass.md",
-    "Unreal Engine/Artificial Intelligence/AI Controller.md",
     "직무 테스트 1/z_image",
     "직무 테스트 1/CS",
     "직무 테스트 1",
