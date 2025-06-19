@@ -13,12 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Miiiroooo UE5 Project/기획/몬스터.md",
+                "file": "Unreal Engine/Artificial Intelligence/Behavior Tree.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "몬스터"
+              "title": "Behavior Tree"
+            }
+          }
+        ]
+      },
+      {
+        "id": "d4ba3948858e6b00",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ceba1eb117af7be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unreal Engine/Artificial Intelligence/Behavior Tree.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Behavior Tree"
             }
           }
         ]
@@ -78,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5
+    "width": 241.5,
+    "collapsed": true
   },
   "right": {
     "id": "003a2fcbf09344ac",
@@ -168,10 +189,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8d6146f8d370ea09",
+  "active": "0ceba1eb117af7be",
   "lastOpenFiles": [
-    "Unreal Engine/C++/Delegate.md",
+    "Unreal Engine/Artificial Intelligence/Behavior Tree.md",
+    "Unreal Engine/Animation/작성해야함/Metahuman Retargetting.md",
+    "Unreal Engine/Animation/작성해야함/Anim Sequence Clip.md",
+    "Unreal Engine/Artificial Intelligence/Behavior Tree 실습/(1) Black Board.md",
     "Miiiroooo UE5 Project/기획/몬스터.md",
+    "Unreal Engine/C++/Delegate.md",
     "Miiiroooo UE5 Project/기획/맵 디자인.md",
     "Miiiroooo UE5 Project/구현/error/NewObject, DefaultSubobject.md",
     "Miiiroooo UE5 Project/구현/MazeGenerator/ver.3 DFS 미로.md",
@@ -182,12 +207,10 @@
     "Miiiroooo UE5 Project/구현/Trap/WallTrap.md",
     "Miiiroooo UE5 Project/구현/Trap/Collapsing Trap.md",
     "Unreal Engine/Artificial Intelligence/Navigation System.md",
-    "Unreal Engine/Artificial Intelligence/Behavior Tree.md",
     "Unreal Engine/Artificial Intelligence/AI Controller.md",
     "Unreal Engine/Artificial Intelligence/Behavior Tree 실습/(4) Behavior Tree.md",
     "Unreal Engine/Artificial Intelligence/Behavior Tree 실습/(2) AIController.md",
     "Unreal Engine/Artificial Intelligence/Behavior Tree 실습/(3) Task.md",
-    "Unreal Engine/Artificial Intelligence/Behavior Tree 실습/(1) Black Board.md",
     "Miiiroooo UE5 Project/z_image/Group 57 3.png",
     "Miiiroooo UE5 Project/기획/아이템.md",
     "Miiiroooo UE5 Project/z_image/Group 57 2.png",
@@ -205,8 +228,6 @@
     "Miiiroooo UE5 Project/기획/함정.md",
     "Unreal Engine/C++/유효성 확인 (check, if).md",
     "Unreal Engine/C++/Blueprint Native Event.md",
-    "Unreal Engine/C++/BP 인스턴스 생성 및 참조.md",
-    "Unreal Engine/C++/Composition.md",
     "직무 테스트 1/z_image",
     "직무 테스트 1/CS",
     "직무 테스트 1",
