@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine/Artificial Intelligence/Behavior Tree.md",
+                "file": "영혼의 등불/기획/구성 요소/몬스터.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Behavior Tree"
+              "title": "몬스터"
             }
           }
         ]
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal Engine/Artificial Intelligence/Behavior Tree.md",
-                "mode": "source",
+                "file": "영혼의 등불/기획/영혼의 등불 기획.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Behavior Tree"
+              "title": "영혼의 등불 기획"
             }
           }
         ]
@@ -98,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5,
-    "collapsed": true
+    "width": 241.5
   },
   "right": {
     "id": "003a2fcbf09344ac",
@@ -191,29 +190,34 @@
   },
   "active": "0ceba1eb117af7be",
   "lastOpenFiles": [
+    "영혼의 등불/기획/구성 요소/몬스터.md",
+    "영혼의 등불/기획/영혼의 등불 기획.md",
+    "영혼의 등불/기획/구성 요소",
     "Unreal Engine/Artificial Intelligence/Behavior Tree.md",
+    "영혼의 등불/기획",
+    "영혼의 등불",
     "Unreal Engine/Animation/작성해야함/Metahuman Retargetting.md",
     "Unreal Engine/Animation/작성해야함/Anim Sequence Clip.md",
     "Unreal Engine/Artificial Intelligence/Behavior Tree 실습/(1) Black Board.md",
-    "Miiiroooo UE5 Project/기획/몬스터.md",
+    "Miiiroooo/기획/몬스터.md",
     "Unreal Engine/C++/Delegate.md",
-    "Miiiroooo UE5 Project/기획/맵 디자인.md",
-    "Miiiroooo UE5 Project/구현/error/NewObject, DefaultSubobject.md",
-    "Miiiroooo UE5 Project/구현/MazeGenerator/ver.3 DFS 미로.md",
-    "Miiiroooo UE5 Project/구현/MazeGenerator/ver.2 DFS 미로 분석.md",
-    "Miiiroooo UE5 Project/구현/MazeGenerator/ver.2 DFS 미로.md",
-    "Miiiroooo UE5 Project/구현/MazeGenerator/ver.1 DFS 미로.md",
-    "Miiiroooo UE5 Project/구현/MazeGenerator/ver.1 DFS 미로 분석.md",
-    "Miiiroooo UE5 Project/구현/Trap/WallTrap.md",
-    "Miiiroooo UE5 Project/구현/Trap/Collapsing Trap.md",
+    "Miiiroooo/기획/맵 디자인.md",
+    "Miiiroooo/구현/error/NewObject, DefaultSubobject.md",
+    "Miiiroooo/구현/MazeGenerator/ver.3 DFS 미로.md",
+    "Miiiroooo/구현/MazeGenerator/ver.2 DFS 미로 분석.md",
+    "Miiiroooo/구현/MazeGenerator/ver.2 DFS 미로.md",
+    "Miiiroooo/구현/MazeGenerator/ver.1 DFS 미로.md",
+    "Miiiroooo/구현/MazeGenerator/ver.1 DFS 미로 분석.md",
+    "Miiiroooo/구현/Trap/WallTrap.md",
+    "Miiiroooo/구현/Trap/Collapsing Trap.md",
     "Unreal Engine/Artificial Intelligence/Navigation System.md",
     "Unreal Engine/Artificial Intelligence/AI Controller.md",
     "Unreal Engine/Artificial Intelligence/Behavior Tree 실습/(4) Behavior Tree.md",
     "Unreal Engine/Artificial Intelligence/Behavior Tree 실습/(2) AIController.md",
     "Unreal Engine/Artificial Intelligence/Behavior Tree 실습/(3) Task.md",
-    "Miiiroooo UE5 Project/z_image/Group 57 3.png",
-    "Miiiroooo UE5 Project/기획/아이템.md",
-    "Miiiroooo UE5 Project/z_image/Group 57 2.png",
+    "Miiiroooo/z_image/Group 57 3.png",
+    "Miiiroooo/기획/아이템.md",
+    "Miiiroooo/z_image/Group 57 2.png",
     "Unreal Engine/z_image/Pasted image 20250604204754.png",
     "Unreal Engine/z_image/Pasted image 20250604203730.png",
     "Unreal Engine/z_image/Pasted image 20250604203153.png",
@@ -225,18 +229,12 @@
     "Unreal Engine/z_image/Pasted image 20250604185826.png",
     "Unreal Engine/C++/언리얼 코딩 표준.md",
     "Unreal Engine/C++/문자 처리.md",
-    "Miiiroooo UE5 Project/기획/함정.md",
-    "Unreal Engine/C++/유효성 확인 (check, if).md",
-    "Unreal Engine/C++/Blueprint Native Event.md",
     "직무 테스트 1/z_image",
     "직무 테스트 1/CS",
     "직무 테스트 1",
     "Unreal Engine/Artificial Intelligence",
     "Unreal Engine Project/Miiroooo기획",
     "Unreal Engine/C++/UMG",
-    "Unreal Engine/C++/Player",
-    "Miiiroooo UE5 Project/구현/Trap",
-    "C++/키워드",
     "Untitled.canvas"
   ]
 }

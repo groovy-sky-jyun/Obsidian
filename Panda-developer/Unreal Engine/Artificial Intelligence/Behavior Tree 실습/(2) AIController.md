@@ -47,4 +47,4 @@ __3. 감지 실패 | 대상이 !Player__
 #### 전체 사진
 Agent가 BehaviorTree를 바로 실행하도록 Event On Prossess와 Run Behavior Tree 노드를 연결시켜준다.
 ![[Pasted image 20250604204754.png|400]]
-![[Group 68.png]]
+![[Unreal Engine/z_image/Group 68.png]]

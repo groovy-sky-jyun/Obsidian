@@ -35,7 +35,7 @@ Overlap이 끝나고 다시 Overlap이 되는 조건에서는 무조건 Damage�
 #### 1. 초기값 설정
 이 함정에서 중요한 부분은 두 벽 사이의 거리라고 생각했다. 어디까지 좁혀졌다가 어디까지 멀어질지, 어느 구간에서 가속도를 줄지 구상이 필요했다. 하여 아래의 그림과 같이 디자인 하였다.
 
-![[Group 68.png]]
+![[Unreal Engine/z_image/Group 68.png]]
 
 **MaxDistance**
 우선 `MaxDistance`는 기존 두 벽 사이의 거리 값을 사용하였다.
