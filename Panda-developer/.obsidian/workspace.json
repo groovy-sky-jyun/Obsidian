@@ -4,55 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "99e702a332db3227",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "0ceba1eb117af7be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "영혼의 등불/기획/맵/미로의 방.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "미로의 방"
-            }
-          },
-          {
-            "id": "6d220aaaaa710cfc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "영혼의 등불/기획/맵/레벨 1.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "레벨 1"
-            }
-          },
-          {
-            "id": "8b0c4f84eac2f03c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "영혼의 등불/기획/몬스터/감시자.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "감시자"
-            }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
         "id": "c202638c6a3ac857",
         "type": "tabs",
         "children": [
@@ -62,12 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "영혼의 등불/기획/몬스터/감시자.md",
+                "file": "Pattern/Flyweight Pattern/Flyweight 패턴 개념.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Flyweight 패턴 개념"
+            }
+          }
+        ]
+      },
+      {
+        "id": "fb73e78bdb828a01",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3fe5e88164df1657",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pattern/Flyweight Pattern/Flyweight 패턴 개념.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "감시자"
+              "title": "Flyweight 패턴 개념"
             }
           }
         ]
@@ -218,17 +189,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8b0c4f84eac2f03c",
+  "active": "9e4ad2d8a8c41d19",
   "lastOpenFiles": [
-    "영혼의 등불/기획/맵/레벨 1.md",
+    "Pattern/Command Pattern/Command 패턴 개념.md",
+    "Pattern/Command Pattern/Command 패턴 코드.md",
+    "Pattern/Flyweight Pattern/Flyweight 패턴 개념.md",
+    "Pattern/Flyweight Pattern",
+    "Pattern/Command 패턴.md",
+    "영혼의 등불/기획/z_image",
+    "Pattern/Command Pattern",
     "영혼의 등불/기획/몬스터/감시자.md",
-    "level1 제4구역 퍼즐 답안.png",
-    "level1 제4구역 퍼즐.png",
+    "영혼의 등불/기획/맵/레벨 1.md",
+    "영혼의 등불/기획/z_image/level1 제4구역 퍼즐 답안.png",
+    "영혼의 등불/기획/z_image/level1 제4구역 퍼즐.png",
     "영혼의 등불/기획/퍼즐 아이디어 여유분.md",
     "영혼의 등불/기획/퍼즐.md",
     "Miiiroooo/기획/함정.md",
     "영혼의 등불/기획/맵/미로의 방.md",
-    "Group 70.png",
+    "영혼의 등불/기획/z_image/Group 70.png",
     "영혼의 등불/기획/구성 요소/맵.md",
     "영혼의 등불/기획/맵/물의 시계 방.md",
     "영혼의 등불/기획/맵",
@@ -250,9 +228,6 @@
     "Unreal Engine/C++/Delegate.md",
     "Miiiroooo/기획/맵 디자인.md",
     "Miiiroooo/구현/error/NewObject, DefaultSubobject.md",
-    "Miiiroooo/구현/MazeGenerator/ver.3 DFS 미로.md",
-    "Miiiroooo/구현/MazeGenerator/ver.2 DFS 미로 분석.md",
-    "Miiiroooo/구현/MazeGenerator/ver.2 DFS 미로.md",
     "Miiiroooo/z_image/Group 57 3.png",
     "Miiiroooo/z_image/Group 57 2.png",
     "Unreal Engine/z_image/Pasted image 20250604204754.png",
@@ -262,9 +237,6 @@
     "Unreal Engine/z_image/Pasted image 20250604200653.png",
     "Unreal Engine/Artificial Intelligence/Behavior Tree 실습",
     "직무 테스트 1/z_image",
-    "직무 테스트 1/CS",
-    "직무 테스트 1",
-    "Unreal Engine/Artificial Intelligence",
     "Untitled.canvas"
   ]
 }
