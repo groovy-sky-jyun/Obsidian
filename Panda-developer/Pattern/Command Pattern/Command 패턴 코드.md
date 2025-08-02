@@ -14,7 +14,7 @@
 
 ---
 
-### Command Pattern 적용 
+### Command 패턴 적용 
 플레이어의 입력에 따라 특정 행동을 실행하는 코드를 구현해보자.
 
 #### <span style="color:rgb(128, 202, 255)">단순한 입력 처리 코드</span>

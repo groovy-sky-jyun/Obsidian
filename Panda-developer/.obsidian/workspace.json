@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pattern/Flyweight Pattern/Flyweight 패턴 개념.md",
+                "file": "Pattern/Flyweight Pattern/Flyweight 패턴 코드.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Flyweight 패턴 개념"
+              "title": "Flyweight 패턴 코드"
             }
           }
         ]
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pattern/Flyweight Pattern/Flyweight 패턴 개념.md",
+                "file": "Pattern/Flyweight Pattern/Flyweight 패턴 코드.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Flyweight 패턴 개념"
+              "title": "Flyweight 패턴 코드"
             }
           }
         ]
@@ -98,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5,
-    "collapsed": true
+    "width": 241.5
   },
   "right": {
     "id": "003a2fcbf09344ac",
@@ -115,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/키워드/Static.md",
+                "file": "Pattern/Flyweight Pattern/Flyweight 패턴 코드.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +124,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Static"
+              "title": "Backlinks for Flyweight 패턴 코드"
             }
           },
           {
@@ -176,8 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,11 +187,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9e4ad2d8a8c41d19",
+  "active": "b8273bf270603755",
   "lastOpenFiles": [
-    "Pattern/Command Pattern/Command 패턴 개념.md",
     "Pattern/Command Pattern/Command 패턴 코드.md",
+    "Pattern/Flyweight Pattern/Flyweight 패턴 코드.md",
     "Pattern/Flyweight Pattern/Flyweight 패턴 개념.md",
+    "Pattern/Command Pattern/Command 패턴 개념.md",
     "Pattern/Flyweight Pattern",
     "Pattern/Command 패턴.md",
     "영혼의 등불/기획/z_image",
@@ -227,7 +226,6 @@
     "Miiiroooo/기획/몬스터.md",
     "Unreal Engine/C++/Delegate.md",
     "Miiiroooo/기획/맵 디자인.md",
-    "Miiiroooo/구현/error/NewObject, DefaultSubobject.md",
     "Miiiroooo/z_image/Group 57 3.png",
     "Miiiroooo/z_image/Group 57 2.png",
     "Unreal Engine/z_image/Pasted image 20250604204754.png",
