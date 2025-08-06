@@ -18,7 +18,6 @@ enum class ProjectileKind { Bullet, Rocket };
 
 ##### 2. 공유 상태만 보관하는 타입 객체
 ```cpp
-
 class ProjectileType{  
 public:
 	ProjectileType(const float dmg, float spd, Texture& tex)
@@ -136,7 +135,7 @@ private:
 > - 매번 new Projectile을 하지 않고, 이미 만들어둔 pool안의 Projectile 객체 중 `active==false(빈 슬롯)`인 것을 골라 `init()`으로 위치, 방향, 타입만 새로 설정하여 **재사용**해준다.
 
 **객체 풀링**
-> - 미리 일정 개수 객체를 생성해 두고, 필요할 때 꺼내 쓰며, 사용이 끝나면 다시 pool에 되돌려 재활용하는 기법이다.
+> - <span style="color:rgb(255, 192, 0)">미리 일정 개수 객체를 생성</span>해 두고, 필요할 때 꺼내 쓰며, <span style="color:rgb(255, 192, 0)">사용이 끝나면 다시 pool에 되돌려 재활용</span>하는 기법이다.
 > - new/delete나 언리얼의 SpawnActor/DestroyActor 는 비용이 크다.
 > - 메모리 사용량 예측이 가능하다.
 
@@ -157,3 +156,111 @@ int main(){
 }
 ```
 ---
+
+### 발생할 수 있는 문제점
+#### 1. 동시성 문제 (Flyweight + Pooling)
+```cpp hl:4,8
+static ProjectileType* Get(ProjectileKind kind){
+	auto& pool = GetPool();
+	   
+	auto it = pool.find(kind);
+	if(it != pool.end())
+		return it->second;
+
+	ProjectileType* type = new ProjectileType();
+	pool[kind] = type;
+	return type;
+	}
+```
+**문제 상황**
+A, B 스레드(<span style="color:rgb(255, 192, 0)">다중 스레드</span>)가 거의 동시에 `pool.find(kind)` 호출 후, pool에 kind가 없다고 판단해, A, B 모두 `new ProjectileType()`호출 
+
+**문제 발생**
+<span style="color:rgb(255, 192, 0)">pool의 중복 생성</span>으로 덮어쓰기, 메모리 누수, 포인터 충돌 등의 예상치 못한 버그 발생
+
+**해결책**
+<span style="color:rgb(255, 192, 0)">뮤텍스</span>로 임계 영역 보호
+ ```cpp
+ static mutex mtx;
+ lock_guard<mutex> lock(mtx);
+ ```
+
+<br>
+
+#### 2. 간접 참조로 인한 성능 오버헤드
+```cpp hl:3
+void updateAll(float dt){
+	for(auto& p : projectiles){
+		float speed = p.type->getSpeed();
+		p.x += p.dirX * speed * dt;
+	} 
+}
+```
+
+**문제 상황**
+수천 번 호출되는 Hot Loop에서 `포인터 -> 멤버`로의 두 단계 메모리 접근
+
+**문제 발생**
+포인터가 가리키는 주소가 L1캐시에 없을 경우 L2 -> L3 -> 메인 메모리(DRAM) 순으로 조회해야 한다. 이런 <span style="color:rgb(255, 192, 0)">캐시 미스</span>로 인한 누적 지연이 프레임 드롭으로 이어질 수 있다. 
+
+**해결 방법**
+값이 자주 사용돼서 캐시 히트가 중요한 값일 경우, 개별 상태에 정의하여 <span style="color:rgb(255, 192, 0)">포인터 체이싱을 제거</span>한다.
+```cpp hl:4,14
+struct Projectile{
+	float speed = 0.f;
+	float damage = 0.f;
+	void init(ProjectileKind k, ...){
+		auto* t = ProjectileFactory::Get(k);
+		speed = t->getSpeed();
+		damage = t->getDamage();
+		active = true;
+	}
+}; 
+
+void updateAll(float dt){
+	for(auto& p : projectiles){
+		p.x += p.dirX * p.speed * dt;
+	}
+}
+```
+- hl:4 에서 <span style="color:rgb(255, 192, 0)">초기화할 때 한번만 포인터에 접근</span>하도록 한다.
+- hl:14 에서 <span style="color:rgb(255, 192, 0)">Hot Path에서 포인터 간접 참조를 제거</span>한다.
+
+>**공유 상태는 어떤 값들을 모아두면 좋을 까?**
+>- 용량이 큰 자원: 텍스쳐, 메시, 사운드 등
+>- 변하지 않는 설정 값(읽기 전용) -> 인스턴스 간 중복 제거
+>- 드물게 참조되는 속성
+>- 대용량 상수 데이터 : 파티클 프리셋, 물리-머티리얼 파라미터, 커브 등등
+
+<br>
+
+#### 3. 수명 관리와 메모리 누수 위험
+```cpp hl:5
+class ProjectileFactory{
+public: 
+	static ProjectileType* Get(ProjectileKind k){
+		...
+		ProjectileType* t = new ProjectileType("bullet.png", 10.f, 500.f);
+		pool[k] = t;
+		return t;
+	}
+};
+```
+**문제 상황**
+객체를 static 변수나 싱글턴 인스턴스에 보관해 두고, 프로그램이 끝날때 <span style="color:rgb(255, 192, 0)">메모리 해제를 해주지 않은 경우</span>
+
+**문제 발생**
+new로 할당한 객체가 해제되지 않아 <span style="color:rgb(255, 192, 0)">메모리 누수 발생</span>
+
+**해결 방법**
+<span style="color:rgb(255, 192, 0)">스마트 포인터</span>를 사용하여 종료 시 자동으로 delete가 되도록 해준다.
+```cpp
+class ProjectileFactory{
+	...
+private:
+	static vector<unique_ptr<ProjectileType>>& GetPool(){
+		static vector<unique_ptr<ProjectileType>> pool(static_cast<size_t>(ProjectileKind::Count));
+		return pool;
+	}
+};
+```

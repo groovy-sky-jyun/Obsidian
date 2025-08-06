@@ -6,6 +6,7 @@
       {
         "id": "c202638c6a3ac857",
         "type": "tabs",
+        "dimension": 48.137019230769226,
         "children": [
           {
             "id": "9e4ad2d8a8c41d19",
@@ -13,32 +14,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pattern/Flyweight Pattern/Flyweight 패턴 코드 (심화).md",
+                "file": "Pattern/Observer Pattern/Observer 패턴 코드 (기본).md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Flyweight 패턴 코드 (심화)"
+              "title": "Observer 패턴 코드 (기본)"
             }
           }
         ]
       },
       {
-        "id": "401e1f995d179909",
+        "id": "805d188c2b99d829",
         "type": "tabs",
+        "dimension": 51.862980769230774,
         "children": [
           {
-            "id": "1e8a3bf4ba32e3b7",
+            "id": "7d464460d649479d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pattern/Flyweight Pattern/Flyweight 패턴 코드 (심화).md",
+                "file": "Pattern/Observer Pattern/Observer 패턴 코드 (기본).md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Flyweight 패턴 코드 (심화)"
+              "title": "Observer 패턴 코드 (기본)"
             }
           }
         ]
@@ -191,11 +193,15 @@
   },
   "active": "9e4ad2d8a8c41d19",
   "lastOpenFiles": [
-    "Pattern/Flyweight Pattern/Flyweight 패턴 코드 (기본).md",
+    "Pattern/Observer Pattern/Observer 패턴 코드 (심화).md",
+    "Pattern/Observer Pattern/Observer 패턴 코드 (기본).md",
     "Pattern/Flyweight Pattern/Flyweight 패턴 코드 (심화).md",
+    "Pattern/Observer Pattern/Observer 패턴 개념.md",
+    "Pattern/Command Pattern/Command 패턴 코드.md",
     "Pattern/Flyweight Pattern/Flyweight 패턴 개념.md",
     "Pattern/Command Pattern/Command 패턴 개념.md",
-    "Pattern/Command Pattern/Command 패턴 코드.md",
+    "Pattern/Observer Pattern",
+    "Pattern/Flyweight Pattern/Flyweight 패턴 코드 (기본).md",
     "Pattern/Flyweight Pattern",
     "Pattern/Command 패턴.md",
     "영혼의 등불/기획/z_image",
@@ -225,9 +231,6 @@
     "영혼의 등불",
     "Unreal Engine/Animation/작성해야함/Metahuman Retargetting.md",
     "Unreal Engine/Animation/작성해야함/Anim Sequence Clip.md",
-    "Unreal Engine/Artificial Intelligence/Behavior Tree 실습/(1) Black Board.md",
-    "Miiiroooo/기획/몬스터.md",
-    "Unreal Engine/C++/Delegate.md",
     "Miiiroooo/z_image/Group 57 3.png",
     "Miiiroooo/z_image/Group 57 2.png",
     "Unreal Engine/z_image/Pasted image 20250604204754.png",
@@ -236,7 +239,6 @@
     "Unreal Engine/z_image/Pasted image 20250604201304.png",
     "Unreal Engine/z_image/Pasted image 20250604200653.png",
     "Unreal Engine/Artificial Intelligence/Behavior Tree 실습",
-    "직무 테스트 1/z_image",
     "Untitled.canvas"
   ]
 }
