@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pattern/Observer Pattern/Observer 패턴 코드 (기본).md",
+                "file": "Pattern/Observer Pattern/Observer 패턴 개념.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Observer 패턴 코드 (기본)"
+              "title": "Observer 패턴 개념"
             }
           }
         ]
@@ -35,12 +35,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pattern/Observer Pattern/Observer 패턴 코드 (기본).md",
+                "file": "Pattern/Observer Pattern/Observer 패턴 코드 (심화).md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Observer 패턴 코드 (기본)"
+              "title": "Observer 패턴 코드 (심화)"
             }
           }
         ]
@@ -100,8 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5,
-    "collapsed": true
+    "width": 241.5
   },
   "right": {
     "id": "003a2fcbf09344ac",
@@ -193,15 +192,19 @@
   },
   "active": "9e4ad2d8a8c41d19",
   "lastOpenFiles": [
-    "Pattern/Observer Pattern/Observer 패턴 코드 (심화).md",
     "Pattern/Observer Pattern/Observer 패턴 코드 (기본).md",
+    "Pattern/Observer Pattern/Observer 패턴 코드 (심화).md",
     "Pattern/Flyweight Pattern/Flyweight 패턴 코드 (심화).md",
+    "Pattern/Flyweight Pattern/Flyweight 패턴 코드 (기본).md",
+    "Pattern/z_image",
+    "Pattern/z_image/실행 순서.png",
+    "Pattern/z_image/OnAchievementUnlocked 구독 관계도.png",
+    "Pattern/z_image/OnEnemyKilled 구독 관계도.png",
     "Pattern/Observer Pattern/Observer 패턴 개념.md",
     "Pattern/Command Pattern/Command 패턴 코드.md",
     "Pattern/Flyweight Pattern/Flyweight 패턴 개념.md",
     "Pattern/Command Pattern/Command 패턴 개념.md",
     "Pattern/Observer Pattern",
-    "Pattern/Flyweight Pattern/Flyweight 패턴 코드 (기본).md",
     "Pattern/Flyweight Pattern",
     "Pattern/Command 패턴.md",
     "영혼의 등불/기획/z_image",
@@ -230,15 +233,10 @@
     "영혼의 등불/기획",
     "영혼의 등불",
     "Unreal Engine/Animation/작성해야함/Metahuman Retargetting.md",
-    "Unreal Engine/Animation/작성해야함/Anim Sequence Clip.md",
     "Miiiroooo/z_image/Group 57 3.png",
     "Miiiroooo/z_image/Group 57 2.png",
     "Unreal Engine/z_image/Pasted image 20250604204754.png",
     "Unreal Engine/z_image/Pasted image 20250604203730.png",
-    "Unreal Engine/z_image/Pasted image 20250604203153.png",
-    "Unreal Engine/z_image/Pasted image 20250604201304.png",
-    "Unreal Engine/z_image/Pasted image 20250604200653.png",
-    "Unreal Engine/Artificial Intelligence/Behavior Tree 실습",
     "Untitled.canvas"
   ]
 }

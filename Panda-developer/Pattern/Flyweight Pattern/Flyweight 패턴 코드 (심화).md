@@ -1,4 +1,4 @@
-### 2. Flyweight + Pooling
+### Flyweight + Pooling
 총알과 로켓을 발사하는 코드를 구현해보자.
 총알과 로켓은 각각 damage, speed, texture를 다르게 가진다.
 
