@@ -6,7 +6,7 @@
       {
         "id": "c202638c6a3ac857",
         "type": "tabs",
-        "dimension": 48.137019230769226,
+        "dimension": 42.057761732851986,
         "children": [
           {
             "id": "9e4ad2d8a8c41d19",
@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pattern/Observer Pattern/Observer 패턴 개념.md",
+                "file": "Pattern/ProtoType Pattern/Prototype 패턴 코드 (기본).md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Observer 패턴 개념"
+              "title": "Prototype 패턴 코드 (기본)"
             }
           }
         ]
@@ -27,7 +27,7 @@
       {
         "id": "805d188c2b99d829",
         "type": "tabs",
-        "dimension": 51.862980769230774,
+        "dimension": 57.942238267148014,
         "children": [
           {
             "id": "7d464460d649479d",
@@ -35,12 +35,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pattern/Observer Pattern/Observer 패턴 코드 (심화).md",
+                "file": "Pattern/ProtoType Pattern/Prototype 패턴 코드 (기본).md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Observer 패턴 코드 (심화)"
+              "title": "Prototype 패턴 코드 (기본)"
             }
           }
         ]
@@ -100,7 +100,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5
+    "width": 241.5,
+    "collapsed": true
   },
   "right": {
     "id": "003a2fcbf09344ac",
@@ -190,8 +191,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9e4ad2d8a8c41d19",
+  "active": "7d464460d649479d",
   "lastOpenFiles": [
+    "Pattern/ProtoType Pattern/Prototype 패턴 개념.md",
+    "Pattern/ProtoType Pattern/Prototype 패턴 코드 (기본).md",
+    "Pattern/Observer Pattern/Observer 패턴 개념.md",
+    "Pattern/Flyweight Pattern/Flyweight 패턴 개념.md",
+    "Pattern/ProtoType Pattern",
     "Pattern/Observer Pattern/Observer 패턴 코드 (기본).md",
     "Pattern/Observer Pattern/Observer 패턴 코드 (심화).md",
     "Pattern/Flyweight Pattern/Flyweight 패턴 코드 (심화).md",
@@ -200,9 +206,7 @@
     "Pattern/z_image/실행 순서.png",
     "Pattern/z_image/OnAchievementUnlocked 구독 관계도.png",
     "Pattern/z_image/OnEnemyKilled 구독 관계도.png",
-    "Pattern/Observer Pattern/Observer 패턴 개념.md",
     "Pattern/Command Pattern/Command 패턴 코드.md",
-    "Pattern/Flyweight Pattern/Flyweight 패턴 개념.md",
     "Pattern/Command Pattern/Command 패턴 개념.md",
     "Pattern/Observer Pattern",
     "Pattern/Flyweight Pattern",
@@ -231,8 +235,6 @@
     "영혼의 등불/기획/구성 요소",
     "Unreal Engine/Artificial Intelligence/Behavior Tree.md",
     "영혼의 등불/기획",
-    "영혼의 등불",
-    "Unreal Engine/Animation/작성해야함/Metahuman Retargetting.md",
     "Miiiroooo/z_image/Group 57 3.png",
     "Miiiroooo/z_image/Group 57 2.png",
     "Unreal Engine/z_image/Pasted image 20250604204754.png",
