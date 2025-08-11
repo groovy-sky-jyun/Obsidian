@@ -1,339 +1,156 @@
-보스 몬스터 패턴
+Standing <-> Ducking
+Standing <-> Jumping
 
----
+```cpp 
+enum ImageID{
+	IMAGE_STAND,
+	IMAGE_DUCK,
+	IMAGE_JUMP
+},
 
-##### 1. 발사체 종류 Key
-```cpp title:BossCharacter
-UENUM(BlueprintType)
-enum class EAttackPhase : uint8
-{
-	None,
-	Startup,
-	Active,
-	Recovery
-};
-
-USTRUCT(BlueprintType)
-struct FAttackSpec
-{
-	GENERATED_BODY()
-
-	// 애니 길이와 꼭 같을 필요는 없지만, 맞추면 연출이 자연스럽다.
-    UPROPERTY(EditAnywhere, BlueprintReadWrite) 
-    float Startup  = 0.3f; // 준비 시간
-    UPROPERTY(EditAnywhere, BlueprintReadWrite) 
-    float Active   = 0.4f; // 타격 창 시간
-    UPROPERTY(EditAnywhere, BlueprintReadWrite) 
-    float Recovery = 0.5f; // 후딜 시간
-    UPROPERTY(EditAnywhere, BlueprintReadWrite) 
-    float Damage   = 20.f;
-
-	//애니메이션 에셋 설정
-	UPROPERTY(EditAnywhere, BlueprintReadWrite) 
-	TObjectPtr<UAnimMontage> Montage = nullptr;
-    UPROPERTY(EditAnywhere, BlueprintReadWrite) 
-    FName MontageSection_Startup  = NAME_None;
-    UPROPERTY(EditAnywhere, BlueprintReadWrite) 
-    FName MontageSection_Active   = NAME_None;
-    UPROPERTY(EditAnywhere, BlueprintReadWrite) 
-    FName MontageSection_Recovery = NAME_None;
+enum class Input{
+	PRESS_DOWN,
+	RELEASE_DOWN,
+	PRESS_JUMP,
+	LAND //점프 후 착지
 }
 
-UCLASS()
-class ABossCharacter : public ACharacter
-{
-	GENERATED_BODY()
-
-public:
-	ABossCharacter();
-
-	virtual void Tick(float DeltaSeconds) override;
-	virtual void BeginPlay() override;
-
-	//BT에서 실행
-	UFUNCTION(BlueprintCallable)
-	bool StartAttack(const FAttackSpec& InSpec);
-
-protected:
-	// 손/무기 등에 붙일 충돌 박스
-	UPROPERTY()
-	TObjectPtr<UBoxComponent> HitBox;
-
-	// 공격 상태
-	UPROPERTY()
-	EAttackPhase AttackPhase = EAttackPhase::None;
-
-	// 현재 상태 정보
-	UPROPERTY()
-	FAttackSpec CurrentSpec;
-
-	// 현재 상태 남은 시간
-	UPROPERTY()
-	float PhaseTimeLeft = 0.f;
-
-	void EnterPhase(EAttackPhase NewPhase);
-	void UpdateAttackFSM(float Dt);
-	void SetHitBoxEnabled(bool bEnable);
-
-	UFUNCTION()
-	void OnHitBoxBegineOverlap(
-		UPrimitiveComponent* OverlappedComp, AActor* OtherActor,
-        UPrimitiveComponent* OtherComp, int32 OtherBodyIndex,
-        bool bFromSweep, const FHitResult& SweepResult)
-	);
-
-private:
-	TSet<TWeakObjectPtr<AActor>> AlreadyHitThisActive:
-};
+//전방 선언
 ```
+- 리소스 / 입력 정의
 
----
-
-##### 2. 공유 상태만 보관하는 타입 객체
-```cpp
-class ProjectileType{  
+```cpp title:HeroineState
+//상태 베이스 클래스
+class HeroineState{
 public:
-	ProjectileType(const float dmg, float spd, Texture& tex)
-	: damage(dmg),
-	speed(spd),
-	texture(tex){}
+	virtual ~HeroineState() = default;
 
-	float getDamage() const { return damage; }
-	float getSpeed() const { return speed; }
-	Texture& getTexture() const { return texture; }
-
-	void render(float x, float y) const{
-		cout << "Render [" << texture << "] at (" << x << ", " << y << ")"; 
+	//전이가 필요한 경우 새 상태를 new 해서 반환
+	virtual HeroineState* handleInput(Heroine& heroine, Input input){
+		return nullptr;
 	}
 
-private:
-	float damage;
-	float speed;
-	Texture texture;
+	//매 프레임 갱신
+	virtual void update(Heroine& heroine, float dt){}
+
+	//상태 진입
+	virtual void enter(Heroine& heroine){}
 };
 ```
 
-> **타입 객체**
-> 한 종류에 속하는 모든 인스턴스가 공통으로 가지는 속성을 담고 있는 객체
-
----
-
-##### 3. 종류 별 인스턴스 생성 후 공유
-```cpp
-class ProjectileFactory{
+```cpp title:Heroine
+class Heroine{
 public:
-	static ProjectileType* Get(ProjectileKind kind){
-		auto& pool = GetPool();
-		auto it = pool.find(kind);
-		if(it != pool.end())
-			return it->second;
+	Heroine(){
+		state_ = new StandingState();
+		state_->enter(*this);
+	};
+	
+	~Heroine(){
+		delete state_;
+	};
 
-		//없으면 생성
-		ProjectileType* type = nullptr;
-		switch (kind){
-			case ProjectileKind::Bullet:
-				type = new ProjectileType("bullet.png",10.f,500.f);
+	void handleInput(Input input){
+		HeroineState* next = state_->handleInput(*this, input);
+		if(next != nullptr){
+			delete state_;
+			state_ = next;
+			state_->enter(*this);
+		}
+	};
+	
+	void update(float dt){
+		state_->update(*this, dt);
+	};
+
+	void SetGraphics(Image img){
+		CurrentImage = img;
+		switch(img){
+			case IMAGE_STAND:
+				//render, method
 				break;
-			case ProjectileKind::Rocket:
-				type = new ProjectileType("rocket.png",10.f,500.f);
+			case IMAGE_DUCK:
+				//render, method
+				break;
+			case IMAGE_JUMP:
+				//render, method
 				break;
 		}
-		pool[kind] = type;
-		return type;
 	}
-
+	
 private:
-	static unordered_map<ProjectileKind, ProjectileType*>& GetPool(){
-		unordered_map<ProjectileKind, ProjectileType*> pool;
-		return pool;
-	}
+	friend class StandingState;
+	friend class DuckingState;
+	friend class JumpingState;
+	
+	HeroineState* state_ = nullptr;
+	ImageId CurrentImage = IMAGE_STAND;
 };
 ```
-- ProjectileKind의 종류별로 한번만 ProjectileType 객체를 생성하고, 이후에는 같은 객체를 재사용하도록 한다.
 
----
-
-##### 4. 개별 상태를 포함한 발사체 인스턴스
-```cpp
-struct Projectile{
-	bool active = false;
-	float x = 0; y = 0;
-	float dirX = 0; dirY = 0;
-	ProjectileType* type = nullptr;
-
-	void init(ProjectileKind kind, float startX, float startY, float dx, float dy){
-		type = ProjectileFactory::Get(kind);
-		x = startX;
-		y = startY;
-		float len = sqrt(dx*dx + dy*dy);
-		dirX = dx/len;
-		dirY = dy/len;
-		active = true;
-	}
-}
-```
-- 초기화 할때, 발사체 타입을 <span style="color:rgb(255, 192, 0)">공유 상태 클래스</span>로 설정한다.
-
-> **struct를 사용한 이유**
-> - 모든 멤버가 public이다.
-> - 캡슐화가 필요 없고, 단순한 데이터로 사용할 것이기 때문
-
----
-
-##### 5. Pooling을 이용하여 미리 생성 후 재사용
-```cpp
-class ProjectilePool{
-public:
-	// 미리 생성 (projectile 인스턴스가 메모리에 존재하게 됨)
-	ProjectilePool(size_t capacity)
-	: pool(capacity) {}
-
-	//재사용
-	void fire(ProjectileKind kind, float sx, float sy, float dx, float dy){
-		for(auto& p : pool){
-			if(!p.active){
-				p.init(kind, sx,sy, dx, dy);
-				return;
-			}
-		}
-		//풀 부족 시 무시 또는 확장 로직 추가 가능
-	}
-private:
-	vector<Projectile> pool;
-};
-```
-- 개별 상태를 포함한 발사체 인스턴스 초기화
-
-**재사용**
-> - 매번 new Projectile을 하지 않고, 이미 만들어둔 pool안의 Projectile 객체 중 `active==false(빈 슬롯)`인 것을 골라 `init()`으로 위치, 방향, 타입만 새로 설정하여 **재사용**해준다.
-
-**객체 풀링**
-> - <span style="color:rgb(255, 192, 0)">미리 일정 개수 객체를 생성</span>해 두고, 필요할 때 꺼내 쓰며, <span style="color:rgb(255, 192, 0)">사용이 끝나면 다시 pool에 되돌려 재활용</span>하는 기법이다.
-> - new/delete나 언리얼의 SpawnActor/DestroyActor 는 비용이 크다.
-> - 메모리 사용량 예측이 가능하다.
-
----
-
-##### 6. 사용 예시
-```cpp
-int main(){
-	ProjectilePool pool(100);
-
-	const float deltaTime = 1.f/60.f;
-	for(int frame = 0; frame < 120; ++frame){
-		if(frame % 10 == 0){
-			pool.fire(ProjectileKind::Bullet, 400, 300, 1, 0);
-			pool.fire(ProjectileKind::Rocket, 400, 300, 0, 1);
-		}
-	}
-}
-```
----
-
-### 발생할 수 있는 문제점
-#### 1. 동시성 문제 (Flyweight + Pooling)
-```cpp hl:4,8
-static ProjectileType* Get(ProjectileKind kind){
-	auto& pool = GetPool();
-	   
-	auto it = pool.find(kind);
-	if(it != pool.end())
-		return it->second;
-
-	ProjectileType* type = new ProjectileType();
-	pool[kind] = type;
-	return type;
-	}
-```
-**문제 상황**
-A, B 스레드(<span style="color:rgb(255, 192, 0)">다중 스레드</span>)가 거의 동시에 `pool.find(kind)` 호출 후, pool에 kind가 없다고 판단해, A, B 모두 `new ProjectileType()`호출 
-
-**문제 발생**
-<span style="color:rgb(255, 192, 0)">pool의 중복 생성</span>으로 덮어쓰기, 메모리 누수, 포인터 충돌 등의 예상치 못한 버그 발생
-
-**해결책**
-<span style="color:rgb(255, 192, 0)">뮤텍스</span>로 임계 영역 보호
- ```cpp
- static mutex mtx;
- lock_guard<mutex> lock(mtx);
- ```
-
-<br>
-
-#### 2. 간접 참조로 인한 성능 오버헤드
-```cpp hl:3
-void updateAll(float dt){
-	for(auto& p : projectiles){
-		float speed = p.type->getSpeed();
-		p.x += p.dirX * speed * dt;
-	} 
-}
-```
-
-**문제 상황**
-수천 번 호출되는 Hot Loop에서 `포인터 -> 멤버`로의 두 단계 메모리 접근
-
-**문제 발생**
-포인터가 가리키는 주소가 L1캐시에 없을 경우 L2 -> L3 -> 메인 메모리(DRAM) 순으로 조회해야 한다. 이런 <span style="color:rgb(255, 192, 0)">캐시 미스</span>로 인한 누적 지연이 프레임 드롭으로 이어질 수 있다. 
-
-**해결 방법**
-값이 자주 사용돼서 캐시 히트가 중요한 값일 경우, 개별 상태에 정의하여 <span style="color:rgb(255, 192, 0)">포인터 체이싱을 제거</span>한다.
-```cpp hl:4,14
-struct Projectile{
-	float speed = 0.f;
-	float damage = 0.f;
-	void init(ProjectileKind k, ...){
-		auto* t = ProjectileFactory::Get(k);
-		speed = t->getSpeed();
-		damage = t->getDamage();
-		active = true;
-	}
-}; 
-
-void updateAll(float dt){
-	for(auto& p : projectiles){
-		p.x += p.dirX * p.speed * dt;
-	}
-}
-```
-- hl:4 에서 <span style="color:rgb(255, 192, 0)">초기화할 때 한번만 포인터에 접근</span>하도록 한다.
-- hl:14 에서 <span style="color:rgb(255, 192, 0)">Hot Path에서 포인터 간접 참조를 제거</span>한다.
-
->**공유 상태는 어떤 값들을 모아두면 좋을 까?**
->- 용량이 큰 자원: 텍스쳐, 메시, 사운드 등
->- 변하지 않는 설정 값(읽기 전용) -> 인스턴스 간 중복 제거
->- 드물게 참조되는 속성
->- 대용량 상수 데이터 : 파티클 프리셋, 물리-머티리얼 파라미터, 커브 등등
-
-<br>
-
-#### 3. 수명 관리와 메모리 누수 위험
-```cpp hl:5
-class ProjectileFactory{
+```cpp title:StandingState/DuckingState/JumpingState
+class StandingState : public HeroineState{ 
 public: 
-	static ProjectileType* Get(ProjectileKind k){
-		...
-		ProjectileType* t = new ProjectileType("bullet.png", 10.f, 500.f);
-		pool[k] = t;
-		return t;
+	void enter(Heroine& heroine) override{
+		heroine.setGraphics(IMAGE_STAND);
 	}
+	
+	HeroineState* handleInput(Heroine& heroine, Input input) override{
+	
+	};
+};
+
+class DuckingState : public HeroineState{ 
+public: 
+	void enter(Heroine& heroine) override{
+		heroine.setGraphics(IMAGE_DUCK);
+	}
+	
+	HeroineState* handleInput(Heroine& heroine, Input input) override;
+};
+
+class JumpingState : public HeroineState{ 
+public: 
+	void enter(Heroine& heroine) override{
+		heroine.setGraphics(IMAGE_JUMP);
+	}
+	
+	HeroineState* handleInput(Heroine& heroine, Input input) override;
 };
 ```
-**문제 상황**
-객체를 static 변수나 싱글턴 인스턴스에 보관해 두고, 프로그램이 끝날때 <span style="color:rgb(255, 192, 0)">메모리 해제를 해주지 않은 경우</span>
 
-**문제 발생**
-new로 할당한 객체가 해제되지 않아 <span style="color:rgb(255, 192, 0)">메모리 누수 발생</span>
 
-**해결 방법**
-<span style="color:rgb(255, 192, 0)">스마트 포인터</span>를 사용하여 종료 시 자동으로 delete가 되도록 해준다.
-```cpp
-class ProjectileFactory{
-	...
-private:
-	static vector<unique_ptr<ProjectileType>>& GetPool(){
-		static vector<unique_ptr<ProjectileType>> pool(static_cast<size_t>(ProjectileKind::Count));
-		return pool;
+
+
+---
+
+
+
+```cpp title:StandingState
+class StandingState : public HeroineState {
+public:  
+	virtual void enter(Heroine& heroine){
+		heroine.setGraphics(IMAGE_STAND);
 	}
-};
+}
+```
+
+```cpp title:Heroine
+void Heroine::handleInput(Input input){
+	HeroineState* state = state_->handleInput(*this, input);
+	if(state != NULL){
+		delete state_;
+		state_ = state;
+
+		state_->enter(*this); //새로운 상태 입장
+	}
+}
+```
+
+```cpp title:DuckingState
+HeroineState* DuckingState::handleInput(Heroine& heroine, Input input){
+	if(input == RELEASE_DOWN){
+		return new StandingState();
+	}
+}
 ```
