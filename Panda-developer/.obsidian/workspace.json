@@ -4,30 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "c202638c6a3ac857",
-        "type": "tabs",
-        "dimension": 42.057761732851986,
-        "children": [
-          {
-            "id": "9e4ad2d8a8c41d19",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pattern/ProtoType Pattern/Prototype 패턴 코드 (기본).md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Prototype 패턴 코드 (기본)"
-            }
-          }
-        ]
-      },
-      {
         "id": "805d188c2b99d829",
         "type": "tabs",
-        "dimension": 57.942238267148014,
+        "dimension": 50,
         "children": [
           {
             "id": "7d464460d649479d",
@@ -35,12 +14,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pattern/ProtoType Pattern/Prototype 패턴 코드 (기본).md",
+                "file": "Pattern/Finite State Machine/Finite State Machine 패턴 코드 (심화).md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Finite State Machine 패턴 코드 (심화)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "212fa42d9dbac515",
+        "type": "tabs",
+        "dimension": 50,
+        "children": [
+          {
+            "id": "0efd0a36ec702b55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pattern/Finite State Machine/Finite State Machine 패턴 코드 (심화).md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Prototype 패턴 코드 (기본)"
+              "title": "Finite State Machine 패턴 코드 (심화)"
             }
           }
         ]
@@ -193,8 +193,12 @@
   },
   "active": "7d464460d649479d",
   "lastOpenFiles": [
-    "Pattern/ProtoType Pattern/Prototype 패턴 개념.md",
+    "Pattern/Finite State Machine/Finite State Machine 패턴 코드 (기본).md",
+    "Pattern/Finite State Machine/Finite State Machine 패턴 코드 (심화).md",
+    "Pattern/Finite State Machine/Finite State Machine 패턴 개념.md",
     "Pattern/ProtoType Pattern/Prototype 패턴 코드 (기본).md",
+    "Pattern/Finite State Machine",
+    "Pattern/ProtoType Pattern/Prototype 패턴 개념.md",
     "Pattern/Observer Pattern/Observer 패턴 개념.md",
     "Pattern/Flyweight Pattern/Flyweight 패턴 개념.md",
     "Pattern/ProtoType Pattern",
@@ -229,12 +233,8 @@
     "영혼의 등불/기획/몬스터/빛의 나방.md",
     "영혼의 등불/기획/몬스터/슬리피(잠자는 몬스터).md",
     "영혼의 등불/기획/몬스터/피라미.md",
-    "영혼의 등불/기획/영혼의 등불 기획.md",
-    "영혼의 등불/기획/그래픽스.md",
     "영혼의 등불/기획/몬스터",
     "영혼의 등불/기획/구성 요소",
-    "Unreal Engine/Artificial Intelligence/Behavior Tree.md",
-    "영혼의 등불/기획",
     "Miiiroooo/z_image/Group 57 3.png",
     "Miiiroooo/z_image/Group 57 2.png",
     "Unreal Engine/z_image/Pasted image 20250604204754.png",
