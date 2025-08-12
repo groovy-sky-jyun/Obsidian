@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "212fa42d9dbac515",
+        "id": "5c600aca8a368a85",
         "type": "tabs",
         "children": [
           {
-            "id": "0efd0a36ec702b55",
+            "id": "b8669a300f6918cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -24,11 +24,11 @@
         ]
       },
       {
-        "id": "5c600aca8a368a85",
+        "id": "ea992fbb47ed761b",
         "type": "tabs",
         "children": [
           {
-            "id": "b8669a300f6918cc",
+            "id": "98abfdde3c19c190",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -189,11 +189,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0efd0a36ec702b55",
+  "active": "b8669a300f6918cc",
   "lastOpenFiles": [
-    "Pattern/Finite State Machine/Finite State Machine 패턴 개념.md",
-    "Pattern/Finite State Machine/Finite State Machine 패턴 코드 (기본).md",
     "Pattern/Finite State Machine/Finite State Machine 패턴 코드 (심화).md",
+    "Pattern/Finite State Machine/Finite State Machine 패턴 코드 (기본).md",
+    "Pattern/Finite State Machine/Finite State Machine 패턴 개념.md",
     "Pattern/Observer Pattern/Observer 패턴 개념.md",
     "Pattern/Flyweight Pattern/Flyweight 패턴 개념.md",
     "보스 패턴.md",
