@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pattern/Finite State Machine/Finite State Machine 패턴 코드 (기본).md",
+                "file": "Pattern/Finite State Machine/FSM 패턴 코드 (고급) _작성중.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Finite State Machine 패턴 코드 (기본)"
+              "title": "FSM 패턴 코드 (고급) _작성중"
             }
           }
         ]
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pattern/Finite State Machine/Finite State Machine 패턴 코드 (기본).md",
+                "file": "Pattern/Finite State Machine/FSM 패턴 코드 (고급) _작성중.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Finite State Machine 패턴 코드 (기본)"
+              "title": "FSM 패턴 코드 (고급) _작성중"
             }
           }
         ]
@@ -191,9 +191,11 @@
   },
   "active": "b8669a300f6918cc",
   "lastOpenFiles": [
-    "Pattern/Finite State Machine/Finite State Machine 패턴 코드 (심화).md",
-    "Pattern/Finite State Machine/Finite State Machine 패턴 코드 (기본).md",
-    "Pattern/Finite State Machine/Finite State Machine 패턴 개념.md",
+    "Pattern/Finite State Machine/FSM 패턴 코드 (고급).md",
+    "Pattern/Finite State Machine/FSM 패턴 코드 (고급) _작성중.md",
+    "Pattern/Finite State Machine/FSM 패턴 코드 (중급).md",
+    "Pattern/Finite State Machine/FSM 패턴 코드 (초급).md",
+    "Pattern/Finite State Machine/FSM 패턴 개념.md",
     "Pattern/Observer Pattern/Observer 패턴 개념.md",
     "Pattern/Flyweight Pattern/Flyweight 패턴 개념.md",
     "보스 패턴.md",
@@ -229,8 +231,6 @@
     "영혼의 등불/기획/맵/물의 시계 방.md",
     "영혼의 등불/기획/맵",
     "영혼의 등불/기획/몬스터/언데드.md",
-    "영혼의 등불/기획/몬스터/빛의 나방.md",
-    "영혼의 등불/기획/몬스터/슬리피(잠자는 몬스터).md",
     "영혼의 등불/기획/몬스터",
     "영혼의 등불/기획/구성 요소",
     "Miiiroooo/z_image/Group 57 3.png",
