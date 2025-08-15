@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pattern/Singleton Pattern/Singleton 패턴 문제점 & 대안.md",
-                "mode": "preview",
+                "file": "Pattern/Singleton Pattern/Singleton 패턴 개념.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Singleton 패턴 문제점 & 대안"
+              "title": "Singleton 패턴 개념"
             }
           }
         ]
@@ -98,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5
+    "width": 241.5,
+    "collapsed": true
   },
   "right": {
     "id": "003a2fcbf09344ac",
@@ -188,7 +189,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ee89d83d704e787f",
+  "active": "364b5e03a71098f6",
   "lastOpenFiles": [
     "Pattern/Singleton Pattern/Singleton 패턴 문제점 & 대안.md",
     "Pattern/Singleton Pattern/Singleton 패턴 개념.md",

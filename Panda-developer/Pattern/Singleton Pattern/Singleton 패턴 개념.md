@@ -11,11 +11,11 @@
 - `SoundManager` : 모든 배경음악, 효과음 관리
 - `PlayerDataManager` : 점수나 체력 데이터 저장
 
-##### FileSystem 싱글톤 작성 예시시
+##### FileSystem 싱글톤 작성 예시
 ```cpp title:FileSystem
 class FileSystem{
 public:
-	static FileSystem& instance(){
+	static FileSystem& getInstance(){
 		static FileSystem *instance = new FileSystem();
 		return *instance;
 	}
@@ -26,6 +26,13 @@ private:
 ```
 - static을 통해 `FileSystem::instance()`가 처음 호출될 때 `instance` 값이 초기화 되고, 그 뒤로는 다시 호출되더라도 이미 생성된 고정 값 `instance`를 그대로 반환한다.
 - private에 생성자를 둠으로써 다른 객체에서 new로 새로운 FileSystem 인스턴스를 생성하지 못한다.
+
+>**생성자가 private에 있는데 처음 객체 생성은 어떻게 하죠?**
+>
+><span style="color:rgb(255, 192, 0)">static 메서드는 외부에서 객체를 생성하지 않고도 호출이 가능하다.</span>
+>그렇기에 외부에서 객체 생성하지 않은 채 static 메서드를 호출하여 객체를 처음 한번만 초기화 하도록 한것이다.
+>
+>`FileSystem& fileSystem = FileSystem::getInstance();` 식으로 호출하여 초기화 할 수 있다.
 
 ---
 
