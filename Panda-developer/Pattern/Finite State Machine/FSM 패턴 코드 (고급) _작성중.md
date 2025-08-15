@@ -1,32 +1,47 @@
-## 계층적 FSM
-이전까지는 캐릭터의 이동과 관련하여 구현해보았지만 좀 더 확장시켜보자.
+#### 문제 상황
+캐릭터는 여러가지 상태를 가질 수 있다. 걷기, 뛰기, 점프 외에도 공격하기, 회피하기, 대쉬 등의 여러 상태를 가진다.
+
+여러 종류의 상태들을 구현하고 전이 조건을 설정할 때, 상태가 많을수록 상태 패턴과 enum+switch문으로는 한계가 올 수 있다.
+
+enum+switch문으로 구현할 경우 swith문이 거대해질 것이다.
+상태 패턴으로 구현하는 경우에도 각 상태로 전환하는 부분이 복잡해질 것이다.
+
+#### 해결 방안
+이를 해결하기 위해 계층적 FSM을 사용할 수 있다.
 
 우선, 캐릭터가 가질 수 있는 상태 종류를 분류해보자.
 캐릭터가 가질 수 있는 상태는 크게 **이동, 공격, 피격** 등으로 분류할 수 있다. 이를 <span style="color:rgb(255, 192, 0)">최상위 상태</span>라고 하겠다.
 
-각 최상위 상태는 여러개의 하위 상태를 가진다.
-예를 들어 **이동**이라는 큰 카테고리 안에는 **걷기, 뛰기, 엎드리기** 등이 속한다. 
-
-#### 클래스 구조
-**IState**
-- 모든 상태 클래스가 가지는 공통 인터페이스
-- OnEnter, OnUpdate, OnExit, HandleInput 정의
-
-**SuperState**
-- 상위 상태 클래스가 공통으로 가지는 기능 정의
-- 즉, 공통적으로 사용되는 하위 상태 클래스 관리 기능 정의
-
-**MovementState, AttackState**
-- 상위 상태 클래스
-- MovementState는 이동과 관련된 하위 상태 클래스를 묶어 관리한다.
-- AttackState는 공격과 관련된 하위 상태 클래스를 묶어 관리한다.
-
-**IdleState, RunState, JumpState, HitState, PunchState**
-- 하위 상태 클래스
+각 최상위 상태는 여러개의 <span style="color:rgb(255, 192, 0)">하위 상태</span>를 가진다.
+예를 들어 **이동**이라는 큰 카테고리 안에는 **걷기, 뛰기, 엎드리기** 등이 속한다. **공격**이라는 큰 카테고리 안에는 **찌르기, 주먹 휘두르기**가 속한다.
 
 ---
 
-#### 1. 최상위 상태 클래스 
+### 여러 상태 전이 구조
+캐릭터가 다음과 같은 상태를 가진다고 했을 때, 상태 전이 코드 구조를 알아보자.
+- MovementState : Idle, Run, Walk
+- AttackState : Hit, Punch
+
+#### 계층적 FSM 클래스 구조조
+##### <mark style="background: #ADCCFFA6;">IState</mark>
+- 모든 상태 클래스가 가지는 공통 인터페이스
+- <span style="color:rgb(255, 192, 0)">OnEnter, OnUpdate, OnExit, HandleInput 정의</span>
+
+##### <mark style="background: #ADCCFFA6;">SuperState</mark>
+- <span style="color:rgb(255, 192, 0)">상위 상태 클래스가 공통으로 가지는 기능</span> 정의
+- 즉, 공통적으로 사용되는 하위 상태 클래스 관리 기능 정의
+
+##### <mark style="background: #ADCCFFA6;">MovementState, AttackState</mark>
+- <span style="color:rgb(255, 192, 0)">상위 상태 클래스</span>
+- MovementState는 이동과 관련된 <span style="color:rgb(255, 192, 0)">하위 상태 클래스를 묶어 관리</span>한다.
+- AttackState는 공격과 관련된 하위 상태 클래스를 묶어 관리한다.
+
+##### <mark style="background: #ADCCFFA6;">IdleState, RunState, JumpState, HitState, PunchState</mark>
+- <span style="color:rgb(255, 192, 0)">하위 상태 클래스</span>
+
+---
+
+#### 1. 공통 인터페이스
 ```cpp title:IState
 class IState{
 public:
@@ -36,40 +51,63 @@ public:
 	virtual void HandleInput(Character*owner, char input) = 0;
 };
 ```
+- 모든 상태 클래스가 가지는 공통 인터페이스이다.
+- 모든 상태 클래스가 IState 클래스를 상속한다는 느낌이 아니고, <span style="color:rgb(255, 192, 0)">IState클래스를 인터페이스로 가짐으로써, 해당 클래스는 상태 클래스가 된다는 느낌</span>이다. (객체 지향 프로그래밍 원리)
+- 즉, 모든 상태 클래스는 IState를 상속받아 상태로서의 역할을 수행할 수 있는 능력을 가지게 되는 것이다.
 
-```cpp title:SuperState
+#### 2. 상위 클래스가 공통으로 관리하는 최상위 클래스스
+```cpp title:SuperState hl:3
 class SuperState : public IState {
-protected: 
+protected:  
 	std::unique_ptr<IState> mCurrentSubState;
 
 public:
-	void SetSubState(unique_ptr<IState> subState) {
+	void SetSubState(unique_ptr<IState> subState, Character* owner) {
 		if(mCurrentSubState) {
-			mCurrentSubState->OnExit(nullptr);
+			mCurrentSubState->OnExit(owner);
 		}
 		mCurrentSubState = std::move(subState);
 		if(mCurrentSubState){
-			mCurrentSubState->OnEnter(nullptr);
+			mCurrentSubState->OnEnter(owner);
 		}
 	}
 
 	void OnUpdate(Character* owner, float dt) override {
-		// 하위 상태 공통 로직
+		// 하위 상태와 상관 없는 공통 로직
+		if(owner->isDead()){
+			owner->ChangeState(std::make_unique<DeadState>());
+			return;
+		}
+
+		// 하위 상태의 OnUpdate 호출
 		if(mCurrentSubState){
 			mCurrentSubState->OnUpdate(owner, dt);
 		}
 	}
 
 	void HandleInput(Character* owner, char input) override {
+		// 어떤 상태에 있던 a 가 입력되면 공통으로 적용되는 전이 조건
+		if(input == 'a'){
+			owner->ChangeState(std::make_unique<AttackState>());
+			return;
+		}
+
+		// 그 외의 입력
 		if(mCurrentSubState){
 			mCurrentSubState->HandleInput(owner, input);
 		}
 	}
 };
 ```
+- `SuperState`는 하위 상태 클래스들을 관리하기 위해 상위 클래스들이 공통으로 가져야 하는 관리 기능을 제공한다.
+- `mCurrentSubState`는 현재 활성화된 하위 상태를 나타낸다.
+- `SetSubState()`는 하위 클래스 전환을 담당한다.
+- `OnUpdate()`와 `HabdleInput()`은 하위 상태와 무관한 공통 로직을 먼저 처리하고, 그 외의 로직은 하위 상태에 위임한다.
+	- 예) 어떤 상태에 있던 a 키를 누르면 상위 클래스는 AttackState가 된다.
+	- SuperState에 정의하지 않으면 상위/하위 클래스마다 해당 조건을 작성해 줘야 해서 코드 중복이 발생한다.
 
 
-#### 2. 최상위 상태 클래스 구현
+#### 3. 상위 상태 클래스 구현
 ```cpp title:MovementState
 #include "SuperState.h"
 #include "IdleState.h"
@@ -90,12 +128,6 @@ public:
 		//...
 	}
 	void HandleInput(Character* owner, char input) override {
-		// 공격 키가 눌리면 AttackState로 변경
-		if(input == 'a'){
-			owner->ChangeState(std::make_unique<AttackState>());
-			return;
-		}
-
 		if(mCurrentSubState){
 			mCurrentSubState->HandleInput(owner, input);
 		}
@@ -225,39 +257,29 @@ public:
 Character 클래스는 현재 상태에 따라 switch문으로 분기할 필요가 없다.
 포인터를 통해 현재 상태 객체에게 모든걸 위임하도록 한다.
 ```cpp title:Character
+#include "StateMachine.h"
+
 class Character{
 private:
-	std::unique_ptr<IState> mCurrentState;
-
+	StateMachine mStateMachine;
+	int mHP = 100;
+	
 public:
-	Character(){
-		//시작 상태를 Idle로 설정
-		mCurrentState = std::make_unique<IdleState>();
-		mCurrentState->OnEnter(this);
+	Character()
+	: mStateMachine(this){
+		mStateMachine.SetState(std::make_unique<MovementState>());
 	}
 
 	void Update(float dt){
-		if(mCurrentState){
-			mCurrentState->OnUpdate(this, dt);
+		if(mStateMachine){
+			mStateMachine.Update(dt);
 		}
-	}
-
-	// 상태 변경
-	void ChangeState(std::unique_ptr<IState> newState){
-		if(mCurrentState){
-			mCurrentState->OnExit(this);
-		}
-		
-		mCurrentState = std::move(newState);
-		mCurrentState->OnEnter(this);
 	}
 
 	// 입력 처리 예시 
 	void HandleInput(char input){
-		/* 입력에 따른 상태 전환은 여기서 해도 되고,
-		* 각 State 클래스의 Update 안에서 처리해도 된다.*/
-		if(mCurrentState){
-			mCurrentState->HandleInput(this, input);
+		if(mStateMachine){
+			mStateMachine.HandleInput(input);
 		}
 	}
 };
@@ -265,6 +287,45 @@ public:
 - Character와 키입력을 분리하기 위해 HandleInput을 각 상태 클래스에서 구현하도록 하였다.
 - Character는 키입력에 따라 어떤 상태가 되는지 알 필요가 없다.
 
+#### StateMachine 분리
+```cpp title:StateMachine
+#include "IState.h"
+
+class Character; //전방 선언
+
+class StateMachine{
+private:
+	std::unique_ptr<IState> mCurrentState;
+	Character* mOwner;
+
+public:
+	StateMachine(Character* owner)
+	: mOwner(owner){}
+
+	void SetState(std::unique_ptr<IState> mewState){
+		if(mCurrentState){
+			mCurrentState->OnExit(mOwner);
+		}
+		mCurrentState = std::move(newState);
+		if(mCurrentState){
+			mCurrentState->OnEnter(mOwner);
+		}
+	}
+
+	void Update(float dt){
+		if(mCurrentState){
+			mCurrentState->OnUpdate(mOwner, dt);
+		}
+	}
+
+	void HandleInput(char input){
+		if(mCurrentState){
+			mCurrentState->HandleInput(mOwner, input);
+		}
+	}
+};
+
+```
 
 #### 4. 실행
 ```cpp title:main

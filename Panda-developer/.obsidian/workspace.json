@@ -4,41 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "5c600aca8a368a85",
+        "id": "c1691b396833c3a4",
         "type": "tabs",
         "children": [
           {
-            "id": "b8669a300f6918cc",
+            "id": "ee89d83d704e787f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pattern/Finite State Machine/FSM 패턴 코드 (고급) _작성중.md",
+                "file": "Pattern/Singleton Pattern/Singleton 패턴 개념.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "FSM 패턴 코드 (고급) _작성중"
+              "title": "Singleton 패턴 개념"
             }
           }
         ]
       },
       {
-        "id": "ea992fbb47ed761b",
+        "id": "d7ac3e0d03a62faf",
         "type": "tabs",
         "children": [
           {
-            "id": "98abfdde3c19c190",
+            "id": "364b5e03a71098f6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pattern/Finite State Machine/FSM 패턴 코드 (고급) _작성중.md",
-                "mode": "source",
+                "file": "Pattern/Singleton Pattern/Singleton 패턴 문제점 & 대안.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "FSM 패턴 코드 (고급) _작성중"
+              "title": "Singleton 패턴 문제점 & 대안"
             }
           }
         ]
@@ -98,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5,
-    "collapsed": true
+    "width": 241.5
   },
   "right": {
     "id": "003a2fcbf09344ac",
@@ -189,8 +188,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b8669a300f6918cc",
+  "active": "ee89d83d704e787f",
   "lastOpenFiles": [
+    "Pattern/Singleton Pattern/Singleton 패턴 문제점 & 대안.md",
+    "Pattern/Singleton Pattern/Singleton 패턴 개념.md",
+    "Pattern/Finite State Machine/FSM 패턴 코드 (고급) _작성중 1.md",
+    "Pattern/Singleton Pattern",
     "Pattern/Finite State Machine/FSM 패턴 코드 (고급).md",
     "Pattern/Finite State Machine/FSM 패턴 코드 (고급) _작성중.md",
     "Pattern/Finite State Machine/FSM 패턴 코드 (중급).md",
@@ -227,12 +230,8 @@
     "Miiiroooo/기획/함정.md",
     "영혼의 등불/기획/맵/미로의 방.md",
     "영혼의 등불/기획/z_image/Group 70.png",
-    "영혼의 등불/기획/구성 요소/맵.md",
-    "영혼의 등불/기획/맵/물의 시계 방.md",
     "영혼의 등불/기획/맵",
-    "영혼의 등불/기획/몬스터/언데드.md",
     "영혼의 등불/기획/몬스터",
-    "영혼의 등불/기획/구성 요소",
     "Miiiroooo/z_image/Group 57 3.png",
     "Miiiroooo/z_image/Group 57 2.png",
     "Unreal Engine/z_image/Pasted image 20250604204754.png",
