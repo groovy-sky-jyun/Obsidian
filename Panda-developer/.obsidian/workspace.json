@@ -4,26 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "c1691b396833c3a4",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ee89d83d704e787f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pattern/Singleton Pattern/Singleton 패턴 개념.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Singleton 패턴 개념"
-            }
-          }
-        ]
-      },
-      {
         "id": "d7ac3e0d03a62faf",
         "type": "tabs",
         "children": [
@@ -33,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pattern/Singleton Pattern/Singleton 패턴 개념.md",
+                "file": "Pattern/순서 패턴/이중 버퍼.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Singleton 패턴 개념"
+              "title": "이중 버퍼"
             }
           }
         ]
@@ -191,8 +171,10 @@
   },
   "active": "364b5e03a71098f6",
   "lastOpenFiles": [
-    "Pattern/Singleton Pattern/Singleton 패턴 문제점 & 대안.md",
     "Pattern/Singleton Pattern/Singleton 패턴 개념.md",
+    "Pattern/순서 패턴/이중 버퍼.md",
+    "Pattern/순서 패턴",
+    "Pattern/Singleton Pattern/Singleton 패턴 문제점 & 대안.md",
     "Pattern/Finite State Machine/FSM 패턴 코드 (고급) _작성중 1.md",
     "Pattern/Singleton Pattern",
     "Pattern/Finite State Machine/FSM 패턴 코드 (고급).md",
@@ -229,10 +211,8 @@
     "영혼의 등불/기획/퍼즐 아이디어 여유분.md",
     "영혼의 등불/기획/퍼즐.md",
     "Miiiroooo/기획/함정.md",
-    "영혼의 등불/기획/맵/미로의 방.md",
     "영혼의 등불/기획/z_image/Group 70.png",
     "영혼의 등불/기획/맵",
-    "영혼의 등불/기획/몬스터",
     "Miiiroooo/z_image/Group 57 3.png",
     "Miiiroooo/z_image/Group 57 2.png",
     "Unreal Engine/z_image/Pasted image 20250604204754.png",
