@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pattern/순서 패턴/이중 버퍼 패턴 코드 1.md",
+                "file": "Pattern/Finite State Machine/FSM 패턴 코드 (중급).md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "이중 버퍼 패턴 코드 1"
+              "title": "FSM 패턴 코드 (중급)"
             }
           }
         ]
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pattern/순서 패턴/이중 버퍼 패턴 코드 1.md",
+                "file": "Pattern/Finite State Machine/FSM 패턴 코드 (중급).md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "이중 버퍼 패턴 코드 1"
+              "title": "FSM 패턴 코드 (중급)"
             }
           }
         ]
@@ -181,6 +181,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -189,21 +190,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f8869bfa77a1133f",
+  "active": "0b823f4b030ef8fd",
   "lastOpenFiles": [
-    "Pattern/순서 패턴/이중 버퍼 패턴 코드.md",
-    "Pattern/순서 패턴/이중 버퍼 패턴 코드 1.md",
-    "Pattern/순서 패턴/이중 버퍼 패턴 개념.md",
-    "Pattern/Singleton Pattern/Singleton 패턴 개념.md",
-    "Pattern/순서 패턴",
-    "Pattern/Singleton Pattern/Singleton 패턴 문제점 & 대안.md",
-    "Pattern/Finite State Machine/FSM 패턴 코드 (고급) _작성중 1.md",
-    "Pattern/Singleton Pattern",
-    "Pattern/Finite State Machine/FSM 패턴 코드 (고급).md",
-    "Pattern/Finite State Machine/FSM 패턴 코드 (고급) _작성중.md",
+    "Pattern/Finite State Machine/FSM 코드 (초급).md",
     "Pattern/Finite State Machine/FSM 패턴 코드 (중급).md",
-    "Pattern/Finite State Machine/FSM 패턴 코드 (초급).md",
-    "Pattern/Finite State Machine/FSM 패턴 개념.md",
+    "Pattern/Finite State Machine/FSM 개념.md",
+    "Pattern/Finite State Machine/FSM 패턴 코드 (고급).md",
+    "Pattern/Finite State Machine/FSM 패턴 코드 (고급) _작성중 1.md",
+    "Pattern/Singleton Pattern/Singleton 패턴 문제점 & 대안.md",
+    "Pattern/Singleton Pattern/Singleton 패턴 개념.md",
+    "Pattern/순서 패턴/이중 버퍼 패턴 개념.md",
+    "Pattern/순서 패턴/이중 버퍼 패턴 코드.md",
+    "Pattern/순서 패턴",
+    "Pattern/Singleton Pattern",
     "Pattern/Observer Pattern/Observer 패턴 개념.md",
     "Pattern/Flyweight Pattern/Flyweight 패턴 개념.md",
     "보스 패턴.md",

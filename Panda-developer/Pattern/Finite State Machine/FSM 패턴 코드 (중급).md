@@ -1,160 +1,197 @@
-## 상태 패턴을 활용한 캐릭터 이동
-#### 1. 상태 인터페이스 정의
-모든 상태 클래스가 구현해야 할 공통 인터페이스(추상 클래스)를 작성한다.
-```cpp titile:IState hl:2
-//전방 선언
-class Character;
+## 상태 객체화를 이용한 코드 구현
+
+### 핵심 구조
+각 상태를 별도의 클래스(객체)로 분리한다.
+
+**1. <mark style="background: #ADCCFFA6;">상태 인터페이스</mark>**
+- 모든 상태 클래스가 상속받을 인터페이스(추상 클래스)이다.
+- Update(), Enter(), Exit() 같은 공통 함수를 정의하여 일관성을 유지한다.
+
+**2. <mark style="background: #ADCCFFA6;">각각의 상태 클래스</mark>**
+- 구체적인 상태를 구현하는 클래스이다.
+- 추상 함수들을 구현한다.
+- 각 클래스는 해당 상태에 맞는 고유한 로직을 가지고 있다.
+- <span style="color:rgb(255, 207, 61)">Enter()</span>
+	- 상태 진입 시 호출되는 함수
+	- 해당 상태로 전환될 때 한 번만 실행되는 초기화 로직
+- <span style="color:rgb(255, 207, 61)">Update()</span>
+	- 상태 시행 로직을 처리하는 함수
+	- 프레임마다 호출된다. 
+	- **<span style="color:rgb(128, 202, 255)">상태 전이 규칙들을 정의한다.</span>**
+- <span style="color:rgb(255, 207, 61)">Exit()</span>
+	- 상태 이탈 시 호출되는 함수
+	- 다른 상태로 전환될 때 한 번만 실행되는 마무리 로직
+
+**3. <mark style="background: #ADCCFFA6;">상태를 가지는 주체</mark>**
+- 플레이어나 몬스터가 해당된다.
+- <span style="color:rgb(255, 207, 61)">ChangeState(State* newState)</span>
+	- 상태를 전환하는 함수
+	- 현재 상태의 Exit()를 호출하고, 새로운 상태의 Enter()를 호출한다.
+
+---
+
+#### 1. 상태 인터페이스 
+```cpp title:IPlayerState hl:2
+//전방 선언 
+class Player;
   
-class IState {
+class IPlayerState {
 public:
-	virtual ~IState(){}
-	virtual void OnEnter(Character* owner) = 0; //상태 진입 시 호출
-	virtual void OnUpdate(Character* owner, float dt) = 0; // 상태 업데이트 시 호출
-	virtual void OnExit(Character* owner) = 0; // 상태 빠져나갈 시 호출
-	virtual void HandleInput(Character* owner, char input) = 0;
+	virtual ~IPlayerState(){}
+	//상태 진입 시 호출
+	virtual void Enter(Player* player) = 0;
+	// 상태 업데이트 시 호출 
+	virtual void Update(Player* player, char key) = 0; 
+	// 상태 빠져나갈 시 호출
+	virtual void Exit(Player* player) = 0; 
 };
 ```
 
-**OnEnter()**
-- 상태에 진입할 때 한 번 호출된다. (초기화 로직)
+<br>
 
-**OnUpdate()**
-- [[FSM 패턴 코드 (초급)]] Character 클래스의 Update()에 정의되어 있는 switch문문 로직이 여기로 들어온다.
-
-**OnExit()**
-- 다른 상태로 바뀌기 직전에 호출 (마무리/정리 로직)
-
-#### 2. 상태 클래스 구현
-```cpp title:StateClass
-class IdleState : public IState{
+#### 2. 상태 클래스
+```cpp title:States
+class IdleState : public IPlayerState{
 public:
-	void OnEnter(Character* owner) override {
-		//플레이어 애니메이션을 Idle로 변경
+	void Enter(Player* player) override {
+		// Idle 상태 진입
 	}
-	void OnUpdate(Character* owner, float dt) override{
-		//Idle 상태에서 매 프레임마다 할 일
-	}
-	void OnExit(Character* owner) override {
-		//Idle 상태가 끝날 때 실행할 로직직
-	}
-	void HandleInput(Character* owner, char input) override {
-		// 'w' -> Walking로 변환
-		if(input == 'w'){
-			owner->ChangeState(std::make_unique<WalkingState>());
-		}
+	void Update(Player* player, char key) override;
+	void OnExit(Player* player) override {
+		// Idle 상태 탈출
 	}
 };
 
-class WalkingState : public IState{
+class MoveState : public IPlayerState{
 public:
-	void OnEnter(Character* owner) override {
-		//플레이어 애니메이션을 Walk로 변경
+	void Enter(Player* player) override {
+		// Move 상태 진입
 	}
-	void OnUpdate(Character* owner, float dt) override{
-		//location += walkSpeed * dt;
-	}
-	void OnExit(Character* owner) override {
-		//Walk 상태가 끝날 때 실행할 로직직
-	}
-	void HandleInput(Character* owner, char input) override {
-		// 's' -> Idle로 변환
-		if(input == 's'){
-			owner->ChangeState(std::make_unique<IdleState>());
-		} // 'r' -> Running로 변환
-		else if(input == 'r'){
-			owner->ChangeState(std::make_unique<RunningState>());
-		}
+	void Update(Player* player, char key) override;
+	void Exit(Player* player) override {
+		// Move 상태 탈출
 	}
 };
 
-class RunningState : public IState{
+class JumpState : public IPlayerState{
 public:
-	void OnEnter(Character* owner) override {
-		//플레이어 애니메이션을 Running으로 변경
+	void Enter(Player* player) override {
+		// Jump 상태 진입
+		jumpFrames = 3;
 	}
-	void OnUpdate(Character* owner, float dt) override{
-		if(stamina <=0){
-			// 스태미나가 다 닳으면 강제로 Walking 상태로 변경		
-		}
-		else{
-			//location += runSpeed * dt;
-			stamina -= 10.0f * dt;
-		}
-	}
-	void OnExit(Character* owner) override {
-		//Running 상태가 끝날 때 실행할 로직
-	}
-	void HandleInput(Character* owner, char input) override {
-		// 's' -> Idle
-		if(input == 's'){
-			owner->ChangeState(std::make_unique<IdleState>());
-		}
+	void Update(Player* player, char key) override;
+	void Exit(Player* player) override {
+		// Jump 상태 탈출
 	}
 
 private:
+	int jumpFrames = 3; // 점프 지속 프레임 수
 	float stamina = 100.0f;
 };
 ```
 
+<br>
 
-#### 3. Character 클래스 수정
-Character 클래스는 현재 상태에 따라 switch문으로 분기할 필요가 없다.
-포인터를 통해 현재 상태 객체에게 모든걸 위임하도록 한다.
-```cpp title:Character
-class Character{
+#### 3. Player
+```cpp title:Player hl:16,28
+class Player{ 
 private:
-	std::unique_ptr<IState> mCurrentState;
+	IPlayerState* currentState;
 
 public:
-	Character(){
-		//시작 상태를 Idle로 설정
-		mCurrentState = std::make_unique<IdleState>();
-		mCurrentState->OnEnter(this);
+	Player() : currentState(nullptr){
+		ChangeState(new IdleState());
 	}
-
-	void Update(float dt){
-		if(mCurrentState){
-			mCurrentState->OnUpdate(this, dt);
+	
+	~Player() {
+		if(currentState){
+			delete currentState;
 		}
 	}
 
-	// 상태 변경
-	void ChangeState(std::unique_ptr<IState> newState){
-		if(mCurrentState){
-			mCurrentState->OnExit(this);
+	// 상태 전환 핵심 함수
+	void ChangeState(IPlayerState* newState){
+		if(currentState){
+			currentState->Exit(this);
+			delete currentState;
 		}
-		
-		mCurrentState = std::move(newState);
-		mCurrentState->OnEnter(this);
+		currentState = newState;
+		if(currentState){
+			currentState->Enter(this);
+		}
 	}
-
-	// 입력 처리 예시 
-	void HandleInput(char input){
-		/* 입력에 따른 상태 전환은 여기서 해도 되고,
-		* 각 State 클래스의 Update 안에서 처리해도 된다.*/
-		if(mCurrentState){
-			mCurrentState->HandleInput(this, input);
+	
+	void HandleInput(char key){
+		if(currentState){
+			currentState->Update(this, key);
 		}
 	}
 };
-```
-- Character와 키입력을 분리하기 위해 HandleInput을 각 상태 클래스에서 구현하도록 하였다.
-- Character는 키입력에 따라 어떤 상태가 되는지 알 필요가 없다.
 
+void IdleState::Update(Player* player, char key){
+	if(key == 'a' || key == 'd'){
+		player->ChangeState(new MoveState());
+		player>HandleInput(key);
+	} else if(key == 'c'){
+		player->ChangeState(new JumpState());
+		player>HandleInput(key);
+	}
+}
+void MoveState::Update(Player* player, char key){
+	if(ket == 'a' || key == 'd'){
+		//좌우 이동
+	}else if(key == 'c'){
+		player->ChangeState(new JumpState());
+		player>HandleInput(key);
+	}else{
+		player->ChangeState(new IdleState());
+		player>HandleInput(key);
+	}
+}
+void JumpState::Update(Player* player, char key){
+	if(stamina >= 10){
+		stamina -= 10;
+		jumpFrames--;
+		if(jumpFrames <= 0){
+			player->ChangeState(new IdleState());
+			player>HandleInput(key);
+		}
+	}
+}
+```
+
+##### 실행 흐름
+1. 플레이어가 키를 입력
+2. `Player::HandleInput()`이 실행
+3. `currentState->Update()`를 통해서 currentState 클래스에서 전이 조건 확인
+4. 전이 조건이 충족되면 `Player::ChangeState`를 호출한다.
+
+**<span style="color:rgb(255, 82, 82)">문제점</span>**
+```
+player->ChangeState(new IdleState());
+			player>HandleInput(key);
+```
+<span style="color:rgb(255, 82, 82)">이렇게가 맞나?
+여기부터 다시 작성해야함(실행 코드는 제외)</span>
+
+<br>
 
 #### 4. 실행
 ```cpp title:main
 int main(){
-	Character player;
-	player.Update(0.16f);
-
-	player.HandleInput('w'); 
-	player.Update(0.16f);
-	player.Update(0.16f);
-
-	player.HandleInput('r');
-	player.Update(0.16f);
-	player.Update(0.16f);
+	Player player;
+	char key;
+	
+	while(true){
+		if(key == 'q'){
+			break;
+		}
+		
+		player.HandleInput(key);
+		
+		//딜레이
+		std::this_thread::sleep_for(std::chrono::milliseconds(50));
+	}
 
 	return 0;
 
