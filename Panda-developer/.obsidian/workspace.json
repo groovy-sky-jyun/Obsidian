@@ -4,26 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "90ad82f36f149b90",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f8869bfa77a1133f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pattern/Finite State Machine/FSM 패턴 코드 (중급).md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "FSM 패턴 코드 (중급)"
-            }
-          }
-        ]
-      },
-      {
         "id": "cac3d4739ec64d02",
         "type": "tabs",
         "children": [
@@ -33,12 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pattern/Finite State Machine/FSM 패턴 코드 (중급).md",
+                "file": "Pattern/Finite State Machine/FSM 코드 (중급).md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "FSM 코드 (중급)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "e1af5f00a756e8a1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3c6490c2c9385dbf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pattern/Finite State Machine/FSM 코드 (중급).md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "FSM 패턴 코드 (중급)"
+              "title": "FSM 코드 (중급)"
             }
           }
         ]
@@ -192,10 +192,11 @@
   },
   "active": "0b823f4b030ef8fd",
   "lastOpenFiles": [
+    "Pattern/Finite State Machine/HFSM 코드 (고급).md",
+    "Pattern/Finite State Machine/FSM 코드 (중급).md",
     "Pattern/Finite State Machine/FSM 코드 (초급).md",
-    "Pattern/Finite State Machine/FSM 패턴 코드 (중급).md",
+    "HFSM 패턴 코드 (고급).md",
     "Pattern/Finite State Machine/FSM 개념.md",
-    "Pattern/Finite State Machine/FSM 패턴 코드 (고급).md",
     "Pattern/Finite State Machine/FSM 패턴 코드 (고급) _작성중 1.md",
     "Pattern/Singleton Pattern/Singleton 패턴 문제점 & 대안.md",
     "Pattern/Singleton Pattern/Singleton 패턴 개념.md",
