@@ -1,183 +1,132 @@
-### 몬스터 복제 
-#### Monster
-```cpp title:Monster 
-class Monster{
-public:
-	virtual ~Monster() {}
-}
-```
+### 예시
+몬스터가 크게 고블린, 오크 두 종류로 나뉜다고 가정해보자.
+몬스터가 공통적으로 가지는 데이터는 다음과 같다.
+`이름, 체력, 공격`
+
+이를 프로토타입 패턴을 이용해 구현하려면 다음과 같은 데이터가 추가로 필요하다.
+`ID, 몬스터 종류(클래스)`
+
+이를 이용해 이름과 체력, 공격력이 조금씩 다른 고블린을 만들수도, 오크를 만들수도 있다. 큰 카테고리는 2개지만 이를 바탕으로 다양한 상태값을 가지는 객체들을 생성할 수 있다.
 
 ---
 
-#### Ghost
-```cpp title:Ghost
-class Ghost : public Monster {
-public:
-	Ghost() 
-	: Ghost(100, 3){}
+### 몬스터 데이터 에셋
+몬스터의 기본 정보를 담는 클래스이다.
+프로토타입 역할을 하며, 모든 몬스터가 가지는 공통된 데이터를 담고 있는 원형이다.
+```cpp title:MonsterDataAsset hl:12
+class ABaseMonster; 
+
+class UMonsterDataAsset : public UDataAsset
+{
+	GENERATED_BODY()
 	
-	Ghost(int health, int speed)
-	: health_(health),
-	  speed_(speed){}
-
-private:
-	int health_;
-	int speed_;
-}
-```
-
----
-
-#### Spawner
-```cpp title:Spawner
-typedef Monster* (*SpawnCallback)();
-
-class Spawner{
-public:
-	explicit Spawner(SpawnCallback spawn) 
-	: spawn_(spawn){}
-
-	Monster* spawnMonster(){
-		return spawn_(); //실제로 함수 호출
-	}
-
-private:
-	SpawnCallback spawn_;
-}
-
-Monster* spawnGhost(){
-	return new Ghost();
-}
-```
-
-```cpp
-int Main(){
-	Spawner* ghostSpawner = new Spawner(spawnGhost);
-	Monster* ghost = ghostSpawner->spawnMonster();
-}
-```
-
-**Callback**
-함수 자체 주소를 넘겨준다.
-위에서는 Monster* 를 반환하는 함수의 주소를 담고 있는 함수 포인터 타입의 별칭을 SpawnCallback 라고 정의한 것이다.
-
-explicit Spawner(SpawnCallback spawn) 여기에서 spawn은 SpawnCallback 타입의 매개변수이다.
-
-(explicit는 암시적 변환을 금지하기 위함이다.)
-
-Spawner* ghostSpawner = new Spawner(spawnGhost); 에서 spawnGhost()가 아닌 spawnGhost 를 매개변수로 넘겨주는이유?
-- spawnGhost는 함수 포인터를 전달하는 것이고, spawnGhost()는 함수 호출 결과를 전달하는 것이기에 후자는 타입이 맞지않아 오류가 발생한다.
-
----
-
-```cpp title:Monster 
-class Monster{
-public:
-	virtual ~Monster() {}
-	virtual Monster* clone() const = 0;
+public: 
+	FName MonsterID;
+	FText MonsterName;
+	float BaseHealth;
+	float BaseAttack;
+	TSubclassOf<ABaseMonster> MonsterClass;
 };
 ```
+> ##### TSubclassOf<>
+>데이터가 어떤 프로토타입 클래스를 기반으로 생성할지 정한다.
 
+<br>
 
-#### Ghost
-```cpp title:Ghost
-class Ghost : public Monster {
-public:
-	Ghost() 
-	: Ghost(100, 3){}
+### 몬스터 스포너
+실제 게임 월드에 배치되는 액터로, UDataAsset들을 관리하고 필요할 때마다 몬스터를 생성하는 공장 역할을 한다.
+```cpp title:MonsterSpawner.h hl:25
+class UMonsterDataAsset; 
+class ABaseMonster; 
+
+class AMonsterSpawner : public AActor
+{
+	GENERATED_BODY()
 	
-	Ghost(int health, int speed)
-	: health_(health),
-	  speed_(speed){}
-
-	vortual Monster* clone(){
-		return new Ghost(helath_,speed_);
-	}
-
-private:
-	int health_;
-	int speed_;
-};
-```
-
-
-
-#### Spawner
-```cpp title:Spawner
-class Spawner{
 public:
-	Spawner(Monster* prototype) 
-	: prototype_(prototype){}
-
-	Monster* spawnMonster() const{
-		return prototype_->clone();
-	}
-
-private:
-	const Monster* prototype_;
-};
-```
-
-```cpp
-int Main(){
-	Monster* ghostPrototype = new Ghost(15,3);
-	Spawner* ghostSpawner = new Spawner(ghostPrototype);
-};
-```
-
-
----
-
-
-```cpp title:Monster 
-class Monster{
-public:
-	virtual ~Monster() {};
-};
-```
-
-#### Ghost
-```cpp title:Ghost
-class Ghost : public Monster {
-public:
-	Ghost() 
-	: Ghost(100, 3){}
+	AMonsterSpawner();
 	
-	Ghost(int health, int speed)
-	: health_(health),
-	  speed_(speed){}
-
-	Monster* clone(){
-		return new Ghost(helath_,speed_);
-	}
-
+	// 에디터에서 몬스터 데이터 에셋을 할당
+	TArray<UMonsterDataAsset*> MonsterPrototypes;
+	
+protected:
+	virtual void BeginPlay() override;
+	
 private:
-	int health_;
-	int speed_;
+	TMap<FName, UMonsterDataAsset*> PrototypeMap;
+	
+	// 몬스터 ID와 데이터를 연결시켜 놓는다.
+	void InitializePrototypes();
+	
+public:
+	// 몬스터 생성 및 초기화
+	ABaseMonster* SpawnerMonster(FName MonsterID, const FVector& SpawnLocation);
 };
 ```
 
+```cpp title:MonsterSpawner.cpp hl:41-54
+AMonsterSpawner::AMonsterSpawner() 
+{
+	PrimaryActorTick.bCanEverTick = false;
+}
 
-#### Spawner
-```cpp title:Spawner
-class Spawner{
-public:
-	virtual ~Spawner(){}
-	virtual Monster* spawnMonster() = 0;
-};
+void AMonsterSpawner::BeginPlay()
+{
+	Super::BeginPlay();
+	// 몬스터 ID와 데이터를 연결시켜 놓는다.
+	InitializePrototypes(); 
+	
+	// 원본 객체 생성
+	SpawnMonster(FName("Goblin"), GetActorLocation() + FVector(200.f, 0.f, 0.f));
+	SpawnMonster(FName("Orc"), GetActorLocation() + FVector(-200.f, 0.f, 0.f));
+}
 
-template <class T>
-class SpawnerFor : public Spawner {
-public:
-	virtual Monster* spawnMonster() override {
-		return new T(); 
+void AMonsterSpawner::InitializePrototypes()
+{
+	for(UMonsterDataAsset* Data : MonsterPrototypes)
+	{
+		if(Data)
+		{
+			// MonsterID를 키로 하여 맵에 데이터를 추가한다.
+			PrototypeMap.Add(Data->MonsterID, Data);
+		}
 	}
-};
+}
+
+ABaseMonster* AMonsterSpawner::SpawnMonster(FName MonsterID, const FVector& SpawnLocation)
+{
+	// 1. map에서 몬스터의 원형 데이터(프로토타입)를 찾는다.
+	UMonsterDatasset** PrototypeDataPtr = PrototypeMap.Find(MonsterID);
+	if(!PrototypeDataPtr)
+	{
+		return nullptr;
+	}
+	
+	UMonsterDataAsset* PrototypeDate = *PrototypeDataPtr;
+	
+	// 2. 새로운 액터를 생성한다. (clone)
+	ABaseMonster* NewMonster = GetWorld()->SpawnActor<ABaseMonster>(
+		PrototypeData->MonsterClass,
+		SpawnLocation,
+		FRotator::ZeroRotator,
+		// 파라미터 생략
+	); 
+	
+	// 데이터 초기화 (원형 데이터 복사)
+	if(NewMonster)
+	{
+		NewMonster->Health = PrototypeData->BaseHealth;
+		NewMonster->Attack = PrototypeData->BaseAttack;
+		
+		return NewMonster;
+	}
+	return nullptr;
+}
 ```
 
-```cpp
-int Main(){
-	Spawner* ghostSpawner = new SpawnerFor<Ghost>();
-	Monster* ghost = ghostSpawner->spawnMonster();
-};
-```
+> ###### 객체를 생성과 데이터 초기화를 따로하면 프로토타입 패턴이 아니지 않나요?
+> 위 코드  `AMonsterSpawner::SpawnMonster()`를 보면 새로운 액터를 생성하고 난 뒤, 새 액터에 데이터를 초기화 하는 방식인 것을 볼 수 있다. 
+>
+> 프로토타입 패턴은 원형 객체의 데이터를 사용하는것인데 이러면 원형 데이터를 사용하는게 아니게 되지 않나? 라고 생각할 수 있다.
+>
+> 이는 언리얼 엔진의 특성때문이다. AActor 객체를 복사해야하는데 AActor는 new 연산만으로 완벽한 복제가 불가능하기 때문이다. 

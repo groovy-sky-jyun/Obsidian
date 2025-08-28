@@ -13,12 +13,46 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pattern/Flyweight Pattern/Flyweight 패턴 코드 (심화).md",
+                "file": "Pattern/ProtoType Pattern/Prototype 패턴 코드 (기본).md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Flyweight 패턴 코드 (심화)"
+              "title": "Prototype 패턴 코드 (기본)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "b40c2208c79459e6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "94065840045bb06e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pattern/ProtoType Pattern/Prototype 패턴 코드 (기본).md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Prototype 패턴 코드 (기본)"
+            }
+          },
+          {
+            "id": "20de78e9266d9424",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pattern/ProtoType Pattern/Prototype 패턴 개념.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Prototype 패턴 개념"
             }
           }
         ]
@@ -78,7 +112,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5
+    "width": 241.5,
+    "collapsed": true
   },
   "right": {
     "id": "003a2fcbf09344ac",
@@ -169,10 +204,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3c6490c2c9385dbf",
+  "active": "94065840045bb06e",
   "lastOpenFiles": [
-    "Pattern/Flyweight Pattern/Flyweight 패턴 코드 (기본).md",
+    "Pattern/ProtoType Pattern/Prototype 패턴 개념.md",
+    "Pattern/ProtoType Pattern/Prototype 패턴 코드 (기본).md",
+    "Pattern/Flyweight Pattern/Flyweight 패턴 코드 (심화).md",
     "Pattern/Flyweight Pattern/Flyweight 패턴 개념.md",
+    "Pattern/Singleton Pattern/Singleton 패턴 문제점 & 대안.md",
+    "Pattern/Singleton Pattern/Singleton 패턴 개념.md",
+    "Pattern/Observer Pattern/Observer 패턴 코드 (심화).md",
+    "Pattern/Observer Pattern/Observer 패턴 개념.md",
+    "Pattern/Flyweight Pattern/Flyweight 패턴 코드 (기본).md",
+    "Pattern/Command Pattern/Command 패턴 코드.md",
+    "Pattern/Command Pattern/Command 패턴 개념.md",
     "Pattern/Finite State Machine/HFSM 코드 (고급).md",
     "Pattern/z_image/Group 113 1.png",
     "Pattern/Finite State Machine/FSM 코드 (중급).md",
@@ -184,27 +228,18 @@
     "HFSM 패턴 코드 (고급).md",
     "Pattern/Finite State Machine/FSM 개념.md",
     "Pattern/Finite State Machine/FSM 패턴 코드 (고급) _작성중 1.md",
-    "Pattern/Singleton Pattern/Singleton 패턴 문제점 & 대안.md",
-    "Pattern/Singleton Pattern/Singleton 패턴 개념.md",
     "Pattern/순서 패턴/이중 버퍼 패턴 개념.md",
     "Pattern/순서 패턴/이중 버퍼 패턴 코드.md",
     "Pattern/순서 패턴",
     "Pattern/Singleton Pattern",
-    "Pattern/Observer Pattern/Observer 패턴 개념.md",
     "보스 패턴.md",
-    "Pattern/ProtoType Pattern/Prototype 패턴 코드 (기본).md",
     "Pattern/Finite State Machine",
-    "Pattern/ProtoType Pattern/Prototype 패턴 개념.md",
     "Pattern/ProtoType Pattern",
     "Pattern/Observer Pattern/Observer 패턴 코드 (기본).md",
-    "Pattern/Observer Pattern/Observer 패턴 코드 (심화).md",
-    "Pattern/Flyweight Pattern/Flyweight 패턴 코드 (심화).md",
     "Pattern/z_image",
     "Pattern/z_image/실행 순서.png",
     "Pattern/z_image/OnAchievementUnlocked 구독 관계도.png",
     "Pattern/z_image/OnEnemyKilled 구독 관계도.png",
-    "Pattern/Command Pattern/Command 패턴 코드.md",
-    "Pattern/Command Pattern/Command 패턴 개념.md",
     "Pattern/Observer Pattern",
     "Pattern/Flyweight Pattern",
     "Pattern/Command 패턴.md",
