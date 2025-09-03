@@ -13,32 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/클래스와 객체/소멸자.md",
+                "file": "C++/클래스와 객체/생성자.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "소멸자"
-            }
-          }
-        ]
-      },
-      {
-        "id": "d5be677fd87887be",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "488d2e5bb75edb28",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C++/클래스와 객체/소멸자.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "소멸자"
+              "title": "생성자"
             }
           }
         ]
@@ -189,12 +169,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "488d2e5bb75edb28",
+  "active": "94065840045bb06e",
   "lastOpenFiles": [
-    "C++/클래스와 객체/인라인 함수.md",
-    "C++/클래스와 객체/소멸자.md",
-    "Game Pattern/Singleton Pattern/Singleton 패턴 개념.md",
+    "C++/클래스와 객체/헤더 가드.md",
     "C++/클래스와 객체/생성자.md",
+    "C++/클래스와 객체/소멸자.md",
+    "C++/클래스와 객체/인라인 함수.md",
+    "Game Pattern/Singleton Pattern/Singleton 패턴 개념.md",
     "C++/클래스와 객체/위임 생성자.md",
     "Game Pattern/ProtoType Pattern/Prototype 패턴 코드 (기본).md",
     "C++/클래스와 객체/생성자",
@@ -234,7 +215,6 @@
     "Game Pattern/z_image/OnEnemyKilled 구독 관계도.png",
     "Game Pattern/Observer Pattern",
     "Game Pattern/Flyweight Pattern",
-    "Pattern/Command 패턴.md",
     "영혼의 등불/기획/z_image/level1 제4구역 퍼즐 답안.png",
     "영혼의 등불/기획/z_image/level1 제4구역 퍼즐.png",
     "Untitled.canvas"
