@@ -4,21 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "b40c2208c79459e6",
+        "id": "d9f80561fdf5ea70",
         "type": "tabs",
         "children": [
           {
-            "id": "94065840045bb06e",
+            "id": "2dbde7f87e2e7702",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/클래스와 객체/생성자.md",
+                "file": "C++/객체/포인터.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "생성자"
+              "title": "포인터"
+            }
+          }
+        ]
+      },
+      {
+        "id": "63add078a22d6e61",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5267912fb307744f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C++/객체/포인터.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "포인터"
             }
           }
         ]
@@ -53,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#초기화리스트",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -169,17 +189,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "94065840045bb06e",
+  "active": "5267912fb307744f",
   "lastOpenFiles": [
-    "C++/클래스와 객체/헤더 가드.md",
-    "C++/클래스와 객체/생성자.md",
-    "C++/클래스와 객체/소멸자.md",
+    "C++/클래스/헤더 가드.md",
+    "C++/객체/포인터.md",
+    "C++/클래스/생성자.md",
+    "C++/클래스/소멸자.md",
+    "C++/객체",
     "C++/클래스와 객체/인라인 함수.md",
     "Game Pattern/Singleton Pattern/Singleton 패턴 개념.md",
     "C++/클래스와 객체/위임 생성자.md",
     "Game Pattern/ProtoType Pattern/Prototype 패턴 코드 (기본).md",
     "C++/클래스와 객체/생성자",
-    "C++/클래스와 객체",
+    "C++/클래스",
     "C++",
     "Game Pattern/ProtoType Pattern/Prototype 패턴 개념.md",
     "Game Pattern/Flyweight Pattern/Flyweight 패턴 코드 (심화).md",
@@ -208,13 +230,11 @@
     "보스 패턴.md",
     "Game Pattern/Finite State Machine",
     "Game Pattern/ProtoType Pattern",
-    "Game Pattern/Observer Pattern/Observer 패턴 코드 (기본).md",
     "Game Pattern/z_image",
     "Game Pattern/z_image/실행 순서.png",
     "Game Pattern/z_image/OnAchievementUnlocked 구독 관계도.png",
     "Game Pattern/z_image/OnEnemyKilled 구독 관계도.png",
     "Game Pattern/Observer Pattern",
-    "Game Pattern/Flyweight Pattern",
     "영혼의 등불/기획/z_image/level1 제4구역 퍼즐 답안.png",
     "영혼의 등불/기획/z_image/level1 제4구역 퍼즐.png",
     "Untitled.canvas"
