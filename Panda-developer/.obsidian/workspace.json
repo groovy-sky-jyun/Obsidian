@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/객체/포인터.md",
+                "file": "C++/함수 중복과 static/디폴트 매개 변수.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "포인터"
+              "title": "디폴트 매개 변수"
             }
           }
         ]
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/객체/포인터.md",
+                "file": "C++/함수 중복과 static/디폴트 매개 변수.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "포인터"
+              "title": "디폴트 매개 변수"
             }
           }
         ]
@@ -98,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5
+    "width": 241.5,
+    "collapsed": true
   },
   "right": {
     "id": "003a2fcbf09344ac",
@@ -189,11 +190,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5267912fb307744f",
+  "active": "2dbde7f87e2e7702",
   "lastOpenFiles": [
-    "C++/클래스/헤더 가드.md",
-    "C++/객체/포인터.md",
+    "C++/함수 중복과 static/Overloading.md",
+    "C++/함수 중복과 static/디폴트 매개 변수.md",
     "C++/클래스/생성자.md",
+    "C++/객체/포인터.md",
+    "C++/함수 중복과 static",
+    "C++/클래스/헤더 가드.md",
     "C++/클래스/소멸자.md",
     "C++/객체",
     "C++/클래스와 객체/인라인 함수.md",
@@ -224,17 +228,14 @@
     "Game Pattern/Finite State Machine/FSM 개념.md",
     "Pattern/Finite State Machine/FSM 패턴 코드 (고급) _작성중 1.md",
     "Game Pattern/순서 패턴/이중 버퍼 패턴 개념.md",
-    "Game Pattern/순서 패턴/이중 버퍼 패턴 코드.md",
     "Game Pattern/순서 패턴",
     "Game Pattern/Singleton Pattern",
-    "보스 패턴.md",
     "Game Pattern/Finite State Machine",
     "Game Pattern/ProtoType Pattern",
     "Game Pattern/z_image",
     "Game Pattern/z_image/실행 순서.png",
     "Game Pattern/z_image/OnAchievementUnlocked 구독 관계도.png",
     "Game Pattern/z_image/OnEnemyKilled 구독 관계도.png",
-    "Game Pattern/Observer Pattern",
     "영혼의 등불/기획/z_image/level1 제4구역 퍼즐 답안.png",
     "영혼의 등불/기획/z_image/level1 제4구역 퍼즐.png",
     "Untitled.canvas"
