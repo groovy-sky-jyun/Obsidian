@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/함수 중복과 static/디폴트 매개 변수.md",
+                "file": "C++/함수와 변수/Static.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "디폴트 매개 변수"
+              "title": "Static"
             }
           }
         ]
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/함수 중복과 static/디폴트 매개 변수.md",
+                "file": "C++/함수와 변수/Static.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "디폴트 매개 변수"
+              "title": "Static"
             }
           }
         ]
@@ -192,11 +192,12 @@
   },
   "active": "2dbde7f87e2e7702",
   "lastOpenFiles": [
-    "C++/함수 중복과 static/Overloading.md",
-    "C++/함수 중복과 static/디폴트 매개 변수.md",
+    "C++/함수와 변수/디폴트 매개 변수.md",
+    "C++/함수와 변수/Static.md",
+    "C++/함수와 변수/Overloading.md",
     "C++/클래스/생성자.md",
     "C++/객체/포인터.md",
-    "C++/함수 중복과 static",
+    "C++/함수와 변수",
     "C++/클래스/헤더 가드.md",
     "C++/클래스/소멸자.md",
     "C++/객체",
@@ -227,7 +228,6 @@
     "HFSM 패턴 코드 (고급).md",
     "Game Pattern/Finite State Machine/FSM 개념.md",
     "Pattern/Finite State Machine/FSM 패턴 코드 (고급) _작성중 1.md",
-    "Game Pattern/순서 패턴/이중 버퍼 패턴 개념.md",
     "Game Pattern/순서 패턴",
     "Game Pattern/Singleton Pattern",
     "Game Pattern/Finite State Machine",
