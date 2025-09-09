@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/가상 메모리.md",
+                "file": "C++/함수와 변수/Friend 함수.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "가상 메모리"
+              "title": "Friend 함수"
             }
           }
         ]
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/가상 메모리.md",
+                "file": "C++/함수와 변수/Friend 함수.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "가상 메모리"
+              "title": "Friend 함수"
             }
           }
         ]
@@ -192,8 +192,10 @@
   },
   "active": "2dbde7f87e2e7702",
   "lastOpenFiles": [
-    "C++/함수와 변수/Static.md",
+    "C++/함수와 변수/연산자 함수.md",
+    "C++/함수와 변수/Friend 함수.md",
     "CS/가상 메모리.md",
+    "C++/함수와 변수/Static.md",
     "CS",
     "C++/함수와 변수/디폴트 매개 변수.md",
     "C++/함수와 변수/Overloading.md",
@@ -227,8 +229,6 @@
     "Game Pattern/z_image/Group 113.png",
     "Game Pattern/z_image/Group 108.png",
     "Game Pattern/Finite State Machine/FSM 코드 (초급).md",
-    "HFSM 패턴 코드 (고급).md",
-    "Game Pattern/Finite State Machine/FSM 개념.md",
     "Game Pattern/순서 패턴",
     "Game Pattern/Singleton Pattern",
     "Game Pattern/Finite State Machine",
