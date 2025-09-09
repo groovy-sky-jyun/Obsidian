@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/함수와 변수/Static.md",
+                "file": "CS/가상 메모리.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Static"
+              "title": "가상 메모리"
             }
           }
         ]
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/함수와 변수/Static.md",
+                "file": "CS/가상 메모리.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Static"
+              "title": "가상 메모리"
             }
           }
         ]
@@ -192,8 +192,10 @@
   },
   "active": "2dbde7f87e2e7702",
   "lastOpenFiles": [
-    "C++/함수와 변수/디폴트 매개 변수.md",
     "C++/함수와 변수/Static.md",
+    "CS/가상 메모리.md",
+    "CS",
+    "C++/함수와 변수/디폴트 매개 변수.md",
     "C++/함수와 변수/Overloading.md",
     "C++/클래스/생성자.md",
     "C++/객체/포인터.md",
@@ -227,12 +229,10 @@
     "Game Pattern/Finite State Machine/FSM 코드 (초급).md",
     "HFSM 패턴 코드 (고급).md",
     "Game Pattern/Finite State Machine/FSM 개념.md",
-    "Pattern/Finite State Machine/FSM 패턴 코드 (고급) _작성중 1.md",
     "Game Pattern/순서 패턴",
     "Game Pattern/Singleton Pattern",
     "Game Pattern/Finite State Machine",
     "Game Pattern/ProtoType Pattern",
-    "Game Pattern/z_image",
     "Game Pattern/z_image/실행 순서.png",
     "Game Pattern/z_image/OnAchievementUnlocked 구독 관계도.png",
     "Game Pattern/z_image/OnEnemyKilled 구독 관계도.png",
