@@ -13,26 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/함수와 변수/연산자 함수.md",
+                "file": "C++/클래스/상속.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "연산자 함수"
+              "title": "상속"
             }
           },
           {
-            "id": "fbfb619d7af5474e",
+            "id": "4897e33b0822cb09",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/함수와 변수/Global 전역.md",
-                "mode": "source",
+                "file": "C++/클래스/생성자.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Global 전역"
+              "title": "생성자"
             }
           }
         ]
@@ -47,12 +47,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/함수와 변수/연산자 함수.md",
+                "file": "C++/클래스/상속.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "연산자 함수"
+              "title": "상속"
             }
           }
         ]
@@ -204,17 +204,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "15a0a424c9c2655d",
+  "active": "5267912fb307744f",
   "lastOpenFiles": [
-    "C++/함수와 변수/Global 전역.md",
+    "C++/클래스/생성자.md",
+    "C++/클래스/상속.md",
     "C++/함수와 변수/연산자 함수.md",
+    "C++/함수와 변수/Global 전역.md",
     "C++/함수와 변수/friend 함수.md",
     "C++/함수와 변수/Static 정적.md",
     "C++/함수와 변수/Overloading.md",
     "C++/함수와 변수/디폴트 매개 변수.md",
     "CS/가상 메모리.md",
     "CS",
-    "C++/클래스/생성자.md",
     "C++/객체/포인터.md",
     "C++/함수와 변수",
     "C++/클래스/헤더 가드.md",
@@ -238,7 +239,6 @@
     "Game Pattern/Command Pattern/Command 패턴 개념.md",
     "Game Pattern/Finite State Machine/HFSM 코드 (고급).md",
     "Game Pattern/z_image/Group 113 1.png",
-    "Game Pattern/Finite State Machine/FSM 코드 (중급).md",
     "Game Pattern/z_image/Group 108 2.png",
     "Game Pattern/z_image/Group 108 1.png",
     "Game Pattern/z_image/Group 113.png",
