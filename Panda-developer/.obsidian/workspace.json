@@ -13,26 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/클래스/상속.md",
+                "file": "C++/작성 필요/연산자 함수.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "상속"
-            }
-          },
-          {
-            "id": "4897e33b0822cb09",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C++/클래스/생성자.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "생성자"
+              "title": "연산자 함수"
             }
           }
         ]
@@ -47,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/클래스/상속.md",
+                "file": "C++/작성 필요/상속_(1)메모리 구조.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "상속"
+              "title": "상속_(1)메모리 구조"
             }
           }
         ]
@@ -112,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5,
-    "collapsed": true
+    "width": 241.5
   },
   "right": {
     "id": "003a2fcbf09344ac",
@@ -204,17 +189,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5267912fb307744f",
+  "active": "b8273bf270603755",
   "lastOpenFiles": [
-    "C++/클래스/생성자.md",
-    "C++/클래스/상속.md",
-    "C++/함수와 변수/연산자 함수.md",
-    "C++/함수와 변수/Global 전역.md",
-    "C++/함수와 변수/friend 함수.md",
-    "C++/함수와 변수/Static 정적.md",
-    "C++/함수와 변수/Overloading.md",
     "C++/함수와 변수/디폴트 매개 변수.md",
+    "C++/함수와 변수/Overloading.md",
+    "C++/작성 필요/Global 전역.md",
+    "C++/함수와 변수/Friend 함수.md",
+    "C++/클래스/상속_(2)캐스팅(포인터).md",
+    "C++/작성 필요/상속_(1)메모리 구조.md",
+    "C++/클래스/상속_(4)접근지정자.md",
+    "C++/작성 필요/상속_(5)다중 상속.md",
+    "C++/작성 필요",
+    "C++/클래스/상속_(3)생성자, 소멸자.md",
+    "C++/함수와 변수/Static 정적.md",
     "CS/가상 메모리.md",
+    "C++/클래스/생성자.md",
+    "C++/작성 필요/연산자 함수.md",
+    "C++/함수와 변수/friend 함수.md",
     "CS",
     "C++/객체/포인터.md",
     "C++/함수와 변수",
@@ -233,11 +224,6 @@
     "Game Pattern/Flyweight Pattern/Flyweight 패턴 개념.md",
     "Game Pattern/Singleton Pattern/Singleton 패턴 문제점 & 대안.md",
     "Game Pattern/Observer Pattern/Observer 패턴 코드 (심화).md",
-    "Game Pattern/Observer Pattern/Observer 패턴 개념.md",
-    "Game Pattern/Flyweight Pattern/Flyweight 패턴 코드 (기본).md",
-    "Game Pattern/Command Pattern/Command 패턴 코드.md",
-    "Game Pattern/Command Pattern/Command 패턴 개념.md",
-    "Game Pattern/Finite State Machine/HFSM 코드 (고급).md",
     "Game Pattern/z_image/Group 113 1.png",
     "Game Pattern/z_image/Group 108 2.png",
     "Game Pattern/z_image/Group 108 1.png",
@@ -246,7 +232,6 @@
     "Game Pattern/순서 패턴",
     "Game Pattern/Singleton Pattern",
     "Game Pattern/Finite State Machine",
-    "Game Pattern/ProtoType Pattern",
     "Game Pattern/z_image/실행 순서.png",
     "Game Pattern/z_image/OnAchievementUnlocked 구독 관계도.png",
     "Game Pattern/z_image/OnEnemyKilled 구독 관계도.png",
