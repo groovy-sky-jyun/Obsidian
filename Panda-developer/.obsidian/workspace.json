@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/작성 필요/가상 함수 테이블.md",
+                "file": "C++/수정필요/정적 바인딩과 동적 바인딩.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "가상 함수 테이블"
+              "title": "정적 바인딩과 동적 바인딩"
             }
           }
         ]
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/수정필요/이름 숨김.md",
+                "file": "C++/수정필요/정적 바인딩과 동적 바인딩.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "이름 숨김"
+              "title": "정적 바인딩과 동적 바인딩"
             }
           }
         ]
@@ -98,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5
+    "width": 241.5,
+    "collapsed": true
   },
   "right": {
     "id": "003a2fcbf09344ac",
@@ -191,20 +192,20 @@
   },
   "active": "4b9863bc8843dbf6",
   "lastOpenFiles": [
+    "C++/수정필요/상속_(2)캐스팅(포인터).md",
+    "C++/수정필요/정적 바인딩과 동적 바인딩.md",
+    "C++/수정필요/이름 숨김.md",
+    "C++/작성 필요/가상 함수 테이블.md",
     "C++/작성 필요/Global 전역.md",
     "C++/작성 필요/컴파일러 동작 과정.md",
     "C++/작성 필요/연산자 함수.md",
     "C++/수정필요/상속_(1)메모리 구조.md",
     "C++/수정필요/상속_(5)다중 상속.md",
-    "C++/수정필요/이름 숨김.md",
     "C++/수정필요",
     "C++/수정필요/가상함수와 Overriding.md",
-    "C++/수정필요/정적 바인딩과 동적 바인딩.md",
     "C++/함수와 변수/Overloading.md",
     "C++/함수와 변수/final.md",
-    "C++/작성 필요/가상 함수 테이블.md",
     "C++/함수와 변수/디폴트 매개 변수.md",
-    "C++/클래스/상속_(2)캐스팅(포인터).md",
     "C++/함수와 변수/Friend 함수.md",
     "C++/클래스/상속_(4)접근지정자.md",
     "C++/작성 필요",
