@@ -4,11 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "8b6614b578b37bd8",
+        "id": "f89d6b0af69034d6",
         "type": "tabs",
         "children": [
           {
-            "id": "cf5b3a4b682a8446",
+            "id": "197223b7c7951c5d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "수학/외적.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "외적"
+            }
+          },
+          {
+            "id": "1af7088cc5f92cc0",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5
+    "width": 241.5,
+    "collapsed": true
   },
   "right": {
     "id": "003a2fcbf09344ac",
@@ -165,10 +180,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cf5b3a4b682a8446",
+  "active": "197223b7c7951c5d",
   "lastOpenFiles": [
-    "수학/내적.md",
     "수학/경사면에서의 가속 및 감속.md",
+    "수학/내적.md",
+    "수학/빛의 반사.md",
+    "C++/작성 필요/참조.md",
+    "C++/작성 필요/Global 전역.md",
+    "C++/작성 필요/가상 함수 테이블.md",
     "수학/물리",
     "Miiiroooo/z_image/unnamed.jpg",
     "Miiiroooo/z_image/Pasted image 20250417192410.png",
@@ -180,7 +199,6 @@
     "Miiiroooo/z_image/Pasted image 20240704040431.png",
     "Miiiroooo/z_image/Pasted image 20240704035911.png",
     "Miiiroooo/z_image/Pasted image 20240704035436 1.png",
-    "수학/빛의 반사.md",
     "수학/외적.md",
     "C++/함수와 변수/정적 바인딩.md",
     "C++/수정필요/이름 숨김.md",
@@ -198,8 +216,6 @@
     "C++/클래스/생성자.md",
     "C++/함수와 변수/동적 바인딩.md",
     "C++/함수와 변수/final.md",
-    "C++/작성 필요/가상 함수 테이블.md",
-    "C++/작성 필요/Global 전역.md",
     "C++/작성 필요/컴파일러 동작 과정.md",
     "C++/작성 필요/연산자 함수.md",
     "C++/수정필요",
