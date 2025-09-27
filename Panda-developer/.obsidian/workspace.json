@@ -13,22 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "수학/외적.md",
+                "file": "수학/경사면에서의 가속 및 감속.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "외적"
+              "title": "경사면에서의 가속 및 감속"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "a4bc3eb91bcb5163",
+        "type": "tabs",
+        "children": [
           {
-            "id": "1af7088cc5f92cc0",
+            "id": "b9941ceabc5db6fe",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "수학/경사면에서의 가속 및 감속.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "경사면에서의 가속 및 감속"
             }
           }
         ]
@@ -180,10 +190,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "197223b7c7951c5d",
+  "active": "b9941ceabc5db6fe",
   "lastOpenFiles": [
-    "수학/경사면에서의 가속 및 감속.md",
     "수학/내적.md",
+    "수학/경사면에서의 가속 및 감속.md",
+    "수학/외적.md",
     "수학/빛의 반사.md",
     "C++/작성 필요/참조.md",
     "C++/작성 필요/Global 전역.md",
@@ -199,7 +210,6 @@
     "Miiiroooo/z_image/Pasted image 20240704040431.png",
     "Miiiroooo/z_image/Pasted image 20240704035911.png",
     "Miiiroooo/z_image/Pasted image 20240704035436 1.png",
-    "수학/외적.md",
     "C++/함수와 변수/정적 바인딩.md",
     "C++/수정필요/이름 숨김.md",
     "수학/z_image",
