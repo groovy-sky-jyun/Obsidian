@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "수학/경사면에서의 가속 및 감속.md",
+                "file": "C++/작성 필요/const.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "경사면에서의 가속 및 감속"
+              "title": "const"
             }
           }
         ]
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "수학/경사면에서의 가속 및 감속.md",
+                "file": "C++/작성 필요/const.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "경사면에서의 가속 및 감속"
+              "title": "const"
             }
           }
         ]
@@ -190,10 +190,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b9941ceabc5db6fe",
+  "active": "197223b7c7951c5d",
   "lastOpenFiles": [
-    "수학/내적.md",
     "수학/경사면에서의 가속 및 감속.md",
+    "C++/작성 필요/const.md",
+    "수학/내적.md",
     "수학/외적.md",
     "수학/빛의 반사.md",
     "C++/작성 필요/참조.md",
@@ -232,7 +233,6 @@
     "C++/함수와 변수/디폴트 매개 변수.md",
     "C++/함수와 변수/Friend 함수.md",
     "C++/작성 필요",
-    "C++/함수와 변수/Static 정적.md",
     "CS",
     "C++/함수와 변수",
     "C++/객체",
