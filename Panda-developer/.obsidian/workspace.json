@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f89d6b0af69034d6",
+        "id": "a4bc3eb91bcb5163",
         "type": "tabs",
         "children": [
           {
-            "id": "197223b7c7951c5d",
+            "id": "b9941ceabc5db6fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -24,11 +24,11 @@
         ]
       },
       {
-        "id": "a4bc3eb91bcb5163",
+        "id": "298bb82460e90208",
         "type": "tabs",
         "children": [
           {
-            "id": "b9941ceabc5db6fe",
+            "id": "701c59a56a583277",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -190,12 +190,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "197223b7c7951c5d",
+  "active": "b9941ceabc5db6fe",
   "lastOpenFiles": [
-    "수학/경사면에서의 가속 및 감속.md",
-    "C++/작성 필요/const.md",
-    "수학/내적.md",
     "수학/외적.md",
+    "수학/z_image/Group 3.png",
+    "C++/작성 필요/const.md",
+    "수학/경사면에서의 가속 및 감속.md",
+    "수학/내적.md",
     "수학/빛의 반사.md",
     "C++/작성 필요/참조.md",
     "C++/작성 필요/Global 전역.md",
@@ -210,7 +211,6 @@
     "Miiiroooo/z_image/Pasted image 20240704141327.png",
     "Miiiroooo/z_image/Pasted image 20240704040431.png",
     "Miiiroooo/z_image/Pasted image 20240704035911.png",
-    "Miiiroooo/z_image/Pasted image 20240704035436 1.png",
     "C++/함수와 변수/정적 바인딩.md",
     "C++/수정필요/이름 숨김.md",
     "수학/z_image",
@@ -231,7 +231,6 @@
     "C++/작성 필요/연산자 함수.md",
     "C++/수정필요",
     "C++/함수와 변수/디폴트 매개 변수.md",
-    "C++/함수와 변수/Friend 함수.md",
     "C++/작성 필요",
     "CS",
     "C++/함수와 변수",
