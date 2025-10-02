@@ -4,41 +4,57 @@
     "type": "split",
     "children": [
       {
-        "id": "a4bc3eb91bcb5163",
+        "id": "b7c0a177560d47bc",
         "type": "tabs",
+        "dimension": 49.36635944700461,
         "children": [
           {
-            "id": "aa9921a0c6ad7da3",
+            "id": "ed2deb654968cba7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/함수와 변수/const.md",
+                "file": "Miiiroooo/중급 테마 디자인.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "const"
+              "title": "중급 테마 디자인"
+            }
+          },
+          {
+            "id": "5ce048eb311b02c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Miiiroooo/v2. 기획.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "v2. 기획"
             }
           }
         ]
       },
       {
-        "id": "80e1a8975d8cd0c7",
+        "id": "7ce325baf0423f62",
         "type": "tabs",
+        "dimension": 50.633640552995395,
         "children": [
           {
-            "id": "3f554c4a93f62931",
+            "id": "c88a6baada2f9f48",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/함수와 변수/const.md",
+                "file": "Miiiroooo/중급 테마 디자인.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "const"
+              "title": "중급 테마 디자인"
             }
           }
         ]
@@ -190,11 +206,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aa9921a0c6ad7da3",
+  "active": "ed2deb654968cba7",
   "lastOpenFiles": [
+    "Miiiroooo/v2. 기획.md",
+    "Miiiroooo/중급 테마 디자인.md",
+    "Miiiroooo/초급 테마 디자인.md",
+    "Miiiroooo/기획/컨셉.md",
+    "Miiiroooo/기획/탈출 키패드.md",
+    "Miiiroooo/기획/Level.md",
+    "Miiiroooo/기획/함정.md",
+    "Miiiroooo/기획/길 변형 기믹.md",
+    "C++/함수와 변수/const.md",
     "C++/작성 필요/constexpr.md",
     "C++/작성 필요/const.md",
-    "C++/함수와 변수/const.md",
     "수학/외적.md",
     "수학/z_image/Group 3.png",
     "수학/경사면에서의 가속 및 감속.md",
@@ -223,14 +247,6 @@
     "C++/수정필요/가상함수와 Overriding.md",
     "C++/수정필요/Overloading.md",
     "C++/수정필요/추상 클래스(순수 가상 함수).md",
-    "C++/수정필요/상속_(5)다중 상속.md",
-    "C++/클래스/상속_(3)생성자, 소멸자.md",
-    "C++/클래스/상속_(4)접근지정자.md",
-    "C++/클래스/생성자.md",
-    "C++/함수와 변수/동적 바인딩.md",
-    "C++/함수와 변수/final.md",
-    "C++/작성 필요/컴파일러 동작 과정.md",
-    "C++/작성 필요/연산자 함수.md",
     "C++/수정필요",
     "C++/작성 필요",
     "CS",
