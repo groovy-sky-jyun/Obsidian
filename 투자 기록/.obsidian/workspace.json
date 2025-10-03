@@ -1,0 +1,195 @@
+{
+  "main": {
+    "id": "8a926b68c6f5e252",
+    "type": "split",
+    "children": [
+      {
+        "id": "41a708ce437a595a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "39989dc7e73d17b3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e09d4dfd2d5d0a69",
+    "type": "split",
+    "children": [
+      {
+        "id": "e32ccff8e5df1931",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e3bc0f1996dee108",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "82cec2655f2e1aef",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "b479e5e40e8d0f1f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c83db789baf44555",
+    "type": "split",
+    "children": [
+      {
+        "id": "e38e5b36cf78b416",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "276809afa69540be",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Templates/매도 기록.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 매도 기록"
+            }
+          },
+          {
+            "id": "2d90e1513eaae7b4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Templates/매도 기록.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 매도 기록"
+            }
+          },
+          {
+            "id": "e39c219d2330859d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "bb5c51a038f87d9f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Templates/매도 기록.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 매도 기록"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "39989dc7e73d17b3",
+  "lastOpenFiles": [
+    "Templates/매도 기록.md",
+    "매수 기록/Untitled.md",
+    "ㄴㅇㄹ, 25.10.03, 21시15분.md",
+    "ㄳ, 25.10.03, 21시15분.md",
+    "Templates/매수 기록.md",
+    "비트코인, 25.10.03, 21시14분.md",
+    "ㄴㅇㄹ, 2025-10-03, 21시12분.md",
+    "ㄴㅇ 2025-10-03 21.12 매수.md",
+    "RKAWK 매수 2025-10-03.md",
+    "비트코인 매수 2025-10-03.md",
+    "공부/손익비.md",
+    "공부/매수.md",
+    "공부/매도.md",
+    "공부",
+    "매수 기록",
+    "매도 기록",
+    "비트코인 매도 2025-10-03.md",
+    "비트코인 매수 기록.md",
+    "Untitled 3.md",
+    "Untitled 2.md",
+    "Untitled 1.md",
+    "Templates",
+    "Welcome.md"
+  ]
+}
